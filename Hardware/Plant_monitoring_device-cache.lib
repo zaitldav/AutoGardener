@@ -98,35 +98,6 @@ X ~ 2 300 -100 100 L 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
-# MRS_Connectors_Header_1x2
-#
-DEF MRS_Connectors_Header_1x2 J 0 1 Y N 1 F N
-F0 "J" 0 150 50 H V C CNN
-F1 "MRS_Connectors_Header_1x2" 0 -150 50 H V C CNN
-F2 "MRS_Connectors:Header_1x02_P2.54mm" 0 -250 50 H I C CNN
-F3 "" -450 -300 50 H I C CNN
-DRAW
-S -50 100 50 -100 0 1 0 f
-X 1 1 -150 50 100 R 50 50 1 1 B
-X 2 2 -150 -50 100 R 50 50 1 1 B
-ENDDRAW
-ENDDEF
-#
-# MRS_Connectors_Header_1x3
-#
-DEF MRS_Connectors_Header_1x3 J 0 1 Y N 1 F N
-F0 "J" 0 150 50 H V C CNN
-F1 "MRS_Connectors_Header_1x3" 0 -250 50 H V C CNN
-F2 "MRS_Connectors:Header_1x03_P2.54mm" 0 -300 50 H I C CNN
-F3 "" -450 -300 50 H I C CNN
-DRAW
-S -50 100 50 -200 0 1 0 f
-X 1 1 -150 50 100 R 50 50 1 1 B
-X 2 2 -150 -50 100 R 50 50 1 1 B
-X 3 3 -150 -150 100 R 50 50 1 1 I
-ENDDRAW
-ENDDEF
-#
 # MRS_Connectors_Header_1x5
 #
 DEF MRS_Connectors_Header_1x5 J 0 1 Y N 1 F N
@@ -141,6 +112,37 @@ X 2 2 -150 -50 100 R 50 50 1 1 B
 X 3 3 -150 -150 100 R 50 50 1 1 I
 X 4 4 -150 -250 100 R 50 50 1 1 I
 X 5 5 -150 -350 100 R 50 50 1 1 I
+ENDDRAW
+ENDDEF
+#
+# MRS_Connectors_NXW-02
+#
+DEF MRS_Connectors_NXW-02 J 0 1 Y N 1 F N
+F0 "J" 0 150 50 H V C CNN
+F1 "MRS_Connectors_NXW-02" 0 -150 50 H V C CNN
+F2 "MRS_Connectors:NXW-02" 0 -250 50 H I C CNN
+F3 "https://www.tme.eu/Document/5dc6feb351d751d2aaf71b67b5e56596/nxw-02.pdf" 0 -350 50 H I C CNN
+F4 "NXW-02, NXG-02, NXG-T" 0 -450 50 H I C CNN "TME"
+DRAW
+S -50 100 50 -100 0 1 0 f
+X 1 1 -150 50 100 R 50 50 1 1 B
+X 2 2 -150 -50 100 R 50 50 1 1 B
+ENDDRAW
+ENDDEF
+#
+# MRS_Connectors_NXW-03
+#
+DEF MRS_Connectors_NXW-03 J 0 1 Y N 1 F N
+F0 "J" 0 150 50 H V C CNN
+F1 "MRS_Connectors_NXW-03" 0 -250 50 H V C CNN
+F2 "MRS_Connectors:NXW-03" 0 -350 50 H I C CNN
+F3 "https://www.tme.eu/Document/5dc6feb351d751d2aaf71b67b5e56596/nxw-02.pdf" 0 -450 50 H I C CNN
+F4 "NXW-03, NXG-03, NXG-T" 0 -550 50 H I C CNN "TME"
+DRAW
+S -50 100 50 -200 0 1 0 f
+X 1 1 -150 50 100 R 50 50 1 1 B
+X 2 2 -150 -50 100 R 50 50 1 1 B
+X 3 3 -150 -150 100 R 50 50 1 1 I
 ENDDRAW
 ENDDEF
 #
@@ -343,8 +345,8 @@ F3 "https://www.tme.eu/Document/1c13c0a4489a83f613509c4f26653ad8/AP2204.pdf" 0 -
 F4 "AP2204RB-3.3TRG1" 0 -500 50 H I C CNN "TME"
 DRAW
 S -300 100 300 -100 0 1 0 f
+X VOUT 1 400 0 100 L 50 50 1 1 I
 X GND 2 0 -200 100 U 50 50 1 1 I
-X VOUT 2 400 0 100 L 50 50 1 1 I
 X VIN 3 -400 0 100 R 50 50 1 1 I
 ENDDRAW
 ENDDEF
