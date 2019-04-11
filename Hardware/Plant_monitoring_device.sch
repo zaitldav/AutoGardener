@@ -14,42 +14,30 @@ Comment2 ""
 Comment3 ""
 Comment4 ""
 $EndDescr
-$Comp
-L MRS_MCUs:STM32F042K6T6 U1
-U 1 1 5C9FAE86
-P 2300 6150
-F 0 "U1" H 1950 7100 50  0000 C CNN
-F 1 "STM32L031K6T6" H 2750 7100 50  0000 C CNN
-F 2 "MRS_QFP:LQFP-32_7x7mm_P0.8mm" H 1850 7000 50  0001 C CNN
-F 3 "https://www.tme.eu/Document/42c36ffe80e77edc307b35ead1f969f6/stm32l031k6.pdf" H 2300 5100 50  0001 C CNN
-F 4 "STM32L031K6T6" H 2300 5000 50  0001 C CNN "TME"
-	1    2300 6150
-	1    0    0    -1  
-$EndComp
-Text Label 3350 5350 2    50   ~ 0
+Text Label 3275 5350 2    50   ~ 0
 ADC_BAT
 Text Label 3350 5450 2    50   ~ 0
-ADC_PH1
+ADC_SOIL1
 Text Label 3350 5550 2    50   ~ 0
-ADC_PH2
+ADC_SOIL2
 Text Label 3350 5650 2    50   ~ 0
-ADC_PH3
+ADC_SOIL3
 Text Label 3350 5750 2    50   ~ 0
-ADC_PH4
-Text Label 1250 6250 0    50   ~ 0
+ADC_SOIL4
+Text Label 1250 6350 0    50   ~ 0
 SENS_ENA
 Text Label 3350 6350 2    50   ~ 0
 UART_RX
 Text Label 3350 6250 2    50   ~ 0
 UART_TX
-Text Label 3350 5850 2    50   ~ 0
-OUT4
-Text Label 3350 5950 2    50   ~ 0
-OUT3
-Text Label 3350 6050 2    50   ~ 0
-OUT2
-Text Label 1250 6150 0    50   ~ 0
+Text Label 1250 6550 0    50   ~ 0
 OUT1
+Text Label 1250 6450 0    50   ~ 0
+OUT2
+Text Label 3350 6850 2    50   ~ 0
+OUT3
+Text Label 3350 6550 2    50   ~ 0
+OUT4
 Wire Wire Line
 	3350 5350 2800 5350
 Wire Wire Line
@@ -67,8 +55,6 @@ Wire Wire Line
 Wire Wire Line
 	3350 6050 2800 6050
 Wire Wire Line
-	1800 6150 1250 6150
-Wire Wire Line
 	1800 6250 1250 6250
 Wire Wire Line
 	3350 6250 2800 6250
@@ -78,10 +64,6 @@ Wire Wire Line
 	3350 6550 2800 6550
 Wire Wire Line
 	3350 6450 2800 6450
-Text Label 3350 6450 2    50   ~ 0
-USB_D-
-Text Label 3350 6550 2    50   ~ 0
-USB_D+
 Wire Wire Line
 	1800 6350 1250 6350
 Wire Wire Line
@@ -90,17 +72,17 @@ Wire Wire Line
 	1800 6550 1250 6550
 Wire Wire Line
 	3350 6850 2800 6850
-Text Label 3350 6850 2    50   ~ 0
-LED_PWM1
-Text Label 1250 6350 0    50   ~ 0
-LED_PWM2
-Text Label 1250 6450 0    50   ~ 0
-LED_PWM3
-Text Label 1250 6550 0    50   ~ 0
+Text Label 1250 6250 0    50   ~ 0
 LED_PWM4
-Text Label 1250 6750 0    50   ~ 0
-I2C_SDA
+Text Label 3350 5950 2    50   ~ 0
+LED_PWM2
+Text Label 3350 6050 2    50   ~ 0
+LED_PWM3
+Text Label 3350 5850 2    50   ~ 0
+LED_PWM1
 Text Label 1250 6850 0    50   ~ 0
+I2C_SDA
+Text Label 1250 6750 0    50   ~ 0
 I2C_SCL
 Text Label 1650 5850 0    50   ~ 0
 PF0
@@ -304,7 +286,7 @@ L MRS_Passives:R R3
 U 1 1 5CA0E06E
 P 7750 1350
 F 0 "R3" H 7820 1396 50  0000 L CNN
-F 1 "R" H 7820 1305 50  0000 L CNN
+F 1 "1k" H 7820 1305 50  0000 L CNN
 F 2 "MRS_Passives:R0603" V 8150 1350 50  0001 C CNN
 F 3 "" V 7830 1350 50  0001 C CNN
 	1    7750 1350
@@ -315,7 +297,7 @@ L MRS_Passives:R R4
 U 1 1 5CA0E0F2
 P 7750 2450
 F 0 "R4" H 7820 2496 50  0000 L CNN
-F 1 "R" H 7820 2405 50  0000 L CNN
+F 1 "1k" H 7820 2405 50  0000 L CNN
 F 2 "MRS_Passives:R0603" V 8150 2450 50  0001 C CNN
 F 3 "" V 7830 2450 50  0001 C CNN
 	1    7750 2450
@@ -326,7 +308,7 @@ L MRS_Passives:R R5
 U 1 1 5CA0E11E
 P 7750 3550
 F 0 "R5" H 7820 3596 50  0000 L CNN
-F 1 "R" H 7820 3505 50  0000 L CNN
+F 1 "1k" H 7820 3505 50  0000 L CNN
 F 2 "MRS_Passives:R0603" V 8150 3550 50  0001 C CNN
 F 3 "" V 7830 3550 50  0001 C CNN
 	1    7750 3550
@@ -337,7 +319,7 @@ L MRS_Passives:R R6
 U 1 1 5CA0E156
 P 7750 4650
 F 0 "R6" H 7820 4696 50  0000 L CNN
-F 1 "R" H 7820 4605 50  0000 L CNN
+F 1 "1k" H 7820 4605 50  0000 L CNN
 F 2 "MRS_Passives:R0603" V 8150 4650 50  0001 C CNN
 F 3 "" V 7830 4650 50  0001 C CNN
 	1    7750 4650
@@ -348,7 +330,7 @@ L MRS_Passives:R R13
 U 1 1 5CA0E18A
 P 3700 6750
 F 0 "R13" H 3770 6796 50  0000 L CNN
-F 1 "R" H 3770 6705 50  0000 L CNN
+F 1 "1k" H 3770 6705 50  0000 L CNN
 F 2 "MRS_Passives:R0603" V 4100 6750 50  0001 C CNN
 F 3 "" V 3780 6750 50  0001 C CNN
 	1    3700 6750
@@ -935,7 +917,7 @@ F 3 "" H 1250 3750 50  0001 C CNN
 	-1   0    0    -1  
 $EndComp
 Text Notes 1700 1800 0    50   ~ 0
-VCC - Power for MCU\nVDD - Power for sensors and LoRa
+VCC - Power for MCU\nVDD - Power for LoRa\nVDDA - Power for Sensors
 Text Label 800  4250 0    50   ~ 0
 SENS_ENA
 $Comp
@@ -971,10 +953,8 @@ F 3 "" H 6500 1000 50  0001 C CNN
 	1    6500 1000
 	-1   0    0    -1  
 $EndComp
-Text Label 6500 900  0    50   ~ 0
-ADC_PH1
-Wire Wire Line
-	6500 900  6850 900 
+Text Label 6425 900  0    50   ~ 0
+ADC_SOIL1
 Wire Wire Line
 	6850 1000 6500 1000
 Wire Wire Line
@@ -990,10 +970,8 @@ F 3 "" H 6500 1700 50  0001 C CNN
 	1    6500 1700
 	-1   0    0    -1  
 $EndComp
-Text Label 6500 1600 0    50   ~ 0
-ADC_PH2
-Wire Wire Line
-	6500 1600 6850 1600
+Text Label 6425 1600 0    50   ~ 0
+ADC_SOIL2
 Wire Wire Line
 	6850 1700 6500 1700
 Wire Wire Line
@@ -1009,10 +987,8 @@ F 3 "" H 6500 2400 50  0001 C CNN
 	1    6500 2400
 	-1   0    0    -1  
 $EndComp
-Text Label 6500 2300 0    50   ~ 0
-ADC_PH3
-Wire Wire Line
-	6500 2300 6850 2300
+Text Label 6425 2300 0    50   ~ 0
+ADC_SOIL3
 Wire Wire Line
 	6850 2400 6500 2400
 Wire Wire Line
@@ -1028,10 +1004,8 @@ F 3 "" H 6500 3100 50  0001 C CNN
 	1    6500 3100
 	-1   0    0    -1  
 $EndComp
-Text Label 6500 3000 0    50   ~ 0
-ADC_PH4
-Wire Wire Line
-	6500 3000 6850 3000
+Text Label 6450 3000 0    50   ~ 0
+ADC_SOIL4
 Wire Wire Line
 	6850 3100 6500 3100
 Wire Wire Line
@@ -1888,8 +1862,6 @@ Text Label 3350 6750 2    50   ~ 0
 SWCLK
 Wire Wire Line
 	2800 6650 3350 6650
-Wire Wire Line
-	2800 6750 3350 6750
 Text Label 3650 3700 0    50   ~ 0
 SWDIO
 Text Label 3650 3500 0    50   ~ 0
@@ -2232,5 +2204,41 @@ F 2 "MRS_Mechanical:Mounting_hole_unplated_3,2mm" H 7350 6050 50  0001 C CNN
 F 3 "" H 7300 6250 50  0001 C CNN
 	1    7300 6250
 	1    0    0    -1  
+$EndComp
+$Comp
+L MRS_MCUs:STM32L031K6T6 U1
+U 1 1 5CAFA03F
+P 2300 6150
+F 0 "U1" H 2650 7100 50  0000 C CNN
+F 1 "STM32L031K6T6" H 2625 5275 50  0000 C CNN
+F 2 "MRS_QFP:LQFP-32_7x7mm_P0.8mm" H 2300 5150 50  0001 C CNN
+F 3 "https://www.tme.eu/Document/42c36ffe80e77edc307b35ead1f969f6/stm32l031k6.pdf" H 2300 5050 50  0001 C CNN
+F 4 "STM32L031K6T6" H 2300 4950 50  0001 C CNN "TME"
+	1    2300 6150
+	1    0    0    -1  
+$EndComp
+NoConn ~ 3350 6450
+Text Label 2875 6450 0    50   ~ 0
+PA11
+Wire Wire Line
+	6425 900  6850 900 
+Wire Wire Line
+	6425 1600 6850 1600
+Wire Wire Line
+	6425 2300 6850 2300
+Wire Wire Line
+	6450 3000 6850 3000
+Wire Wire Line
+	3350 6750 2800 6750
+$Comp
+L MRS_Power:VCC #PWR0107
+U 1 1 5CB44371
+P 3350 5350
+F 0 "#PWR0107" H 3350 5200 50  0001 C CNN
+F 1 "VCC" H 3367 5523 50  0000 C CNN
+F 2 "" H 3350 5350 50  0001 C CNN
+F 3 "" H 3350 5350 50  0001 C CNN
+	1    3350 5350
+	-1   0    0    -1  
 $EndComp
 $EndSCHEMATC
