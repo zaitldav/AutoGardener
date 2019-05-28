@@ -39,11 +39,11 @@ Idx Name          Size      VMA       LMA       File off  Algn
                   CONTENTS, READONLY, DEBUGGING
  17 .debug_line   0000b5ca  00000000  00000000  00042cf6  2**0
                   CONTENTS, READONLY, DEBUGGING
- 18 .debug_str    0006eda8  00000000  00000000  0004e2c0  2**0
+ 18 .debug_str    0006eda4  00000000  00000000  0004e2c0  2**0
                   CONTENTS, READONLY, DEBUGGING
- 19 .comment      0000007b  00000000  00000000  000bd068  2**0
+ 19 .comment      0000007b  00000000  00000000  000bd064  2**0
                   CONTENTS, READONLY
- 20 .debug_frame  0000387c  00000000  00000000  000bd0e4  2**2
+ 20 .debug_frame  0000387c  00000000  00000000  000bd0e0  2**2
                   CONTENTS, READONLY, DEBUGGING
 
 Disassembly of section .text:
@@ -9391,9 +9391,9 @@ int main(void)
  80034b0:	44020000 	.word	0x44020000
  80034b4:	00000ce4 	.word	0x00000ce4
  80034b8:	00000fff 	.word	0x00000fff
- 80034bc:	000007cf 	.word	0x000007cf
- 80034c0:	00001388 	.word	0x00001388
- 80034c4:	00001770 	.word	0x00001770
+ 80034bc:	00000707 	.word	0x00000707
+ 80034c0:	00002710 	.word	0x00002710
+ 80034c4:	00015f90 	.word	0x00015f90
 
 080034c8 <SystemClock_Config>:
 /**
@@ -9604,10 +9604,10 @@ static void MX_ADC_Init(void)
  80035e6:	4b41      	ldr	r3, [pc, #260]	; (80036ec <MX_ADC_Init+0x140>)
  80035e8:	2200      	movs	r2, #0
  80035ea:	60da      	str	r2, [r3, #12]
-  hadc.Init.ContinuousConvMode = DISABLE;
+  hadc.Init.ContinuousConvMode = ENABLE;
  80035ec:	4b3f      	ldr	r3, [pc, #252]	; (80036ec <MX_ADC_Init+0x140>)
  80035ee:	2220      	movs	r2, #32
- 80035f0:	2100      	movs	r1, #0
+ 80035f0:	2101      	movs	r1, #1
  80035f2:	5499      	strb	r1, [r3, r2]
   hadc.Init.DiscontinuousConvMode = DISABLE;
  80035f4:	4b3d      	ldr	r3, [pc, #244]	; (80036ec <MX_ADC_Init+0x140>)

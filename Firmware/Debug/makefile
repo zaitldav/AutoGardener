@@ -32,16 +32,13 @@ default.size.stdout \
 OBJDUMP_LIST += \
 PlantMeter.list \
 
-OBJCOPY_BIN += \
-PlantMeter.bin \
-
 
 # All Target
 all: PlantMeter.elf secondary-outputs
 
 # Tool invocations
-PlantMeter.elf: $(OBJS) $(USER_OBJS) /home/zaitldav/STM32CubeIDE/workspace_1.0.0/PlantMeter/STM32L031K6TX_FLASH.ld
-	arm-none-eabi-gcc -o "PlantMeter.elf" @"objects.list" $(USER_OBJS) $(LIBS) -mcpu=cortex-m0plus -T"/home/zaitldav/STM32CubeIDE/workspace_1.0.0/PlantMeter/STM32L031K6TX_FLASH.ld" --specs=nosys.specs -Wl,-Map="PlantMeter.map" -Wl,--gc-sections -static --specs=nano.specs -mfloat-abi=soft -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+PlantMeter.elf: $(OBJS) $(USER_OBJS) /home/zaitldav/Personal/PlantMeterProto/Firmware/STM32L031K6TX_FLASH.ld
+	arm-none-eabi-gcc -o "PlantMeter.elf" @"objects.list" $(USER_OBJS) $(LIBS) -mcpu=cortex-m0plus -T"/home/zaitldav/Personal/PlantMeterProto/Firmware/STM32L031K6TX_FLASH.ld" --specs=nosys.specs -Wl,-Map="PlantMeter.map" -Wl,--gc-sections -static --specs=nano.specs -mfloat-abi=soft -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
 	@echo 'Finished building target: $@'
 	@echo ' '
 
@@ -55,17 +52,12 @@ PlantMeter.list: $(EXECUTABLES)
 	@echo 'Finished building: $@'
 	@echo ' '
 
-PlantMeter.bin: $(EXECUTABLES)
-	arm-none-eabi-objcopy  -O binary $(EXECUTABLES) "PlantMeter.bin"
-	@echo 'Finished building: $@'
-	@echo ' '
-
 # Other Targets
 clean:
 	-$(RM) *
 	-@echo ' '
 
-secondary-outputs: $(SIZE_OUTPUT) $(OBJDUMP_LIST) $(OBJCOPY_BIN)
+secondary-outputs: $(SIZE_OUTPUT) $(OBJDUMP_LIST)
 
 .PHONY: all clean dependents
 .SECONDARY:

@@ -36,10 +36,10 @@
 #define VREFINT_ADDR 0x1FF80078
 #define VDD	3300
 
-#define SOIL_THRESHOLD_MV 2000
+#define SOIL_THRESHOLD_MV 	1800 // The measured threshold was 1.9V, so i set the threshold a bit lower
 
-#define WATERING_TIME_MS 5000
-#define SLEEP_TIME_MS 6000
+#define WATERING_TIME_MS 	10000	// water 10 seconds
+#define SLEEP_TIME_MS 		90000	// once per 15 minutes
 /* USER CODE END PD */
 
 /* Private macro -------------------------------------------------------------*/
@@ -251,7 +251,7 @@ static void MX_ADC_Init(void)
   hadc.Init.SamplingTime = ADC_SAMPLETIME_19CYCLES_5;
   hadc.Init.ScanConvMode = ADC_SCAN_DIRECTION_FORWARD;
   hadc.Init.DataAlign = ADC_DATAALIGN_RIGHT;
-  hadc.Init.ContinuousConvMode = DISABLE;
+  hadc.Init.ContinuousConvMode = ENABLE;
   hadc.Init.DiscontinuousConvMode = DISABLE;
   hadc.Init.ExternalTrigConvEdge = ADC_EXTERNALTRIGCONVEDGE_NONE;
   hadc.Init.ExternalTrigConv = ADC_SOFTWARE_START;
