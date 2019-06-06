@@ -1,0 +1,22 @@
+Designator,Quantity,Value,Footprint,TME
+"A1, ",1,Antenna,MRS_Connectors:ANT_WIRE_THT,
+"BAT1, ",1,Battery,MRS_Connectors:BatteryHolder_Keystone_2468_2xAAA,KEYS2468RB
+"C11, C32, C21, C34, ",4,1uF,MRS_Passives:C0603,CL10A105KA8NNNC
+"C12, C13, C22, C41, ",4,0.1uF,MRS_Passives:C0603,CL10B104KO8NNNC
+"C31, C33, ",2,10uF,MRS_Passives:C0603,CL10A106MO8NQNC
+"H1, H2, H3, ",3,"Mounting_hole_unplated_3,2mm","MRS_Mechanical:Mounting_hole_unplated_3,2mm",
+"J1, ",1,Barrel_Jack,MRS_Connectors:BarrelJack_Horizontal,PC-GK2.5
+"J2, ",1,SWO,MRS_Connectors:Header_1x05_P2.54mm,
+"J3, J4, J5, J6, J7, J8, J9, J10, ",8,NXW-02,MRS_Connectors:NXW-02,"NXW-02, NXG-02, NXG-T"
+"J11, J12, J13, J14, ",4,NXW-03,MRS_Connectors:NXW-03,"NXW-03, NXG-03, NXG-T"
+"LD3, LD4, LD5, LD6, ",4,ORANGE,MRS_Diodes:LED_0805,LTST-C170KFKT
+"LD13, ",1,RED,MRS_Diodes:LED_0805,LTST-C170KRKT
+"Q1, Q2, ",2,FDN308P,MRS_SOT:SOT-23,FDN308P
+"Q7, Q8, Q9, Q10, Q3, Q4, Q5, Q6, ",8,IRLML6346TRPBF,MRS_SOT:SOT-23,IRLML6346TRPBF
+"R3, R4, R5, R6, R13, ",5,1k,MRS_Passives:R0603,WF06P-1K-5%
+"R42, R41, R1, R7, R8, R9, R10, R2, ",8,10k,MRS_Passives:R0603,WF06P-10K-5%
+"SB1, SB3, SB4, SB5, SB6, SB2, ",6,SolderBridge,MRS_Connectors:SB0603,
+"U1, ",1,STM32L031K6T6,MRS_QFP:LQFP-32_7x7mm_P0.8mm,STM32L031K6T6
+"U2, ",1,RN2483A,MRS_Communication:RN2483A,RN2483A-I/RM105
+"U3, ",1,AP2204RB-3.3TRG1,MRS_SOT:SOT-89,AP2204RB-3.3TRG1
+"U4, ",1,SHT31,MRS_Sensors:SHT31,SHT31-DIS-B
