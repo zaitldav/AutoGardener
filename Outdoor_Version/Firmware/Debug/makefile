@@ -24,21 +24,21 @@ endif
 
 # Add inputs and outputs from these tool invocations to the build variables 
 EXECUTABLES += \
-PlantMeter.elf \
+AutoGardener_Outdoor.elf \
 
 SIZE_OUTPUT += \
 default.size.stdout \
 
 OBJDUMP_LIST += \
-PlantMeter.list \
+AutoGardener_Outdoor.list \
 
 
 # All Target
-all: PlantMeter.elf secondary-outputs
+all: AutoGardener_Outdoor.elf secondary-outputs
 
 # Tool invocations
-PlantMeter.elf: $(OBJS) $(USER_OBJS) /home/zaitldav/Personal/AutoGardener/Firmware/STM32L031K6TX_FLASH.ld
-	arm-none-eabi-gcc -o "PlantMeter.elf" @"objects.list" $(USER_OBJS) $(LIBS) -mcpu=cortex-m0plus -T"/home/zaitldav/Personal/AutoGardener/Firmware/STM32L031K6TX_FLASH.ld" --specs=nosys.specs -Wl,-Map="PlantMeter.map" -Wl,--gc-sections -static --specs=nano.specs -mfloat-abi=soft -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+AutoGardener_Outdoor.elf: $(OBJS) $(USER_OBJS) /home/zaitldav/Personal/AutoGardener/Outdoor_Version/Firmware/STM32L031K6TX_FLASH.ld
+	arm-none-eabi-gcc -o "AutoGardener_Outdoor.elf" @"objects.list" $(USER_OBJS) $(LIBS) -mcpu=cortex-m0plus -T"/home/zaitldav/Personal/AutoGardener/Outdoor_Version/Firmware/STM32L031K6TX_FLASH.ld" --specs=nosys.specs -Wl,-Map="AutoGardener_Outdoor.map" -Wl,--gc-sections -static --specs=nano.specs -mfloat-abi=soft -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
 	@echo 'Finished building target: $@'
 	@echo ' '
 
@@ -47,8 +47,8 @@ default.size.stdout: $(EXECUTABLES)
 	@echo 'Finished building: $@'
 	@echo ' '
 
-PlantMeter.list: $(EXECUTABLES)
-	arm-none-eabi-objdump -h -S $(EXECUTABLES) > "PlantMeter.list"
+AutoGardener_Outdoor.list: $(EXECUTABLES)
+	arm-none-eabi-objdump -h -S $(EXECUTABLES) > "AutoGardener_Outdoor.list"
 	@echo 'Finished building: $@'
 	@echo ' '
 
