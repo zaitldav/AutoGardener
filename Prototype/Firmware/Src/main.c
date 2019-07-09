@@ -36,7 +36,10 @@
 #define VREFINT_ADDR 0x1FF80078
 #define VDD	3300
 
-#define SOIL_THRESHOLD_MV 	1200	// Dry soil is cca 2V
+#define SOIL1_THRESHOLD_MV 	1400
+#define SOIL2_THRESHOLD_MV 	1400
+#define SOIL3_THRESHOLD_MV 	1400
+#define SOIL4_THRESHOLD_MV 	1400	// Dry soil is cca 2V
 								 	// Watering threshold is cca 1.8V
 									// Wet soil is cca 0.6V
 
@@ -158,10 +161,10 @@ int main(void)
 			HAL_GPIO_WritePin(OUT1_GPIO_Port, OUT1_Pin, GPIO_PIN_RESET);
 	  }*/
 
-	  HAL_GPIO_WritePin(OUT1_GPIO_Port, OUT1_Pin, soil1 >= SOIL_THRESHOLD_MV);
-	  HAL_GPIO_WritePin(OUT2_GPIO_Port, OUT2_Pin, soil2 >= SOIL_THRESHOLD_MV);
-	  HAL_GPIO_WritePin(OUT3_GPIO_Port, OUT3_Pin, soil3 >= SOIL_THRESHOLD_MV);
-	  HAL_GPIO_WritePin(OUT4_GPIO_Port, OUT4_Pin, soil4 >= SOIL_THRESHOLD_MV);
+	  HAL_GPIO_WritePin(OUT1_GPIO_Port, OUT1_Pin, soil1 >= SOIL1_THRESHOLD_MV);
+	  HAL_GPIO_WritePin(OUT2_GPIO_Port, OUT2_Pin, soil2 >= SOIL2_THRESHOLD_MV);
+	  HAL_GPIO_WritePin(OUT3_GPIO_Port, OUT3_Pin, soil3 >= SOIL3_THRESHOLD_MV);
+	  HAL_GPIO_WritePin(OUT4_GPIO_Port, OUT4_Pin, soil4 >= SOIL4_THRESHOLD_MV);
 
 	  HAL_Delay(WATERING_TIME_MS);
 

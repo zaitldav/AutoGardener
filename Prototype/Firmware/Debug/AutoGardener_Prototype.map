@@ -3869,7 +3869,7 @@ OUTPUT(AutoGardener_Prototype.elf elf32-littlearm)
  .debug_ranges  0x0000000000000e30       0x18 Src/system_stm32l0xx.o
  .debug_ranges  0x0000000000000e48       0x20 Startup/startup_stm32l031k6tx.o
 
-.debug_macro    0x0000000000000000    0x11a56
+.debug_macro    0x0000000000000000    0x11a68
  .debug_macro   0x0000000000000000      0x1fa Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal.o
  .debug_macro   0x00000000000001fa      0xa48 Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal.o
  .debug_macro   0x0000000000000c42       0xad Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal.o
@@ -3921,12 +3921,12 @@ OUTPUT(AutoGardener_Prototype.elf elf32-littlearm)
  .debug_macro   0x0000000000010c06      0x1d7 Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_tim.o
  .debug_macro   0x0000000000010ddd      0x1d6 Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_tim_ex.o
  .debug_macro   0x0000000000010fb3      0x201 Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_uart.o
- .debug_macro   0x00000000000111b4      0x20c Src/main.o
- .debug_macro   0x00000000000113c0       0xc4 Src/main.o
- .debug_macro   0x0000000000011484       0x22 Src/main.o
- .debug_macro   0x00000000000114a6      0x1e5 Src/stm32l0xx_hal_msp.o
- .debug_macro   0x000000000001168b      0x1ef Src/stm32l0xx_it.o
- .debug_macro   0x000000000001187a      0x1dc Src/system_stm32l0xx.o
+ .debug_macro   0x00000000000111b4      0x21e Src/main.o
+ .debug_macro   0x00000000000113d2       0xc4 Src/main.o
+ .debug_macro   0x0000000000011496       0x22 Src/main.o
+ .debug_macro   0x00000000000114b8      0x1e5 Src/stm32l0xx_hal_msp.o
+ .debug_macro   0x000000000001169d      0x1ef Src/stm32l0xx_it.o
+ .debug_macro   0x000000000001188c      0x1dc Src/system_stm32l0xx.o
 
 .debug_line     0x0000000000000000     0xb5ca
  .debug_line    0x0000000000000000      0x8f8 Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal.o
@@ -3947,7 +3947,7 @@ OUTPUT(AutoGardener_Prototype.elf elf32-littlearm)
  .debug_line    0x000000000000ae2e      0x717 Src/system_stm32l0xx.o
  .debug_line    0x000000000000b545       0x85 Startup/startup_stm32l031k6tx.o
 
-.debug_str      0x0000000000000000    0x6edab
+.debug_str      0x0000000000000000    0x6edf4
  .debug_str     0x0000000000000000    0x6a61f Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal.o
                                       0x6aa30 (size before relaxing)
  .debug_str     0x000000000006a61f      0x70f Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_adc.o
@@ -3972,15 +3972,15 @@ OUTPUT(AutoGardener_Prototype.elf elf32-littlearm)
                                       0x6a810 (size before relaxing)
  .debug_str     0x000000000006dd4b      0x9b3 Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_uart.o
                                       0x6b047 (size before relaxing)
- .debug_str     0x000000000006e6fe      0x561 Src/main.o
-                                      0x6b849 (size before relaxing)
- .debug_str     0x000000000006ec5f       0x38 Src/stm32l0xx_hal_msp.o
+ .debug_str     0x000000000006e6fe      0x5aa Src/main.o
+                                      0x6b892 (size before relaxing)
+ .debug_str     0x000000000006eca8       0x38 Src/stm32l0xx_hal_msp.o
                                       0x6b457 (size before relaxing)
- .debug_str     0x000000000006ec97       0x71 Src/stm32l0xx_it.o
+ .debug_str     0x000000000006ece0       0x71 Src/stm32l0xx_it.o
                                       0x6a6b3 (size before relaxing)
- .debug_str     0x000000000006ed08       0x72 Src/system_stm32l0xx.o
+ .debug_str     0x000000000006ed51       0x72 Src/system_stm32l0xx.o
                                       0x6a47d (size before relaxing)
- .debug_str     0x000000000006ed7a       0x31 Startup/startup_stm32l031k6tx.o
+ .debug_str     0x000000000006edc3       0x31 Startup/startup_stm32l031k6tx.o
                                          0x6f (size before relaxing)
 
 .comment        0x0000000000000000       0x7b
