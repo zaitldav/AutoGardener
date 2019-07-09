@@ -18,13 +18,13 @@ Text Label 10425 1450 2    50   ~ 0
 ADC_BAT
 Text Label 10500 1550 2    50   ~ 0
 ADC_SOIL1
-Text Label 8400 2450 0    50   ~ 0
+Text Label 10500 2950 2    50   ~ 0
 SENS_ENA
 Text Label 10500 2450 2    50   ~ 0
 UART_RX
 Text Label 10500 2350 2    50   ~ 0
 UART_TX
-Text Label 8400 2650 0    50   ~ 0
+Text Label 10500 1750 2    50   ~ 0
 OUT1
 Wire Wire Line
 	10500 1450 9950 1450
@@ -36,10 +36,6 @@ Wire Wire Line
 	10500 2450 9950 2450
 Wire Wire Line
 	10500 2550 9950 2550
-Wire Wire Line
-	8950 2450 8400 2450
-Wire Wire Line
-	8950 2650 8400 2650
 Text Label 8800 1950 0    50   ~ 0
 PF0
 Text Label 8800 2050 0    50   ~ 0
@@ -124,9 +120,7 @@ F 4 "LTST-C170KRKT" V 8450 5800 50  0001 C CNN "TME"
 	1    8450 5800
 	0    -1   -1   0   
 $EndComp
-Wire Wire Line
-	10500 2250 9950 2250
-Text Label 10500 2250 2    50   ~ 0
+Text Label 10500 1850 2    50   ~ 0
 BAT_LO
 Text Label 8450 5050 3    50   ~ 0
 BAT_LO
@@ -657,17 +651,6 @@ F 3 "" H 10600 4200 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L MRS_Mechanical:Mounting_hole_unplated_3,2mm H3
-U 1 1 5CB0F3CF
-P 10600 4350
-F 0 "H3" H 10600 4450 50  0001 C CNN
-F 1 "Mounting_hole_unplated_3,2mm" H 10600 4250 50  0001 C CNN
-F 2 "MRS_Mechanical:Mounting_hole_unplated_3,2mm" H 10650 4150 50  0001 C CNN
-F 3 "" H 10600 4350 50  0001 C CNN
-	1    10600 4350
-	1    0    0    -1  
-$EndComp
-$Comp
 L MRS_MCUs:STM32L031K6T6 U1
 U 1 1 5CAFA03F
 P 9450 2250
@@ -869,9 +852,9 @@ Wire Notes Line
 	10400 4800 10400 3700
 Text Notes 8400 900  0    50   ~ 0
 MCU
-Text Label 8500 3200 0    50   ~ 0
-UART_TX
 Text Label 8500 3300 0    50   ~ 0
+UART_TX
+Text Label 8500 3200 0    50   ~ 0
 UART_RX
 $Comp
 L MRS_Power:GND #PWR06
@@ -938,4 +921,10 @@ Wire Wire Line
 	8550 1600 8550 1550
 Wire Wire Line
 	8550 1550 8600 1550
+Wire Wire Line
+	10500 1750 9950 1750
+Wire Wire Line
+	10500 1850 9950 1850
+Wire Wire Line
+	10500 2950 9950 2950
 $EndSCHEMATC
