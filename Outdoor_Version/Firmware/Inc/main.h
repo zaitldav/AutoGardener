@@ -50,8 +50,6 @@ extern "C" {
 
 /* USER CODE END EM */
 
-void HAL_TIM_MspPostInit(TIM_HandleTypeDef *htim);
-
 /* Exported functions prototypes ---------------------------------------------*/
 void Error_Handler(void);
 
@@ -64,34 +62,10 @@ void Error_Handler(void);
 #define ADC_BAT_GPIO_Port GPIOA
 #define ADS_SOIL1_Pin GPIO_PIN_1
 #define ADS_SOIL1_GPIO_Port GPIOA
-#define ADC_SOIL2_Pin GPIO_PIN_2
-#define ADC_SOIL2_GPIO_Port GPIOA
-#define ADC_SOIL3_Pin GPIO_PIN_3
-#define ADC_SOIL3_GPIO_Port GPIOA
-#define ADC_SOIL4_Pin GPIO_PIN_4
-#define ADC_SOIL4_GPIO_Port GPIOA
-#define PWM_LED1_Pin GPIO_PIN_5
-#define PWM_LED1_GPIO_Port GPIOA
-#define PWM_LED2_Pin GPIO_PIN_6
-#define PWM_LED2_GPIO_Port GPIOA
-#define PWM_LED3_Pin GPIO_PIN_7
-#define PWM_LED3_GPIO_Port GPIOA
-#define PWM_LED4_Pin GPIO_PIN_0
-#define PWM_LED4_GPIO_Port GPIOB
-#define SENS_ENA_Pin GPIO_PIN_1
-#define SENS_ENA_GPIO_Port GPIOB
 #define BAT_LO_Pin GPIO_PIN_8
 #define BAT_LO_GPIO_Port GPIOA
-#define OUT4_Pin GPIO_PIN_12
-#define OUT4_GPIO_Port GPIOA
-#define OUT3_Pin GPIO_PIN_15
-#define OUT3_GPIO_Port GPIOA
-#define OUT2_Pin GPIO_PIN_3
-#define OUT2_GPIO_Port GPIOB
 #define OUT1_Pin GPIO_PIN_4
 #define OUT1_GPIO_Port GPIOB
-#define COMM_ENA_Pin GPIO_PIN_5
-#define COMM_ENA_GPIO_Port GPIOB
 /* USER CODE BEGIN Private defines */
 
 /* USER CODE END Private defines */
