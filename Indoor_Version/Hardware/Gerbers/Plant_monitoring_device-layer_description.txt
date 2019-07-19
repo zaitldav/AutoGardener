@@ -1,0 +1,12 @@
+Plant_monitoring_device-B.Cu.gbr		Bottom Copper Layer
+Plant_monitoring_device-B.Mask.gbr		Bottom Solder Mask
+Plant_monitoring_device-B.Paste.gbr		Bottom Solder Paste
+Plant_monitoring_device-B.SilkS.gbr		Bottom Silk Screen
+Plant_monitoring_device-Edge.Cuts.gbr		Board Outline
+Plant_monitoring_device-F.Cu.gbr		Top Copper Layer
+Plant_monitoring_device-F.Mask.gbr		Top Solder Mask
+Plant_monitoring_device-F.Paste.gbr		Top Solder Paste
+Plant_monitoring_device-F.SilkS.gbr		Top Silk Screen
+Plant_monitoring_device-NPTH.drl		Non-Plated Holes
+Plant_monitoring_device-PTH.drl			Plated Holes
+
