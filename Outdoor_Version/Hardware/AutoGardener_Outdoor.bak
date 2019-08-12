@@ -867,10 +867,10 @@ LED1
 Wire Wire Line
 	10500 1650 9950 1650
 $Comp
-L MRS_Mechanical:Break_away_tab H?
+L MRS_Mechanical:Break_away_tab H6
 U 1 1 5D3F0E44
 P 7500 3550
-F 0 "H?" H 7500 3600 50  0001 C CNN
+F 0 "H6" H 7500 3600 50  0001 C CNN
 F 1 "Break_away_tab" H 7500 3510 50  0001 C CNN
 F 2 "MRS_Mechanical:Breakaway_tab_holes" H 7400 3500 50  0001 C CNN
 F 3 "" H 7500 3550 50  0001 C CNN
@@ -878,10 +878,10 @@ F 3 "" H 7500 3550 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L MRS_Mechanical:Break_away_tab H?
+L MRS_Mechanical:Break_away_tab H5
 U 1 1 5D3F0ED4
 P 7500 3400
-F 0 "H?" H 7500 3450 50  0001 C CNN
+F 0 "H5" H 7500 3450 50  0001 C CNN
 F 1 "Break_away_tab" H 7500 3360 50  0001 C CNN
 F 2 "MRS_Mechanical:Breakaway_tab_holes" H 7400 3350 50  0001 C CNN
 F 3 "" H 7500 3400 50  0001 C CNN
@@ -889,10 +889,10 @@ F 3 "" H 7500 3400 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L MRS_Mechanical:Break_away_tab H?
+L MRS_Mechanical:Break_away_tab H4
 U 1 1 5D3F0F09
 P 7500 3250
-F 0 "H?" H 7500 3300 50  0001 C CNN
+F 0 "H4" H 7500 3300 50  0001 C CNN
 F 1 "Break_away_tab" H 7500 3210 50  0001 C CNN
 F 2 "MRS_Mechanical:Breakaway_tab_holes" H 7400 3200 50  0001 C CNN
 F 3 "" H 7500 3250 50  0001 C CNN
@@ -900,10 +900,10 @@ F 3 "" H 7500 3250 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L MRS_Mechanical:Break_away_tab H?
+L MRS_Mechanical:Break_away_tab H3
 U 1 1 5D3F0F3E
 P 7500 3100
-F 0 "H?" H 7500 3150 50  0001 C CNN
+F 0 "H3" H 7500 3150 50  0001 C CNN
 F 1 "Break_away_tab" H 7500 3060 50  0001 C CNN
 F 2 "MRS_Mechanical:Breakaway_tab_holes" H 7400 3050 50  0001 C CNN
 F 3 "" H 7500 3100 50  0001 C CNN

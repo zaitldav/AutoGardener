@@ -1,3 +1,4 @@
 (sym_lib_table
   (lib (name Plant_monitoring_device-rescue)(type Legacy)(uri ${KIPRJMOD}/Plant_monitoring_device-rescue.lib)(options "")(descr ""))
+  (lib (name AutoGardener_Outdoor-rescue)(type Legacy)(uri ${KIPRJMOD}/AutoGardener_Outdoor-rescue.lib)(options "")(descr ""))
 )
