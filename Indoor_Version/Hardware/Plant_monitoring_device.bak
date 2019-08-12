@@ -26,13 +26,13 @@ Text Label 4000 5600 2    50   ~ 0
 UART_RX
 Text Label 4000 5500 2    50   ~ 0
 UART_TX
-Text Label 1250 6100 0    50   ~ 0
+Text Label 1150 6300 0    50   ~ 0
 PUMP1
-Text Label 1250 6200 0    50   ~ 0
+Text Label 1150 6400 0    50   ~ 0
 PUMP2
-Text Label 1250 6300 0    50   ~ 0
+Text Label 1150 6500 0    50   ~ 0
 PUMP3
-Text Label 1250 6400 0    50   ~ 0
+Text Label 1750 7300 0    50   ~ 0
 PUMP4
 Wire Wire Line
 	1750 2750 2300 2750
@@ -43,32 +43,18 @@ Wire Wire Line
 Wire Wire Line
 	1750 3350 2300 3350
 Wire Wire Line
-	1250 5700 1800 5700
-Wire Wire Line
-	1250 5800 1800 5800
-Wire Wire Line
-	1250 5900 1800 5900
-Wire Wire Line
-	1800 6000 1250 6000
-Wire Wire Line
 	4000 5500 3450 5500
 Wire Wire Line
 	4000 5600 3450 5600
 Wire Wire Line
-	1250 6400 1800 6400
-Wire Wire Line
-	1800 6200 1250 6200
-Wire Wire Line
-	1800 6100 1250 6100
-Wire Wire Line
-	1250 6300 1800 6300
-Text Label 1250 6000 0    50   ~ 0
+	1750 7300 2300 7300
+Text Label 1150 6200 0    50   ~ 0
 LED_PWM4
-Text Label 1250 5800 0    50   ~ 0
+Text Label 1150 6000 0    50   ~ 0
 LED_PWM2
-Text Label 1250 5900 0    50   ~ 0
+Text Label 1150 6100 0    50   ~ 0
 LED_PWM3
-Text Label 1250 5700 0    50   ~ 0
+Text Label 1150 5900 0    50   ~ 0
 LED_PWM1
 Text Label 3700 2950 2    50   ~ 0
 I2C_SDA
@@ -1726,18 +1712,6 @@ F 4 "WF06P-10K-5%" H 7500 4650 50  0001 C CNN "TME"
 	1    0    0    -1  
 $EndComp
 $Comp
-L MRS_Passives:R R14
-U 1 1 5D2BF611
-P 1700 6750
-F 0 "R14" H 1770 6796 50  0000 L CNN
-F 1 "10k" H 1770 6705 50  0000 L CNN
-F 2 "MRS_Passives:R0603" V 2100 6750 50  0001 C CNN
-F 3 "" V 1780 6750 50  0001 C CNN
-F 4 "WF06P-10K-5%" H 1700 6750 50  0001 C CNN "TME"
-	1    1700 6750
-	1    0    0    -1  
-$EndComp
-$Comp
 L MRS_Passives:R R16
 U 1 1 5D2BF906
 P 3100 7050
@@ -1788,21 +1762,6 @@ NoConn ~ 2600 6800
 NoConn ~ 2700 6800
 NoConn ~ 2800 6800
 NoConn ~ 2900 6800
-Wire Wire Line
-	1700 6600 1700 6500
-Wire Wire Line
-	1700 6500 1800 6500
-$Comp
-L MRS_Power:GND #PWR0119
-U 1 1 5D342FEB
-P 1700 6900
-F 0 "#PWR0119" H 1700 6650 50  0001 C CNN
-F 1 "GND" H 1705 6727 50  0000 C CNN
-F 2 "" H 1700 6900 50  0001 C CNN
-F 3 "" H 1700 6900 50  0001 C CNN
-	1    1700 6900
-	-1   0    0    -1  
-$EndComp
 Wire Wire Line
 	3100 6900 3100 6800
 $Comp
@@ -2263,4 +2222,20 @@ F 3 "" H 5850 3100 50  0001 C CNN
 $EndComp
 Wire Wire Line
 	5850 3100 6250 3100
+Wire Wire Line
+	1150 5900 1800 5900
+Wire Wire Line
+	1150 6000 1800 6000
+Wire Wire Line
+	1150 6100 1800 6100
+Wire Wire Line
+	1150 6200 1800 6200
+Wire Wire Line
+	1150 6300 1800 6300
+Wire Wire Line
+	1150 6400 1800 6400
+Wire Wire Line
+	2300 6800 2300 7300
+Wire Wire Line
+	1150 6500 1800 6500
 $EndSCHEMATC
