@@ -61,7 +61,7 @@ I2C_SDA
 Text Label 3700 2850 2    50   ~ 0
 I2C_SCL
 $Comp
-L MRS_Power:GND #PWR055
+L Plant_monitoring_device-rescue:GND-MRS_Power #PWR055
 U 1 1 5CA0A3CD
 P 7500 1500
 F 0 "#PWR055" H 7500 1250 50  0001 C CNN
@@ -72,7 +72,7 @@ F 3 "" H 7500 1500 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L MRS_Power:GND #PWR056
+L Plant_monitoring_device-rescue:GND-MRS_Power #PWR056
 U 1 1 5CA0A417
 P 7500 2600
 F 0 "#PWR056" H 7500 2350 50  0001 C CNN
@@ -83,7 +83,7 @@ F 3 "" H 7500 2600 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L MRS_Power:GND #PWR057
+L Plant_monitoring_device-rescue:GND-MRS_Power #PWR057
 U 1 1 5CA0A430
 P 7500 3700
 F 0 "#PWR057" H 7500 3450 50  0001 C CNN
@@ -94,7 +94,7 @@ F 3 "" H 7500 3700 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L MRS_Power:GND #PWR058
+L Plant_monitoring_device-rescue:GND-MRS_Power #PWR058
 U 1 1 5CA0A449
 P 7500 4800
 F 0 "#PWR058" H 7500 4550 50  0001 C CNN
@@ -105,7 +105,7 @@ F 3 "" H 7500 4800 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L MRS_Passives:C C11
+L Plant_monitoring_device-rescue:C-MRS_Passives C11
 U 1 1 5CA1A1FA
 P 2800 4400
 F 0 "C11" H 2915 4446 50  0000 L CNN
@@ -117,7 +117,7 @@ F 4 "CL10A105KA8NNNC" H 2800 4400 50  0001 C CNN "TME"
 	-1   0    0    -1  
 $EndComp
 $Comp
-L MRS_Power:GND #PWR014
+L Plant_monitoring_device-rescue:GND-MRS_Power #PWR014
 U 1 1 5CA1A337
 P 2800 4550
 F 0 "#PWR014" H 2800 4300 50  0001 C CNN
@@ -128,7 +128,7 @@ F 3 "" H 2800 4550 50  0001 C CNN
 	-1   0    0    -1  
 $EndComp
 $Comp
-L MRS_Passives:C C12
+L Plant_monitoring_device-rescue:C-MRS_Passives C12
 U 1 1 5CA1AEDD
 P 3250 4400
 F 0 "C12" H 3365 4446 50  0000 L CNN
@@ -140,7 +140,7 @@ F 4 "CL10B104KO8NNNC" H 3250 4400 50  0001 C CNN "TME"
 	-1   0    0    -1  
 $EndComp
 $Comp
-L MRS_Power:GND #PWR017
+L Plant_monitoring_device-rescue:GND-MRS_Power #PWR017
 U 1 1 5CA1AEEA
 P 3250 4550
 F 0 "#PWR017" H 3250 4300 50  0001 C CNN
@@ -151,7 +151,7 @@ F 3 "" H 3250 4550 50  0001 C CNN
 	-1   0    0    -1  
 $EndComp
 $Comp
-L MRS_Passives:R R12
+L Plant_monitoring_device-rescue:R-MRS_Passives R12
 U 1 1 5CA1E22C
 P 4400 7000
 F 0 "R12" H 4470 7046 50  0000 L CNN
@@ -163,7 +163,7 @@ F 4 "WF06P-10K-5%" H 4400 7000 50  0001 C CNN "TME"
 	1    0    0    -1  
 $EndComp
 $Comp
-L MRS_Passives:R R11
+L Plant_monitoring_device-rescue:R-MRS_Passives R11
 U 1 1 5CA1E398
 P 4100 7000
 F 0 "R11" H 4170 7046 50  0000 L CNN
@@ -175,7 +175,7 @@ F 4 "WF06P-10K-5%" H 4100 7000 50  0001 C CNN "TME"
 	1    0    0    -1  
 $EndComp
 $Comp
-L MRS_Passives:C C32
+L Plant_monitoring_device-rescue:C-MRS_Passives C32
 U 1 1 5CA26949
 P 2600 1500
 F 0 "C32" H 2715 1546 50  0000 L CNN
@@ -187,7 +187,7 @@ F 4 "CL10A105KA8NNNC" H 2600 1500 50  0001 C CNN "TME"
 	1    0    0    -1  
 $EndComp
 $Comp
-L MRS_Passives:C C31
+L Plant_monitoring_device-rescue:C-MRS_Passives C31
 U 1 1 5CA26A1F
 P 2200 1500
 F 0 "C31" H 2315 1546 50  0000 L CNN
@@ -199,7 +199,7 @@ F 4 "CL32B106KAJNNNE" H 2200 1500 50  0001 C CNN "TME"
 	1    0    0    -1  
 $EndComp
 $Comp
-L MRS_Power:GND #PWR09
+L Plant_monitoring_device-rescue:GND-MRS_Power #PWR09
 U 1 1 5CA30E44
 P 2200 1800
 F 0 "#PWR09" H 2200 1550 50  0001 C CNN
@@ -210,7 +210,7 @@ F 3 "" H 2200 1800 50  0001 C CNN
 	-1   0    0    -1  
 $EndComp
 $Comp
-L MRS_Power:GND #PWR011
+L Plant_monitoring_device-rescue:GND-MRS_Power #PWR011
 U 1 1 5CA32305
 P 2600 1800
 F 0 "#PWR011" H 2600 1550 50  0001 C CNN
@@ -221,7 +221,7 @@ F 3 "" H 2600 1800 50  0001 C CNN
 	-1   0    0    -1  
 $EndComp
 $Comp
-L MRS_Power:GND #PWR015
+L Plant_monitoring_device-rescue:GND-MRS_Power #PWR015
 U 1 1 5CA3D650
 P 3450 1800
 F 0 "#PWR015" H 3450 1550 50  0001 C CNN
@@ -232,7 +232,7 @@ F 3 "" H 3450 1800 50  0001 C CNN
 	-1   0    0    -1  
 $EndComp
 $Comp
-L MRS_Power:+12V #PWR08
+L Plant_monitoring_device-rescue:+12V-MRS_Power #PWR08
 U 1 1 5CA4AC66
 P 2200 1200
 F 0 "#PWR08" H 2200 1050 50  0001 C CNN
@@ -243,7 +243,7 @@ F 3 "" H 2200 1200 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L MRS_Connectors:Barrel_Jack J1
+L Plant_monitoring_device-rescue:Barrel_Jack-MRS_Connectors J1
 U 1 1 5CA67B18
 P 1000 1500
 F 0 "J1" H 1055 1825 50  0000 C CNN
@@ -255,7 +255,7 @@ F 4 "PC-GK2.5" H 1000 1500 50  0001 C CNN "TME"
 	1    0    0    -1  
 $EndComp
 $Comp
-L MRS_Power:+12V #PWR06
+L Plant_monitoring_device-rescue:+12V-MRS_Power #PWR06
 U 1 1 5CA697BF
 P 1900 1200
 F 0 "#PWR06" H 1900 1050 50  0001 C CNN
@@ -266,7 +266,7 @@ F 3 "" H 1900 1200 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L MRS_Power:GND #PWR07
+L Plant_monitoring_device-rescue:GND-MRS_Power #PWR07
 U 1 1 5CA69806
 P 1400 1800
 F 0 "#PWR07" H 1400 1550 50  0001 C CNN
@@ -279,7 +279,7 @@ $EndComp
 Wire Wire Line
 	1400 1600 1300 1600
 $Comp
-L MRS_Power:GND #PWR046
+L Plant_monitoring_device-rescue:GND-MRS_Power #PWR046
 U 1 1 5CA0E0BC
 P 5850 3600
 F 0 "#PWR046" H 5850 3350 50  0001 C CNN
@@ -292,7 +292,7 @@ $EndComp
 Text Label 5850 3800 0    50   ~ 0
 ADC_SOIL1
 $Comp
-L MRS_Power:+12V #PWR071
+L Plant_monitoring_device-rescue:+12V-MRS_Power #PWR071
 U 1 1 5CA37EC4
 P 10200 750
 F 0 "#PWR071" H 10200 600 50  0001 C CNN
@@ -313,7 +313,7 @@ PUMP3
 Text Label 7200 4450 0    50   ~ 0
 PUMP4
 $Comp
-L MRS_Transistors:IRLML6346TRPBF Q7
+L Plant_monitoring_device-rescue:IRLML6346TRPBF-MRS_Transistors Q7
 U 1 1 5CA7D2A4
 P 10200 1150
 F 0 "Q7" H 10306 1196 50  0000 L CNN
@@ -327,7 +327,7 @@ $EndComp
 Wire Wire Line
 	10200 950  10450 950 
 $Comp
-L MRS_Power:GND #PWR072
+L Plant_monitoring_device-rescue:GND-MRS_Power #PWR072
 U 1 1 5CA89EE5
 P 10200 1350
 F 0 "#PWR072" H 10200 1100 50  0001 C CNN
@@ -342,7 +342,7 @@ Wire Wire Line
 Wire Wire Line
 	10200 850  10450 850 
 $Comp
-L MRS_Power:+12V #PWR073
+L Plant_monitoring_device-rescue:+12V-MRS_Power #PWR073
 U 1 1 5CA9619D
 P 10200 1850
 F 0 "#PWR073" H 10200 1700 50  0001 C CNN
@@ -355,7 +355,7 @@ $EndComp
 Text Label 9100 3350 0    50   ~ 0
 LED_PWM3
 $Comp
-L MRS_Transistors:IRLML6346TRPBF Q8
+L Plant_monitoring_device-rescue:IRLML6346TRPBF-MRS_Transistors Q8
 U 1 1 5CA961A6
 P 10200 2250
 F 0 "Q8" H 10306 2296 50  0000 L CNN
@@ -369,7 +369,7 @@ $EndComp
 Wire Wire Line
 	10200 2050 10450 2050
 $Comp
-L MRS_Power:GND #PWR074
+L Plant_monitoring_device-rescue:GND-MRS_Power #PWR074
 U 1 1 5CA961AE
 P 10200 2450
 F 0 "#PWR074" H 10200 2200 50  0001 C CNN
@@ -384,7 +384,7 @@ Wire Wire Line
 Wire Wire Line
 	10200 1950 10450 1950
 $Comp
-L MRS_Power:+12V #PWR075
+L Plant_monitoring_device-rescue:+12V-MRS_Power #PWR075
 U 1 1 5CA9A61A
 P 10200 2950
 F 0 "#PWR075" H 10200 2800 50  0001 C CNN
@@ -397,7 +397,7 @@ $EndComp
 Text Label 9100 2250 0    50   ~ 0
 LED_PWM2
 $Comp
-L MRS_Transistors:IRLML6346TRPBF Q9
+L Plant_monitoring_device-rescue:IRLML6346TRPBF-MRS_Transistors Q9
 U 1 1 5CA9A623
 P 10200 3350
 F 0 "Q9" H 10306 3396 50  0000 L CNN
@@ -411,7 +411,7 @@ $EndComp
 Wire Wire Line
 	10200 3150 10450 3150
 $Comp
-L MRS_Power:GND #PWR076
+L Plant_monitoring_device-rescue:GND-MRS_Power #PWR076
 U 1 1 5CA9A62B
 P 10200 3550
 F 0 "#PWR076" H 10200 3300 50  0001 C CNN
@@ -426,7 +426,7 @@ Wire Wire Line
 Wire Wire Line
 	10200 3050 10450 3050
 $Comp
-L MRS_Power:+12V #PWR077
+L Plant_monitoring_device-rescue:+12V-MRS_Power #PWR077
 U 1 1 5CAA3F36
 P 10200 4050
 F 0 "#PWR077" H 10200 3900 50  0001 C CNN
@@ -439,7 +439,7 @@ $EndComp
 Text Label 9100 1150 0    50   ~ 0
 LED_PWM1
 $Comp
-L MRS_Transistors:IRLML6346TRPBF Q10
+L Plant_monitoring_device-rescue:IRLML6346TRPBF-MRS_Transistors Q10
 U 1 1 5CAA3F3F
 P 10200 4450
 F 0 "Q10" H 10306 4496 50  0000 L CNN
@@ -453,7 +453,7 @@ $EndComp
 Wire Wire Line
 	10200 4250 10450 4250
 $Comp
-L MRS_Power:GND #PWR078
+L Plant_monitoring_device-rescue:GND-MRS_Power #PWR078
 U 1 1 5CAA3F47
 P 10200 4650
 F 0 "#PWR078" H 10200 4400 50  0001 C CNN
@@ -468,7 +468,7 @@ Wire Wire Line
 Wire Wire Line
 	10200 4150 10450 4150
 $Comp
-L MRS_Power:+12V #PWR065
+L Plant_monitoring_device-rescue:+12V-MRS_Power #PWR065
 U 1 1 5CAB72C4
 P 8200 750
 F 0 "#PWR065" H 8200 600 50  0001 C CNN
@@ -479,7 +479,7 @@ F 3 "" H 8200 750 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L MRS_Transistors:IRLML6346TRPBF Q3
+L Plant_monitoring_device-rescue:IRLML6346TRPBF-MRS_Transistors Q3
 U 1 1 5CAB72CD
 P 8200 1150
 F 0 "Q3" H 8306 1196 50  0000 L CNN
@@ -493,7 +493,7 @@ $EndComp
 Wire Wire Line
 	8200 950  8450 950 
 $Comp
-L MRS_Power:GND #PWR066
+L Plant_monitoring_device-rescue:GND-MRS_Power #PWR066
 U 1 1 5CAB72D5
 P 8200 1350
 F 0 "#PWR066" H 8200 1100 50  0001 C CNN
@@ -508,7 +508,7 @@ Wire Wire Line
 Wire Wire Line
 	8200 850  8450 850 
 $Comp
-L MRS_Power:+12V #PWR059
+L Plant_monitoring_device-rescue:+12V-MRS_Power #PWR059
 U 1 1 5CAB72E4
 P 8200 1850
 F 0 "#PWR059" H 8200 1700 50  0001 C CNN
@@ -521,7 +521,7 @@ $EndComp
 Wire Wire Line
 	7200 2250 7500 2250
 $Comp
-L MRS_Transistors:IRLML6346TRPBF Q4
+L Plant_monitoring_device-rescue:IRLML6346TRPBF-MRS_Transistors Q4
 U 1 1 5CAB72ED
 P 8200 2250
 F 0 "Q4" H 8306 2296 50  0000 L CNN
@@ -535,7 +535,7 @@ $EndComp
 Wire Wire Line
 	8200 2050 8450 2050
 $Comp
-L MRS_Power:GND #PWR060
+L Plant_monitoring_device-rescue:GND-MRS_Power #PWR060
 U 1 1 5CAB72F5
 P 8200 2450
 F 0 "#PWR060" H 8200 2200 50  0001 C CNN
@@ -550,7 +550,7 @@ Wire Wire Line
 Wire Wire Line
 	8200 1950 8450 1950
 $Comp
-L MRS_Power:+12V #PWR061
+L Plant_monitoring_device-rescue:+12V-MRS_Power #PWR061
 U 1 1 5CAB7304
 P 8200 2950
 F 0 "#PWR061" H 8200 2800 50  0001 C CNN
@@ -563,7 +563,7 @@ $EndComp
 Wire Wire Line
 	7200 3350 7500 3350
 $Comp
-L MRS_Transistors:IRLML6346TRPBF Q5
+L Plant_monitoring_device-rescue:IRLML6346TRPBF-MRS_Transistors Q5
 U 1 1 5CAB730D
 P 8200 3350
 F 0 "Q5" H 8306 3396 50  0000 L CNN
@@ -577,7 +577,7 @@ $EndComp
 Wire Wire Line
 	8200 3150 8450 3150
 $Comp
-L MRS_Power:GND #PWR062
+L Plant_monitoring_device-rescue:GND-MRS_Power #PWR062
 U 1 1 5CAB7315
 P 8200 3550
 F 0 "#PWR062" H 8200 3300 50  0001 C CNN
@@ -592,7 +592,7 @@ Wire Wire Line
 Wire Wire Line
 	8200 3050 8450 3050
 $Comp
-L MRS_Power:+12V #PWR063
+L Plant_monitoring_device-rescue:+12V-MRS_Power #PWR063
 U 1 1 5CAB7324
 P 8200 4050
 F 0 "#PWR063" H 8200 3900 50  0001 C CNN
@@ -605,7 +605,7 @@ $EndComp
 Wire Wire Line
 	7200 4450 7500 4450
 $Comp
-L MRS_Transistors:IRLML6346TRPBF Q6
+L Plant_monitoring_device-rescue:IRLML6346TRPBF-MRS_Transistors Q6
 U 1 1 5CAB732D
 P 8200 4450
 F 0 "Q6" H 8306 4496 50  0000 L CNN
@@ -619,7 +619,7 @@ $EndComp
 Wire Wire Line
 	8200 4250 8450 4250
 $Comp
-L MRS_Power:GND #PWR064
+L Plant_monitoring_device-rescue:GND-MRS_Power #PWR064
 U 1 1 5CAB7335
 P 8200 4650
 F 0 "#PWR064" H 8200 4400 50  0001 C CNN
@@ -644,7 +644,7 @@ Wire Wire Line
 Wire Wire Line
 	7500 4500 7500 4450
 $Comp
-L MRS_Passives:R R7
+L Plant_monitoring_device-rescue:R-MRS_Passives R7
 U 1 1 5CB37598
 P 9500 1350
 F 0 "R7" H 9570 1396 50  0000 L CNN
@@ -656,7 +656,7 @@ F 4 "WF06P-10K-5%" H 9500 1350 50  0001 C CNN "TME"
 	1    0    0    -1  
 $EndComp
 $Comp
-L MRS_Passives:R R8
+L Plant_monitoring_device-rescue:R-MRS_Passives R8
 U 1 1 5CB3797A
 P 9500 2450
 F 0 "R8" H 9570 2496 50  0000 L CNN
@@ -668,7 +668,7 @@ F 4 "WF06P-10K-5%" H 9500 2450 50  0001 C CNN "TME"
 	1    0    0    -1  
 $EndComp
 $Comp
-L MRS_Passives:R R9
+L Plant_monitoring_device-rescue:R-MRS_Passives R9
 U 1 1 5CB3CD18
 P 9500 3550
 F 0 "R9" H 9570 3596 50  0000 L CNN
@@ -680,7 +680,7 @@ F 4 "WF06P-10K-5%" H 9500 3550 50  0001 C CNN "TME"
 	1    0    0    -1  
 $EndComp
 $Comp
-L MRS_Passives:R R10
+L Plant_monitoring_device-rescue:R-MRS_Passives R10
 U 1 1 5CB3CF3C
 P 9500 4650
 F 0 "R10" H 9570 4696 50  0000 L CNN
@@ -692,7 +692,7 @@ F 4 "WF06P-10K-5%" H 9500 4650 50  0001 C CNN "TME"
 	1    0    0    -1  
 $EndComp
 $Comp
-L MRS_Power:GND #PWR070
+L Plant_monitoring_device-rescue:GND-MRS_Power #PWR070
 U 1 1 5CB3D160
 P 9500 4800
 F 0 "#PWR070" H 9500 4550 50  0001 C CNN
@@ -703,7 +703,7 @@ F 3 "" H 9500 4800 50  0001 C CNN
 	-1   0    0    -1  
 $EndComp
 $Comp
-L MRS_Power:GND #PWR069
+L Plant_monitoring_device-rescue:GND-MRS_Power #PWR069
 U 1 1 5CB3D1E5
 P 9500 3700
 F 0 "#PWR069" H 9500 3450 50  0001 C CNN
@@ -714,7 +714,7 @@ F 3 "" H 9500 3700 50  0001 C CNN
 	-1   0    0    -1  
 $EndComp
 $Comp
-L MRS_Power:GND #PWR067
+L Plant_monitoring_device-rescue:GND-MRS_Power #PWR067
 U 1 1 5CB51D05
 P 9500 1500
 F 0 "#PWR067" H 9500 1250 50  0001 C CNN
@@ -725,7 +725,7 @@ F 3 "" H 9500 1500 50  0001 C CNN
 	-1   0    0    -1  
 $EndComp
 $Comp
-L MRS_Power:GND #PWR068
+L Plant_monitoring_device-rescue:GND-MRS_Power #PWR068
 U 1 1 5CB51D8A
 P 9500 2600
 F 0 "#PWR068" H 9500 2350 50  0001 C CNN
@@ -736,7 +736,7 @@ F 3 "" H 9500 2600 50  0001 C CNN
 	-1   0    0    -1  
 $EndComp
 $Comp
-L MRS_Sensors:SHT31 U4
+L Plant_monitoring_device-rescue:SHT31-MRS_Sensors U4
 U 1 1 5CA8A4DB
 P 8800 5900
 F 0 "U4" H 8800 6275 50  0000 C CNN
@@ -748,7 +748,7 @@ F 4 "SHT31-DIS-B" H 8800 5350 50  0001 C CNN "TME"
 	1    0    0    -1  
 $EndComp
 $Comp
-L MRS_Power:GND #PWR084
+L Plant_monitoring_device-rescue:GND-MRS_Power #PWR084
 U 1 1 5CAA6040
 P 8250 6250
 F 0 "#PWR084" H 8250 6000 50  0001 C CNN
@@ -791,7 +791,7 @@ Wire Wire Line
 Wire Wire Line
 	9700 5950 9700 6250
 $Comp
-L MRS_Power:GND #PWR085
+L Plant_monitoring_device-rescue:GND-MRS_Power #PWR085
 U 1 1 5CAE7B4E
 P 9700 6250
 F 0 "#PWR085" H 9700 6000 50  0001 C CNN
@@ -802,7 +802,7 @@ F 3 "" H 9700 6250 50  0001 C CNN
 	-1   0    0    -1  
 $EndComp
 $Comp
-L MRS_Passives:C C41
+L Plant_monitoring_device-rescue:C-MRS_Passives C41
 U 1 1 5CB39BA3
 P 8050 5950
 F 0 "C41" H 8165 5996 50  0000 L CNN
@@ -814,7 +814,7 @@ F 4 "CL10B104KO8NNNC" H 8050 5950 50  0001 C CNN "TME"
 	-1   0    0    -1  
 $EndComp
 $Comp
-L MRS_Power:GND #PWR082
+L Plant_monitoring_device-rescue:GND-MRS_Power #PWR082
 U 1 1 5CB49F30
 P 8050 6250
 F 0 "#PWR082" H 8050 6000 50  0001 C CNN
@@ -845,7 +845,7 @@ Wire Wire Line
 Wire Wire Line
 	4400 7350 4400 7150
 $Comp
-L MRS_Mechanical:Mounting_hole_unplated_3,2mm H1
+L Plant_monitoring_device-rescue:Mounting_hole_unplated_3,2mm-MRS_Mechanical H1
 U 1 1 5CB29AA5
 P 7300 5950
 F 0 "H1" H 7300 6050 50  0001 C CNN
@@ -856,7 +856,7 @@ F 3 "" H 7300 5950 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L MRS_Passives:C C33
+L Plant_monitoring_device-rescue:C-MRS_Passives C33
 U 1 1 5CAD3977
 P 5150 1500
 F 0 "C33" H 5265 1546 50  0000 L CNN
@@ -868,7 +868,7 @@ F 4 "CL32B106KAJNNNE" H 5150 1500 50  0001 C CNN "TME"
 	1    0    0    -1  
 $EndComp
 $Comp
-L MRS_Passives:C C34
+L Plant_monitoring_device-rescue:C-MRS_Passives C34
 U 1 1 5CAD3BF7
 P 5600 1500
 F 0 "C34" H 5715 1546 50  0000 L CNN
@@ -881,7 +881,7 @@ F 4 "CL10A105KA8NNNC" H 5600 1500 50  0001 C CNN "TME"
 $EndComp
 Connection ~ 2200 1200
 $Comp
-L MRS_Power:GND #PWR0105
+L Plant_monitoring_device-rescue:GND-MRS_Power #PWR0105
 U 1 1 5CAF04F3
 P 5150 1800
 F 0 "#PWR0105" H 5150 1550 50  0001 C CNN
@@ -892,7 +892,7 @@ F 3 "" H 5150 1800 50  0001 C CNN
 	-1   0    0    -1  
 $EndComp
 $Comp
-L MRS_Power:GND #PWR0106
+L Plant_monitoring_device-rescue:GND-MRS_Power #PWR0106
 U 1 1 5CAF057C
 P 5600 1800
 F 0 "#PWR0106" H 5600 1550 50  0001 C CNN
@@ -905,7 +905,7 @@ $EndComp
 Wire Wire Line
 	3450 1800 3450 1700
 $Comp
-L MRS_Connectors:NXW-02 J3
+L Plant_monitoring_device-rescue:NXW-02-MRS_Connectors J3
 U 1 1 5CAEB3EF
 P 8600 900
 F 0 "J3" H 8677 941 50  0000 L CNN
@@ -917,7 +917,7 @@ F 4 "NX2500-02SMR" H 8600 450 50  0001 C CNN "TME"
 	1    0    0    -1  
 $EndComp
 $Comp
-L MRS_Connectors:NXW-02 J4
+L Plant_monitoring_device-rescue:NXW-02-MRS_Connectors J4
 U 1 1 5CAEB5E3
 P 8600 2000
 F 0 "J4" H 8677 2041 50  0000 L CNN
@@ -929,7 +929,7 @@ F 4 "NX2500-02SMR" H 8600 1550 50  0001 C CNN "TME"
 	1    0    0    -1  
 $EndComp
 $Comp
-L MRS_Connectors:NXW-02 J5
+L Plant_monitoring_device-rescue:NXW-02-MRS_Connectors J5
 U 1 1 5CAEB681
 P 8600 3100
 F 0 "J5" H 8677 3141 50  0000 L CNN
@@ -941,7 +941,7 @@ F 4 "NX2500-02SMR" H 8600 2650 50  0001 C CNN "TME"
 	1    0    0    -1  
 $EndComp
 $Comp
-L MRS_Connectors:NXW-02 J6
+L Plant_monitoring_device-rescue:NXW-02-MRS_Connectors J6
 U 1 1 5CAEB7CF
 P 8600 4200
 F 0 "J6" H 8677 4241 50  0000 L CNN
@@ -953,7 +953,7 @@ F 4 "NX2500-02SMR" H 8600 3750 50  0001 C CNN "TME"
 	1    0    0    -1  
 $EndComp
 $Comp
-L MRS_Connectors:NXW-02 J7
+L Plant_monitoring_device-rescue:NXW-02-MRS_Connectors J7
 U 1 1 5CAEBD6F
 P 10600 900
 F 0 "J7" H 10677 941 50  0000 L CNN
@@ -965,7 +965,7 @@ F 4 "NX2500-02SMR" H 10600 450 50  0001 C CNN "TME"
 	1    0    0    -1  
 $EndComp
 $Comp
-L MRS_Connectors:NXW-02 J8
+L Plant_monitoring_device-rescue:NXW-02-MRS_Connectors J8
 U 1 1 5CAEBE25
 P 10600 2000
 F 0 "J8" H 10677 2041 50  0000 L CNN
@@ -977,7 +977,7 @@ F 4 "NX2500-02SMR" H 10600 1550 50  0001 C CNN "TME"
 	1    0    0    -1  
 $EndComp
 $Comp
-L MRS_Connectors:NXW-02 J9
+L Plant_monitoring_device-rescue:NXW-02-MRS_Connectors J9
 U 1 1 5CAEBEE5
 P 10600 3100
 F 0 "J9" H 10677 3141 50  0000 L CNN
@@ -989,7 +989,7 @@ F 4 "NX2500-02SMR" H 10600 2650 50  0001 C CNN "TME"
 	1    0    0    -1  
 $EndComp
 $Comp
-L MRS_Connectors:NXW-02 J10
+L Plant_monitoring_device-rescue:NXW-02-MRS_Connectors J10
 U 1 1 5CAEBFAD
 P 10600 4200
 F 0 "J10" H 10677 4241 50  0000 L CNN
@@ -1001,7 +1001,7 @@ F 4 "NX2500-02SMR" H 10600 3750 50  0001 C CNN "TME"
 	1    0    0    -1  
 $EndComp
 $Comp
-L MRS_Connectors:NXW-03 J11
+L Plant_monitoring_device-rescue:NXW-03-MRS_Connectors J11
 U 1 1 5CAEDC61
 P 6400 3650
 F 0 "J11" H 6477 3641 50  0000 L CNN
@@ -1013,7 +1013,7 @@ F 4 "S3B-ZR" H 6400 3100 50  0001 C CNN "TME"
 	1    0    0    -1  
 $EndComp
 $Comp
-L MRS_Connectors:NXW-03 J12
+L Plant_monitoring_device-rescue:NXW-03-MRS_Connectors J12
 U 1 1 5CAEDE45
 P 6400 4350
 F 0 "J12" H 6477 4341 50  0000 L CNN
@@ -1025,7 +1025,7 @@ F 4 "S3B-ZR" H 6400 3800 50  0001 C CNN "TME"
 	1    0    0    -1  
 $EndComp
 $Comp
-L MRS_Connectors:NXW-03 J13
+L Plant_monitoring_device-rescue:NXW-03-MRS_Connectors J13
 U 1 1 5CAEDF71
 P 6400 5050
 F 0 "J13" H 6477 5041 50  0000 L CNN
@@ -1037,7 +1037,7 @@ F 4 "S3B-ZR" H 6400 4500 50  0001 C CNN "TME"
 	1    0    0    -1  
 $EndComp
 $Comp
-L MRS_Connectors:NXW-03 J14
+L Plant_monitoring_device-rescue:NXW-03-MRS_Connectors J14
 U 1 1 5CAEE029
 P 6400 5750
 F 0 "J14" H 6477 5741 50  0000 L CNN
@@ -1049,7 +1049,7 @@ F 4 "S3B-ZR" H 6400 5200 50  0001 C CNN "TME"
 	1    0    0    -1  
 $EndComp
 $Comp
-L MRS_Mechanical:Mounting_hole_unplated_3,2mm H2
+L Plant_monitoring_device-rescue:Mounting_hole_unplated_3,2mm-MRS_Mechanical H2
 U 1 1 5CB07C28
 P 7300 6100
 F 0 "H2" H 7300 6200 50  0001 C CNN
@@ -1060,7 +1060,7 @@ F 3 "" H 7300 6100 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L MRS_Mechanical:Mounting_hole_unplated_3,2mm H3
+L Plant_monitoring_device-rescue:Mounting_hole_unplated_3,2mm-MRS_Mechanical H3
 U 1 1 5CB0F3CF
 P 7300 6250
 F 0 "H3" H 7300 6350 50  0001 C CNN
@@ -1071,7 +1071,7 @@ F 3 "" H 7300 6250 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L MRS_MCUs:ESP32-WROOM U1
+L Plant_monitoring_device-rescue:ESP32-WROOM-MRS_MCUs U1
 U 1 1 5D25954B
 P 2650 5800
 F 0 "U1" H 2625 6765 50  0000 C CNN
@@ -1083,7 +1083,7 @@ F 4 "ESP32-WROOM-32D" H 0   0   50  0001 C CNN "TME"
 	1    0    0    -1  
 $EndComp
 $Comp
-L MRS_Power:GND #PWR0113
+L Plant_monitoring_device-rescue:GND-MRS_Power #PWR0113
 U 1 1 5D27F0C8
 P 1450 5200
 F 0 "#PWR0113" H 1450 4950 50  0001 C CNN
@@ -1094,7 +1094,7 @@ F 3 "" H 1450 5200 50  0001 C CNN
 	0    1    -1   0   
 $EndComp
 $Comp
-L MRS_Power:GND #PWR0114
+L Plant_monitoring_device-rescue:GND-MRS_Power #PWR0114
 U 1 1 5D2841B2
 P 3650 5200
 F 0 "#PWR0114" H 3650 4950 50  0001 C CNN
@@ -1131,7 +1131,7 @@ IO0
 Wire Wire Line
 	1850 4550 2200 4550
 $Comp
-L MRS_Power:+3V3 #PWR03
+L Plant_monitoring_device-rescue:+3V3-MRS_Power #PWR03
 U 1 1 5D29BB5F
 P 5600 1200
 F 0 "#PWR03" H 5600 1050 50  0001 C CNN
@@ -1143,7 +1143,7 @@ F 3 "" H 5600 1200 50  0001 C CNN
 $EndComp
 Connection ~ 5600 1200
 $Comp
-L MRS_Power:+3V3 #PWR012
+L Plant_monitoring_device-rescue:+3V3-MRS_Power #PWR012
 U 1 1 5D29BC01
 P 5850 3700
 F 0 "#PWR012" H 5850 3550 50  0001 C CNN
@@ -1154,7 +1154,7 @@ F 3 "" H 5850 3700 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L MRS_Power:+3V3 #PWR01
+L Plant_monitoring_device-rescue:+3V3-MRS_Power #PWR01
 U 1 1 5D29C1B6
 P 2800 4250
 F 0 "#PWR01" H 2800 4100 50  0001 C CNN
@@ -1165,7 +1165,7 @@ F 3 "" H 2800 4250 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L MRS_Power:+3V3 #PWR02
+L Plant_monitoring_device-rescue:+3V3-MRS_Power #PWR02
 U 1 1 5D29C3AE
 P 3250 4250
 F 0 "#PWR02" H 3250 4100 50  0001 C CNN
@@ -1176,7 +1176,7 @@ F 3 "" H 3250 4250 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L MRS_Power:+3V3 #PWR04
+L Plant_monitoring_device-rescue:+3V3-MRS_Power #PWR04
 U 1 1 5D29C419
 P 1450 5300
 F 0 "#PWR04" H 1450 5150 50  0001 C CNN
@@ -1187,7 +1187,7 @@ F 3 "" H 1450 5300 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L MRS_Power:+3V3 #PWR019
+L Plant_monitoring_device-rescue:+3V3-MRS_Power #PWR019
 U 1 1 5D2AA1D7
 P 8050 5650
 F 0 "#PWR019" H 8050 5500 50  0001 C CNN
@@ -1198,7 +1198,7 @@ F 3 "" H 8050 5650 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L MRS_Power:+3V3 #PWR020
+L Plant_monitoring_device-rescue:+3V3-MRS_Power #PWR020
 U 1 1 5D2B3602
 P 8250 5650
 F 0 "#PWR020" H 8250 5500 50  0001 C CNN
@@ -1209,7 +1209,7 @@ F 3 "" H 8250 5650 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L MRS_Power:+3V3 #PWR021
+L Plant_monitoring_device-rescue:+3V3-MRS_Power #PWR021
 U 1 1 5D2B366D
 P 4100 6850
 F 0 "#PWR021" H 4100 6700 50  0001 C CNN
@@ -1220,7 +1220,7 @@ F 3 "" H 4100 6850 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L MRS_Power:+3V3 #PWR023
+L Plant_monitoring_device-rescue:+3V3-MRS_Power #PWR023
 U 1 1 5D2B36D8
 P 4400 6850
 F 0 "#PWR023" H 4400 6700 50  0001 C CNN
@@ -1231,7 +1231,7 @@ F 3 "" H 4400 6850 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L MRS_Power:+3V3 #PWR05
+L Plant_monitoring_device-rescue:+3V3-MRS_Power #PWR05
 U 1 1 5D2B421D
 P 1700 4150
 F 0 "#PWR05" H 1700 4000 50  0001 C CNN
@@ -1242,7 +1242,7 @@ F 3 "" H 1700 4150 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L MRS_Power:GND #PWR010
+L Plant_monitoring_device-rescue:GND-MRS_Power #PWR010
 U 1 1 5D2B43D8
 P 1700 4250
 F 0 "#PWR010" H 1700 4000 50  0001 C CNN
@@ -1257,7 +1257,7 @@ Wire Wire Line
 Wire Wire Line
 	1850 4450 2200 4450
 $Comp
-L MRS_Connectors:Header_1x6 J2
+L Plant_monitoring_device-rescue:Header_1x6-MRS_Connectors J2
 U 1 1 5D2C80FE
 P 2350 4400
 F 0 "J2" H 2300 4750 50  0000 L CNN
@@ -1272,7 +1272,7 @@ Wire Wire Line
 Wire Wire Line
 	1700 4150 2200 4150
 $Comp
-L MRS_Mechanical:Mounting_hole_unplated_3,2mm H4
+L Plant_monitoring_device-rescue:Mounting_hole_unplated_3,2mm-MRS_Mechanical H4
 U 1 1 5D2E8593
 P 7300 6400
 F 0 "H4" H 7300 6500 50  0001 C CNN
@@ -1283,7 +1283,7 @@ F 3 "" H 7300 6400 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L MRS_Power_Management:AOZ1280 U3
+L Plant_monitoring_device-rescue:AOZ1280-MRS_Power_Management U3
 U 1 1 5D2EE545
 P 3450 1350
 F 0 "U3" H 3300 1650 60  0000 C CNN
@@ -1295,7 +1295,7 @@ F 4 "AOZ1280CI" H 3450 700 50  0001 C CNN "TME"
 	1    0    0    -1  
 $EndComp
 $Comp
-L MRS_Passives:R R31
+L Plant_monitoring_device-rescue:R-MRS_Passives R31
 U 1 1 5D2F975C
 P 2950 1350
 F 0 "R31" H 3020 1396 50  0000 L CNN
@@ -1312,7 +1312,7 @@ Wire Wire Line
 	2950 1500 3100 1500
 Connection ~ 2950 1200
 $Comp
-L MRS_Diodes:Diode_Schottky D31
+L Plant_monitoring_device-rescue:Diode_Schottky-MRS_Diodes D31
 U 1 1 5D30FB81
 P 4050 1400
 F 0 "D31" H 4050 1500 50  0000 C CNN
@@ -1324,7 +1324,7 @@ F 4 "MBR230LSFT1G" H 4050 1400 50  0001 C CNN "TME"
 	1    0    0    -1  
 $EndComp
 $Comp
-L MRS_Passives:R R32
+L Plant_monitoring_device-rescue:R-MRS_Passives R32
 U 1 1 5D30FD8F
 P 4750 1350
 F 0 "R32" H 4820 1396 50  0000 L CNN
@@ -1336,7 +1336,7 @@ F 4 "CQ0603-49K9-1%" H 4750 1350 50  0001 C CNN "TME"
 	1    0    0    -1  
 $EndComp
 $Comp
-L MRS_Passives:R R33
+L Plant_monitoring_device-rescue:R-MRS_Passives R33
 U 1 1 5D30FE49
 P 4750 1650
 F 0 "R33" H 4820 1696 50  0000 L CNN
@@ -1348,7 +1348,7 @@ F 4 "SMD0603-16K" H 4750 1650 50  0001 C CNN "TME"
 	1    0    0    -1  
 $EndComp
 $Comp
-L MRS_Passives:L L31
+L Plant_monitoring_device-rescue:L-MRS_Passives L31
 U 1 1 5D30FF9A
 P 4050 1200
 F 0 "L31" H 4050 1390 50  0000 C CNN
@@ -1373,7 +1373,7 @@ Connection ~ 4750 1200
 Wire Wire Line
 	4200 1400 4200 1800
 $Comp
-L MRS_Power:GND #PWR0101
+L Plant_monitoring_device-rescue:GND-MRS_Power #PWR0101
 U 1 1 5D33DF2B
 P 4200 1800
 F 0 "#PWR0101" H 4200 1550 50  0001 C CNN
@@ -1384,7 +1384,7 @@ F 3 "" H 4200 1800 50  0001 C CNN
 	-1   0    0    -1  
 $EndComp
 $Comp
-L MRS_Power:GND #PWR0102
+L Plant_monitoring_device-rescue:GND-MRS_Power #PWR0102
 U 1 1 5D33DFA0
 P 4750 1800
 F 0 "#PWR0102" H 4750 1550 50  0001 C CNN
@@ -1421,7 +1421,7 @@ Wire Wire Line
 Wire Wire Line
 	2200 1650 2200 1800
 $Comp
-L MRS_Passives:C C35
+L Plant_monitoring_device-rescue:C-MRS_Passives C35
 U 1 1 5D3760BF
 P 3650 850
 F 0 "C35" V 3700 900 50  0000 L CNN
@@ -1449,7 +1449,7 @@ Wire Wire Line
 Wire Wire Line
 	1300 1400 1450 1400
 $Comp
-L MRS_Diodes:Diode_Schottky D1
+L Plant_monitoring_device-rescue:Diode_Schottky-MRS_Diodes D1
 U 1 1 5D3E29E3
 P 1600 1400
 F 0 "D1" H 1600 1300 50  0000 C CNN
@@ -1461,7 +1461,7 @@ F 4 "PPS1045-3G-DIO" H 1600 1400 50  0001 C CNN "TME"
 	-1   0    0    1   
 $EndComp
 $Comp
-L MRS_Sensors:MCP3424-E_SL U2
+L Plant_monitoring_device-rescue:MCP3424-E_SL-MRS_Sensors U2
 U 1 1 5D3F28AC
 P 2750 3100
 F 0 "U2" H 2450 3550 50  0000 C CNN
@@ -1475,7 +1475,7 @@ $EndComp
 Wire Wire Line
 	1750 2850 2300 2850
 $Comp
-L MRS_Power:GND #PWR0103
+L Plant_monitoring_device-rescue:GND-MRS_Power #PWR0103
 U 1 1 5D42A726
 P 1750 2850
 F 0 "#PWR0103" H 1750 2600 50  0001 C CNN
@@ -1488,7 +1488,7 @@ $EndComp
 Wire Wire Line
 	1750 3050 2300 3050
 $Comp
-L MRS_Power:GND #PWR0104
+L Plant_monitoring_device-rescue:GND-MRS_Power #PWR0104
 U 1 1 5D42A8C0
 P 1750 3050
 F 0 "#PWR0104" H 1750 2800 50  0001 C CNN
@@ -1501,7 +1501,7 @@ $EndComp
 Wire Wire Line
 	1750 3250 2300 3250
 $Comp
-L MRS_Power:GND #PWR0107
+L Plant_monitoring_device-rescue:GND-MRS_Power #PWR0107
 U 1 1 5D431C48
 P 1750 3250
 F 0 "#PWR0107" H 1750 3000 50  0001 C CNN
@@ -1514,7 +1514,7 @@ $EndComp
 Wire Wire Line
 	1750 3450 2300 3450
 $Comp
-L MRS_Power:GND #PWR0108
+L Plant_monitoring_device-rescue:GND-MRS_Power #PWR0108
 U 1 1 5D4391D0
 P 1750 3450
 F 0 "#PWR0108" H 1750 3200 50  0001 C CNN
@@ -1525,7 +1525,7 @@ F 3 "" H 1750 3450 50  0001 C CNN
 	0    1    -1   0   
 $EndComp
 $Comp
-L MRS_Power:GND #PWR0109
+L Plant_monitoring_device-rescue:GND-MRS_Power #PWR0109
 U 1 1 5D440A74
 P 2750 3600
 F 0 "#PWR0109" H 2750 3350 50  0001 C CNN
@@ -1545,7 +1545,7 @@ Wire Wire Line
 	3250 3400 3250 3300
 Connection ~ 3250 3300
 $Comp
-L MRS_Power:GND #PWR0110
+L Plant_monitoring_device-rescue:GND-MRS_Power #PWR0110
 U 1 1 5D46725A
 P 3250 3400
 F 0 "#PWR0110" H 3250 3150 50  0001 C CNN
@@ -1556,7 +1556,7 @@ F 3 "" H 3250 3400 50  0001 C CNN
 	-1   0    0    -1  
 $EndComp
 $Comp
-L MRS_Power:+3V3 #PWR0111
+L Plant_monitoring_device-rescue:+3V3-MRS_Power #PWR0111
 U 1 1 5D46737D
 P 2750 2600
 F 0 "#PWR0111" H 2750 2450 50  0001 C CNN
@@ -1567,7 +1567,7 @@ F 3 "" H 2750 2600 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L MRS_Passives:C C21
+L Plant_monitoring_device-rescue:C-MRS_Passives C21
 U 1 1 5D46801E
 P 800 3100
 F 0 "C21" H 915 3146 50  0000 L CNN
@@ -1579,7 +1579,7 @@ F 4 "CL32B106KAJNNNE" H 800 3100 50  0001 C CNN "TME"
 	1    0    0    -1  
 $EndComp
 $Comp
-L MRS_Passives:C C22
+L Plant_monitoring_device-rescue:C-MRS_Passives C22
 U 1 1 5D468026
 P 1250 3100
 F 0 "C22" H 1365 3146 50  0000 L CNN
@@ -1591,7 +1591,7 @@ F 4 "CL10A105KA8NNNC" H 1250 3100 50  0001 C CNN "TME"
 	1    0    0    -1  
 $EndComp
 $Comp
-L MRS_Power:GND #PWR0112
+L Plant_monitoring_device-rescue:GND-MRS_Power #PWR0112
 U 1 1 5D46802D
 P 800 3400
 F 0 "#PWR0112" H 800 3150 50  0001 C CNN
@@ -1602,7 +1602,7 @@ F 3 "" H 800 3400 50  0001 C CNN
 	-1   0    0    -1  
 $EndComp
 $Comp
-L MRS_Power:GND #PWR0115
+L Plant_monitoring_device-rescue:GND-MRS_Power #PWR0115
 U 1 1 5D468033
 P 1250 3400
 F 0 "#PWR0115" H 1250 3150 50  0001 C CNN
@@ -1621,7 +1621,7 @@ Wire Wire Line
 Wire Wire Line
 	800  2950 800  2800
 $Comp
-L MRS_Power:+3V3 #PWR0116
+L Plant_monitoring_device-rescue:+3V3-MRS_Power #PWR0116
 U 1 1 5D4784B4
 P 800 2800
 F 0 "#PWR0116" H 800 2650 50  0001 C CNN
@@ -1632,7 +1632,7 @@ F 3 "" H 800 2800 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L MRS_Power:+3V3 #PWR0117
+L Plant_monitoring_device-rescue:+3V3-MRS_Power #PWR0117
 U 1 1 5D478533
 P 1250 2800
 F 0 "#PWR0117" H 1250 2650 50  0001 C CNN
@@ -1665,7 +1665,7 @@ PWM_LED_R
 Wire Wire Line
 	4000 5700 3450 5700
 $Comp
-L MRS_Passives:R R3
+L Plant_monitoring_device-rescue:R-MRS_Passives R3
 U 1 1 5D2860B8
 P 7500 1350
 F 0 "R3" H 7570 1396 50  0000 L CNN
@@ -1677,7 +1677,7 @@ F 4 "WF06P-10K-5%" H 7500 1350 50  0001 C CNN "TME"
 	1    0    0    -1  
 $EndComp
 $Comp
-L MRS_Passives:R R4
+L Plant_monitoring_device-rescue:R-MRS_Passives R4
 U 1 1 5D286217
 P 7500 2450
 F 0 "R4" H 7570 2496 50  0000 L CNN
@@ -1689,7 +1689,7 @@ F 4 "WF06P-10K-5%" H 7500 2450 50  0001 C CNN "TME"
 	1    0    0    -1  
 $EndComp
 $Comp
-L MRS_Passives:R R5
+L Plant_monitoring_device-rescue:R-MRS_Passives R5
 U 1 1 5D2862DB
 P 7500 3550
 F 0 "R5" H 7570 3596 50  0000 L CNN
@@ -1701,7 +1701,7 @@ F 4 "WF06P-10K-5%" H 7500 3550 50  0001 C CNN "TME"
 	1    0    0    -1  
 $EndComp
 $Comp
-L MRS_Passives:R R6
+L Plant_monitoring_device-rescue:R-MRS_Passives R6
 U 1 1 5D286383
 P 7500 4650
 F 0 "R6" H 7570 4696 50  0000 L CNN
@@ -1713,7 +1713,7 @@ F 4 "WF06P-10K-5%" H 7500 4650 50  0001 C CNN "TME"
 	1    0    0    -1  
 $EndComp
 $Comp
-L MRS_Passives:R R16
+L Plant_monitoring_device-rescue:R-MRS_Passives R16
 U 1 1 5D2BF906
 P 3100 7050
 F 0 "R16" H 3170 7096 50  0000 L CNN
@@ -1725,7 +1725,7 @@ F 4 "WF06P-10K-5%" H 3100 7050 50  0001 C CNN "TME"
 	1    0    0    -1  
 $EndComp
 $Comp
-L MRS_Passives:R R13
+L Plant_monitoring_device-rescue:R-MRS_Passives R13
 U 1 1 5D2BFA98
 P 800 5250
 F 0 "R13" H 870 5296 50  0000 L CNN
@@ -1737,7 +1737,7 @@ F 4 "WF06P-10K-5%" H 800 5250 50  0001 C CNN "TME"
 	1    0    0    -1  
 $EndComp
 $Comp
-L MRS_Power:+3V3 #PWR0118
+L Plant_monitoring_device-rescue:+3V3-MRS_Power #PWR0118
 U 1 1 5D2BFCF2
 P 800 5100
 F 0 "#PWR0118" H 800 4950 50  0001 C CNN
@@ -1766,7 +1766,7 @@ NoConn ~ 2900 6800
 Wire Wire Line
 	3100 6900 3100 6800
 $Comp
-L MRS_Power:GND #PWR0120
+L Plant_monitoring_device-rescue:GND-MRS_Power #PWR0120
 U 1 1 5D34B2EA
 P 3100 7200
 F 0 "#PWR0120" H 3100 6950 50  0001 C CNN
@@ -1777,7 +1777,7 @@ F 3 "" H 3100 7200 50  0001 C CNN
 	-1   0    0    -1  
 $EndComp
 $Comp
-L MRS_Passives:R R15
+L Plant_monitoring_device-rescue:R-MRS_Passives R15
 U 1 1 5D34B4B4
 P 2800 7050
 F 0 "R15" H 2870 7096 50  0000 L CNN
@@ -1793,7 +1793,7 @@ Wire Wire Line
 Wire Wire Line
 	3000 6900 3000 6800
 $Comp
-L MRS_Power:+3V3 #PWR0121
+L Plant_monitoring_device-rescue:+3V3-MRS_Power #PWR0121
 U 1 1 5D3538C5
 P 2800 7200
 F 0 "#PWR0121" H 2800 7050 50  0001 C CNN
@@ -1806,7 +1806,7 @@ $EndComp
 Text Notes 2750 7750 1    50   ~ 0
 Debug Log Print Active
 $Comp
-L MRS_Passives:R R17
+L Plant_monitoring_device-rescue:R-MRS_Passives R17
 U 1 1 5D353BAA
 P 4350 6350
 F 0 "R17" H 4420 6396 50  0000 L CNN
@@ -1820,7 +1820,7 @@ $EndComp
 Wire Wire Line
 	3450 6500 4350 6500
 $Comp
-L MRS_Power:+3V3 #PWR0122
+L Plant_monitoring_device-rescue:+3V3-MRS_Power #PWR0122
 U 1 1 5D35C0EC
 P 4350 6200
 F 0 "#PWR0122" H 4350 6050 50  0001 C CNN
@@ -1831,7 +1831,7 @@ F 3 "" H 4350 6200 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L MRS_Diodes:RF-W2SA50TS-A39R LD1
+L Plant_monitoring_device-rescue:RF-W2SA50TS-A39R-MRS_Diodes LD1
 U 1 1 5D37FA8E
 P 5250 7150
 F 0 "LD1" H 5250 7665 50  0000 C CNN
@@ -1843,7 +1843,7 @@ F 4 "RF-W2SA50TS-A39R" H 5250 6500 50  0001 C CNN "TME"
 	1    0    0    -1  
 $EndComp
 $Comp
-L MRS_Passives:R R112
+L Plant_monitoring_device-rescue:R-MRS_Passives R112
 U 1 1 5D3801EB
 P 5900 6950
 F 0 "R112" V 5850 6750 50  0000 C CNN
@@ -1855,7 +1855,7 @@ F 4 "WF06P-150R-5%" H 0   0   50  0001 C CNN "TME"
 	0    1    1    0   
 $EndComp
 $Comp
-L MRS_Passives:R R111
+L Plant_monitoring_device-rescue:R-MRS_Passives R111
 U 1 1 5D388A81
 P 5900 7350
 F 0 "R111" V 5850 7150 50  0000 C CNN
@@ -1867,7 +1867,7 @@ F 4 "WF06P-150R-5%" H 0   0   50  0001 C CNN "TME"
 	0    1    1    0   
 $EndComp
 $Comp
-L MRS_Passives:R R113
+L Plant_monitoring_device-rescue:R-MRS_Passives R113
 U 1 1 5D388B49
 P 5900 7150
 F 0 "R113" V 5850 6950 50  0000 C CNN
@@ -1902,7 +1902,7 @@ Wire Wire Line
 Wire Wire Line
 	5550 6950 5750 6950
 $Comp
-L MRS_Connectors:NXW-02 J15
+L Plant_monitoring_device-rescue:NXW-02-MRS_Connectors J15
 U 1 1 5D50667F
 P 6400 3050
 F 0 "J15" H 6477 3091 50  0000 L CNN
@@ -1920,7 +1920,7 @@ WATER_LVL_SW
 Wire Wire Line
 	5700 3000 6250 3000
 $Comp
-L MRS_Passives:R R19
+L Plant_monitoring_device-rescue:R-MRS_Passives R19
 U 1 1 5D2D3436
 P 7700 1150
 F 0 "R19" V 7600 1000 50  0000 L CNN
@@ -1932,7 +1932,7 @@ F 4 "WF06P-1K-5%" H 7700 1150 50  0001 C CNN "TME"
 	0    1    1    0   
 $EndComp
 $Comp
-L MRS_Passives:R R20
+L Plant_monitoring_device-rescue:R-MRS_Passives R20
 U 1 1 5D2E7EE5
 P 7700 2250
 F 0 "R20" V 7600 2100 50  0000 L CNN
@@ -1944,7 +1944,7 @@ F 4 "WF06P-1K-5%" H 7700 2250 50  0001 C CNN "TME"
 	0    1    1    0   
 $EndComp
 $Comp
-L MRS_Passives:R R21
+L Plant_monitoring_device-rescue:R-MRS_Passives R21
 U 1 1 5D2E8006
 P 7700 3350
 F 0 "R21" V 7600 3200 50  0000 L CNN
@@ -1956,7 +1956,7 @@ F 4 "WF06P-1K-5%" H 7700 3350 50  0001 C CNN "TME"
 	0    1    1    0   
 $EndComp
 $Comp
-L MRS_Passives:R R22
+L Plant_monitoring_device-rescue:R-MRS_Passives R22
 U 1 1 5D2E821C
 P 7700 4450
 F 0 "R22" V 7600 4300 50  0000 L CNN
@@ -1988,7 +1988,7 @@ Connection ~ 7500 1150
 Wire Wire Line
 	7900 1150 7850 1150
 $Comp
-L MRS_Passives:R R23
+L Plant_monitoring_device-rescue:R-MRS_Passives R23
 U 1 1 5D3725BD
 P 9700 1150
 F 0 "R23" V 9600 1000 50  0000 L CNN
@@ -2002,7 +2002,7 @@ $EndComp
 Wire Wire Line
 	9900 1150 9850 1150
 $Comp
-L MRS_Passives:R R24
+L Plant_monitoring_device-rescue:R-MRS_Passives R24
 U 1 1 5D3B3C00
 P 9700 2250
 F 0 "R24" V 9600 2100 50  0000 L CNN
@@ -2016,7 +2016,7 @@ $EndComp
 Wire Wire Line
 	9850 2250 9900 2250
 $Comp
-L MRS_Passives:R R25
+L Plant_monitoring_device-rescue:R-MRS_Passives R25
 U 1 1 5D3EB49B
 P 9700 3350
 F 0 "R25" V 9600 3200 50  0000 L CNN
@@ -2030,7 +2030,7 @@ $EndComp
 Wire Wire Line
 	9850 3350 9900 3350
 $Comp
-L MRS_Passives:R R26
+L Plant_monitoring_device-rescue:R-MRS_Passives R26
 U 1 1 5D401EB2
 P 9700 4450
 F 0 "R26" V 9600 4300 50  0000 L CNN
@@ -2084,7 +2084,7 @@ Wire Wire Line
 Wire Wire Line
 	5850 3600 6250 3600
 $Comp
-L MRS_Power:GND #PWR0123
+L Plant_monitoring_device-rescue:GND-MRS_Power #PWR0123
 U 1 1 5D3F5C5E
 P 5850 4300
 F 0 "#PWR0123" H 5850 4050 50  0001 C CNN
@@ -2097,7 +2097,7 @@ $EndComp
 Text Label 5850 4500 0    50   ~ 0
 ADC_SOIL2
 $Comp
-L MRS_Power:+3V3 #PWR0124
+L Plant_monitoring_device-rescue:+3V3-MRS_Power #PWR0124
 U 1 1 5D3F5C65
 P 5850 4400
 F 0 "#PWR0124" H 5850 4250 50  0001 C CNN
@@ -2114,7 +2114,7 @@ Wire Wire Line
 Wire Wire Line
 	5850 4300 6250 4300
 $Comp
-L MRS_Power:GND #PWR0125
+L Plant_monitoring_device-rescue:GND-MRS_Power #PWR0125
 U 1 1 5D409388
 P 5850 5000
 F 0 "#PWR0125" H 5850 4750 50  0001 C CNN
@@ -2127,7 +2127,7 @@ $EndComp
 Text Label 5850 5200 0    50   ~ 0
 ADC_SOIL3
 $Comp
-L MRS_Power:+3V3 #PWR0126
+L Plant_monitoring_device-rescue:+3V3-MRS_Power #PWR0126
 U 1 1 5D40938F
 P 5850 5100
 F 0 "#PWR0126" H 5850 4950 50  0001 C CNN
@@ -2144,7 +2144,7 @@ Wire Wire Line
 Wire Wire Line
 	5850 5000 6250 5000
 $Comp
-L MRS_Power:GND #PWR0127
+L Plant_monitoring_device-rescue:GND-MRS_Power #PWR0127
 U 1 1 5D41315D
 P 5850 5700
 F 0 "#PWR0127" H 5850 5450 50  0001 C CNN
@@ -2157,7 +2157,7 @@ $EndComp
 Text Label 5850 5900 0    50   ~ 0
 ADC_SOIL4
 $Comp
-L MRS_Power:+3V3 #PWR0128
+L Plant_monitoring_device-rescue:+3V3-MRS_Power #PWR0128
 U 1 1 5D413164
 P 5850 5800
 F 0 "#PWR0128" H 5850 5650 50  0001 C CNN
@@ -2174,7 +2174,7 @@ Wire Wire Line
 Wire Wire Line
 	5850 5700 6250 5700
 $Comp
-L MRS_Power:GND #PWR0129
+L Plant_monitoring_device-rescue:GND-MRS_Power #PWR0129
 U 1 1 5D428BD1
 P 4750 7450
 F 0 "#PWR0129" H 4750 7200 50  0001 C CNN
@@ -2188,7 +2188,7 @@ Wire Wire Line
 	4750 7450 4750 7350
 Connection ~ 4750 7350
 $Comp
-L Mr_Gardener_Logos:Mr_Gardener_Logo_Small H111
+L Plant_monitoring_device-rescue:Mr_Gardener_Logo_Small-Mr_Gardener_Logos H111
 U 1 1 5D433CB1
 P 11000 6350
 F 0 "H111" H 11000 6500 50  0001 C CNN
@@ -2199,7 +2199,7 @@ F 3 "" H 11000 6350 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L MRS_Power:GND #PWR0130
+L Plant_monitoring_device-rescue:GND-MRS_Power #PWR0130
 U 1 1 5D437E25
 P 2200 6900
 F 0 "#PWR0130" H 2200 6650 50  0001 C CNN
@@ -2214,7 +2214,7 @@ Wire Wire Line
 Wire Wire Line
 	4000 6400 3450 6400
 $Comp
-L MRS_Power:+3V3 #PWR0131
+L Plant_monitoring_device-rescue:+3V3-MRS_Power #PWR0131
 U 1 1 5D2EDA56
 P 5850 3100
 F 0 "#PWR0131" H 5850 2950 50  0001 C CNN

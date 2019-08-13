@@ -51,7 +51,7 @@ NRST
 NoConn ~ 8800 2050
 NoConn ~ 8800 1950
 $Comp
-L MRS_Power:VCC #PWR012
+L AutoGardener_Outdoor-rescue:VCC-MRS_Power #PWR012
 U 1 1 5CA00ECE
 P 9450 1050
 F 0 "#PWR012" H 9450 900 50  0001 C CNN
@@ -75,7 +75,7 @@ Wire Wire Line
 Wire Wire Line
 	9550 1150 9550 1250
 $Comp
-L MRS_Power:GND #PWR010
+L AutoGardener_Outdoor-rescue:GND-MRS_Power #PWR010
 U 1 1 5CA02368
 P 9400 3350
 F 0 "#PWR010" H 9400 3100 50  0001 C CNN
@@ -97,7 +97,7 @@ Wire Wire Line
 	9450 3250 9450 3150
 Connection ~ 9400 3250
 $Comp
-L MRS_Diodes:Diode_LED_0805 LD3
+L AutoGardener_Outdoor-rescue:Diode_LED_0805-MRS_Diodes LD3
 U 1 1 5CA03BD4
 P 9050 5750
 F 0 "LD3" V 9088 5632 50  0000 R CNN
@@ -109,7 +109,7 @@ F 4 "LTST-C170KFKT" V 9050 5750 50  0001 C CNN "TME"
 	0    -1   -1   0   
 $EndComp
 $Comp
-L MRS_Diodes:Diode_LED_0805 LD13
+L AutoGardener_Outdoor-rescue:Diode_LED_0805-MRS_Diodes LD13
 U 1 1 5CA03D99
 P 8450 5800
 F 0 "LD13" V 8488 5682 50  0000 R CNN
@@ -125,7 +125,7 @@ BAT_LO
 Text Label 8450 5050 3    50   ~ 0
 BAT_LO
 $Comp
-L MRS_Power:GND #PWR055
+L AutoGardener_Outdoor-rescue:GND-MRS_Power #PWR055
 U 1 1 5CA0A3CD
 P 9050 6000
 F 0 "#PWR055" H 9050 5750 50  0001 C CNN
@@ -136,7 +136,7 @@ F 3 "" H 9050 6000 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L MRS_Power:GND #PWR022
+L AutoGardener_Outdoor-rescue:GND-MRS_Power #PWR022
 U 1 1 5CA0A462
 P 8450 6050
 F 0 "#PWR022" H 8450 5800 50  0001 C CNN
@@ -151,7 +151,7 @@ Wire Wire Line
 Wire Wire Line
 	8450 5950 8450 6050
 $Comp
-L MRS_Passives:R R3
+L AutoGardener_Outdoor-rescue:R-MRS_Passives R3
 U 1 1 5CA0E06E
 P 9050 5450
 F 0 "R3" H 9120 5496 50  0000 L CNN
@@ -163,7 +163,7 @@ F 4 "WF06P-1K-5%" H 9050 5450 50  0001 C CNN "TME"
 	1    0    0    -1  
 $EndComp
 $Comp
-L MRS_Passives:R R2
+L AutoGardener_Outdoor-rescue:R-MRS_Passives R2
 U 1 1 5CA0E18A
 P 8450 5500
 F 0 "R2" H 8520 5546 50  0000 L CNN
@@ -181,7 +181,7 @@ SOIL1 DRY
 Text Notes 8400 5650 3    50   ~ 0
 BAT LOW
 $Comp
-L MRS_Passives:C C1
+L AutoGardener_Outdoor-rescue:C-MRS_Passives C1
 U 1 1 5CA1A1FA
 P 10900 1600
 F 0 "C1" H 11015 1646 50  0000 L CNN
@@ -193,7 +193,7 @@ F 4 "CL10A105KA8NNNC" H 10900 1600 50  0001 C CNN "TME"
 	-1   0    0    -1  
 $EndComp
 $Comp
-L MRS_Power:VCC #PWR013
+L AutoGardener_Outdoor-rescue:VCC-MRS_Power #PWR013
 U 1 1 5CA1A310
 P 10900 1450
 F 0 "#PWR013" H 10900 1300 50  0001 C CNN
@@ -204,7 +204,7 @@ F 3 "" H 10900 1450 50  0001 C CNN
 	-1   0    0    -1  
 $EndComp
 $Comp
-L MRS_Power:GND #PWR014
+L AutoGardener_Outdoor-rescue:GND-MRS_Power #PWR014
 U 1 1 5CA1A337
 P 10900 1750
 F 0 "#PWR014" H 10900 1500 50  0001 C CNN
@@ -215,7 +215,7 @@ F 3 "" H 10900 1750 50  0001 C CNN
 	-1   0    0    -1  
 $EndComp
 $Comp
-L MRS_Passives:C C2
+L AutoGardener_Outdoor-rescue:C-MRS_Passives C2
 U 1 1 5CA1AEDD
 P 10900 2350
 F 0 "C2" H 11015 2396 50  0000 L CNN
@@ -227,7 +227,7 @@ F 4 "CL10B104KO8NNNC" H 10900 2350 50  0001 C CNN "TME"
 	-1   0    0    -1  
 $EndComp
 $Comp
-L MRS_Power:VCC #PWR016
+L AutoGardener_Outdoor-rescue:VCC-MRS_Power #PWR016
 U 1 1 5CA1AEE4
 P 10900 2200
 F 0 "#PWR016" H 10900 2050 50  0001 C CNN
@@ -238,7 +238,7 @@ F 3 "" H 10900 2200 50  0001 C CNN
 	-1   0    0    -1  
 $EndComp
 $Comp
-L MRS_Power:GND #PWR017
+L AutoGardener_Outdoor-rescue:GND-MRS_Power #PWR017
 U 1 1 5CA1AEEA
 P 10900 2500
 F 0 "#PWR017" H 10900 2250 50  0001 C CNN
@@ -249,7 +249,7 @@ F 3 "" H 10900 2500 50  0001 C CNN
 	-1   0    0    -1  
 $EndComp
 $Comp
-L MRS_Passives:C C3
+L AutoGardener_Outdoor-rescue:C-MRS_Passives C3
 U 1 1 5CA1BA39
 P 10900 3100
 F 0 "C3" H 11015 3146 50  0000 L CNN
@@ -261,7 +261,7 @@ F 4 "CL10B104KO8NNNC" H 10900 3100 50  0001 C CNN "TME"
 	-1   0    0    -1  
 $EndComp
 $Comp
-L MRS_Power:VCC #PWR020
+L AutoGardener_Outdoor-rescue:VCC-MRS_Power #PWR020
 U 1 1 5CA1BA40
 P 10900 2950
 F 0 "#PWR020" H 10900 2800 50  0001 C CNN
@@ -272,7 +272,7 @@ F 3 "" H 10900 2950 50  0001 C CNN
 	-1   0    0    -1  
 $EndComp
 $Comp
-L MRS_Power:GND #PWR021
+L AutoGardener_Outdoor-rescue:GND-MRS_Power #PWR021
 U 1 1 5CA1BA46
 P 10900 3250
 F 0 "#PWR021" H 10900 3000 50  0001 C CNN
@@ -289,7 +289,7 @@ VDDA
 Text Notes 10550 3250 0    50   ~ 0
 VDDIO
 $Comp
-L MRS_Passives:C C5
+L AutoGardener_Outdoor-rescue:C-MRS_Passives C5
 U 1 1 5CA26949
 P 7200 4250
 F 0 "C5" H 7315 4296 50  0000 L CNN
@@ -301,7 +301,7 @@ F 4 "CL10A105KA8NNNC" H 7200 4250 50  0001 C CNN "TME"
 	1    0    0    -1  
 $EndComp
 $Comp
-L MRS_Passives:C C4
+L AutoGardener_Outdoor-rescue:C-MRS_Passives C4
 U 1 1 5CA26A1F
 P 6800 4250
 F 0 "C4" H 6915 4296 50  0000 L CNN
@@ -313,7 +313,7 @@ F 4 "CL10A225KP8NNNC" H 6800 4250 50  0001 C CNN "TME"
 	1    0    0    -1  
 $EndComp
 $Comp
-L MRS_Power:GND #PWR09
+L AutoGardener_Outdoor-rescue:GND-MRS_Power #PWR09
 U 1 1 5CA30E44
 P 6800 4400
 F 0 "#PWR09" H 6800 4150 50  0001 C CNN
@@ -324,7 +324,7 @@ F 3 "" H 6800 4400 50  0001 C CNN
 	-1   0    0    -1  
 $EndComp
 $Comp
-L MRS_Power:GND #PWR011
+L AutoGardener_Outdoor-rescue:GND-MRS_Power #PWR011
 U 1 1 5CA32305
 P 7200 4400
 F 0 "#PWR011" H 7200 4150 50  0001 C CNN
@@ -337,7 +337,7 @@ $EndComp
 Text Notes 8750 4100 2    50   ~ 0
 3V3
 $Comp
-L MRS_Power:GND #PWR015
+L AutoGardener_Outdoor-rescue:GND-MRS_Power #PWR015
 U 1 1 5CA3D650
 P 7850 4400
 F 0 "#PWR015" H 7850 4150 50  0001 C CNN
@@ -348,7 +348,7 @@ F 3 "" H 7850 4400 50  0001 C CNN
 	-1   0    0    -1  
 $EndComp
 $Comp
-L MRS_Power:Battery BAT1
+L AutoGardener_Outdoor-rescue:Battery-MRS_Power BAT1
 U 1 1 5CA6EBCF
 P 6200 4250
 F 0 "BAT1" H 6308 4296 50  0000 L CNN
@@ -360,7 +360,7 @@ F 4 "KEYS2468RB" H 6200 4250 50  0001 C CNN "TME"
 	1    0    0    -1  
 $EndComp
 $Comp
-L MRS_Power:GND #PWR04
+L AutoGardener_Outdoor-rescue:GND-MRS_Power #PWR04
 U 1 1 5CA6ECC3
 P 6200 4450
 F 0 "#PWR04" H 6200 4200 50  0001 C CNN
@@ -375,7 +375,7 @@ Text Notes 6550 4150 2    50   ~ 0
 Text Label 6150 5850 0    50   ~ 0
 SENS_ENA
 $Comp
-L MRS_Power:GND #PWR046
+L AutoGardener_Outdoor-rescue:GND-MRS_Power #PWR046
 U 1 1 5CA0E0BC
 P 6850 6150
 F 0 "#PWR046" H 6850 5900 50  0001 C CNN
@@ -392,7 +392,7 @@ LED1
 Wire Wire Line
 	10250 5500 10500 5500
 $Comp
-L MRS_Power:GND #PWR066
+L AutoGardener_Outdoor-rescue:GND-MRS_Power #PWR066
 U 1 1 5CAB72D5
 P 10250 5900
 F 0 "#PWR066" H 10250 5650 50  0001 C CNN
@@ -407,7 +407,7 @@ Wire Wire Line
 Wire Wire Line
 	10250 5400 10500 5400
 $Comp
-L MRS_Passives:R R1
+L AutoGardener_Outdoor-rescue:R-MRS_Passives R1
 U 1 1 5CB27C07
 P 6550 6000
 F 0 "R1" H 6620 6046 50  0000 L CNN
@@ -419,7 +419,7 @@ F 4 "WF06P-10K-5%" H 6550 6000 50  0001 C CNN "TME"
 	1    0    0    -1  
 $EndComp
 $Comp
-L MRS_Power:VCC #PWR0101
+L AutoGardener_Outdoor-rescue:VCC-MRS_Power #PWR0101
 U 1 1 5CAA5D7D
 P 9350 4100
 F 0 "#PWR0101" H 9350 3950 50  0001 C CNN
@@ -430,7 +430,7 @@ F 3 "" H 9350 4100 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L MRS_Power:GND #PWR0102
+L AutoGardener_Outdoor-rescue:GND-MRS_Power #PWR0102
 U 1 1 5CAA66D8
 P 9350 4500
 F 0 "#PWR0102" H 9350 4250 50  0001 C CNN
@@ -467,7 +467,7 @@ Wire Wire Line
 Wire Wire Line
 	9550 4300 9850 4300
 $Comp
-L MRS_Connectors:Header_1x5 J1
+L AutoGardener_Outdoor-rescue:Header_1x5-MRS_Connectors J1
 U 1 1 5CAE6D61
 P 10000 4250
 F 0 "J1" H 10078 4141 50  0000 L CNN
@@ -478,7 +478,7 @@ F 3 "" H 9550 3950 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L MRS_Mechanical:Mounting_hole_unplated_3,2mm H1
+L AutoGardener_Outdoor-rescue:Mounting_hole_unplated_3,2mm-MRS_Mechanical H1
 U 1 1 5CB29AA5
 P 10600 4050
 F 0 "H1" H 10600 4150 50  0001 C CNN
@@ -489,7 +489,7 @@ F 3 "" H 10600 4050 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L MRS_Power_Management:AP2204RB-3.3TRG1 U2
+L AutoGardener_Outdoor-rescue:AP2204RB-3.3TRG1-MRS_Power_Management U2
 U 1 1 5CAD38B8
 P 7850 4100
 F 0 "U2" H 7850 4365 50  0000 C CNN
@@ -501,7 +501,7 @@ F 4 "AP2204RB-3.3TRG1" H 7850 3600 50  0001 C CNN "TME"
 	1    0    0    -1  
 $EndComp
 $Comp
-L MRS_Passives:C C6
+L AutoGardener_Outdoor-rescue:C-MRS_Passives C6
 U 1 1 5CAD3977
 P 8350 4250
 F 0 "C6" H 8465 4296 50  0000 L CNN
@@ -513,7 +513,7 @@ F 4 "CL10A225KP8NNNC" H 8350 4250 50  0001 C CNN "TME"
 	1    0    0    -1  
 $EndComp
 $Comp
-L MRS_Passives:C C7
+L AutoGardener_Outdoor-rescue:C-MRS_Passives C7
 U 1 1 5CAD3BF7
 P 8800 4250
 F 0 "C7" H 8915 4296 50  0000 L CNN
@@ -532,7 +532,7 @@ Connection ~ 7200 4100
 Wire Wire Line
 	8350 4100 8800 4100
 $Comp
-L MRS_Power:GND #PWR0105
+L AutoGardener_Outdoor-rescue:GND-MRS_Power #PWR0105
 U 1 1 5CAF04F3
 P 8350 4400
 F 0 "#PWR0105" H 8350 4150 50  0001 C CNN
@@ -543,7 +543,7 @@ F 3 "" H 8350 4400 50  0001 C CNN
 	-1   0    0    -1  
 $EndComp
 $Comp
-L MRS_Power:GND #PWR0106
+L AutoGardener_Outdoor-rescue:GND-MRS_Power #PWR0106
 U 1 1 5CAF057C
 P 8800 4400
 F 0 "#PWR0106" H 8800 4150 50  0001 C CNN
@@ -559,7 +559,7 @@ Wire Wire Line
 	8250 4100 8350 4100
 Connection ~ 8350 4100
 $Comp
-L MRS_Mechanical:Mounting_hole_unplated_3,2mm H2
+L AutoGardener_Outdoor-rescue:Mounting_hole_unplated_3,2mm-MRS_Mechanical H2
 U 1 1 5CB07C28
 P 10600 4200
 F 0 "H2" H 10600 4300 50  0001 C CNN
@@ -570,7 +570,7 @@ F 3 "" H 10600 4200 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L MRS_MCUs:STM32L031K6T6 U1
+L AutoGardener_Outdoor-rescue:STM32L031K6T6-MRS_MCUs U1
 U 1 1 5CAFA03F
 P 9450 2250
 F 0 "U1" H 9800 3200 50  0000 C CNN
@@ -587,7 +587,7 @@ PA11
 Wire Wire Line
 	10500 2850 9950 2850
 $Comp
-L MRS_Power:VCC #PWR0107
+L AutoGardener_Outdoor-rescue:VCC-MRS_Power #PWR0107
 U 1 1 5CB44371
 P 10500 1450
 F 0 "#PWR0107" H 10500 1300 50  0001 C CNN
@@ -598,7 +598,7 @@ F 3 "" H 10500 1450 50  0001 C CNN
 	-1   0    0    -1  
 $EndComp
 $Comp
-L MRS_Power:GND #PWR07
+L AutoGardener_Outdoor-rescue:GND-MRS_Power #PWR07
 U 1 1 5CDAEFB6
 P 8550 1600
 F 0 "#PWR07" H 8550 1350 50  0001 C CNN
@@ -615,7 +615,7 @@ Wire Wire Line
 Wire Wire Line
 	9700 5700 9950 5700
 $Comp
-L MRS_Power:+5V #PWR03
+L AutoGardener_Outdoor-rescue:+5V-MRS_Power #PWR03
 U 1 1 5CFF4583
 P 6800 4100
 F 0 "#PWR03" H 6800 3950 50  0001 C CNN
@@ -627,7 +627,7 @@ F 3 "" H 6800 4100 50  0001 C CNN
 $EndComp
 Connection ~ 6800 4100
 $Comp
-L MRS_Power:+5V #PWR01
+L AutoGardener_Outdoor-rescue:+5V-MRS_Power #PWR01
 U 1 1 5CFF45E4
 P 6200 4050
 F 0 "#PWR01" H 6200 3900 50  0001 C CNN
@@ -639,7 +639,7 @@ F 3 "" H 6200 4050 50  0001 C CNN
 $EndComp
 Connection ~ 8800 4100
 $Comp
-L MRS_Power:VCC #PWR037
+L AutoGardener_Outdoor-rescue:VCC-MRS_Power #PWR037
 U 1 1 5CA3D277
 P 8800 4100
 F 0 "#PWR037" H 8800 3950 50  0001 C CNN
@@ -678,7 +678,7 @@ LEDs
 Wire Notes Line
 	9550 4900 8250 4900
 $Comp
-L MRS_Power:+5V #PWR08
+L AutoGardener_Outdoor-rescue:+5V-MRS_Power #PWR08
 U 1 1 5D008108
 P 10250 5300
 F 0 "#PWR08" H 10250 5150 50  0001 C CNN
@@ -735,7 +735,7 @@ UART_TX
 Text Label 8500 3200 0    50   ~ 0
 UART_RX
 $Comp
-L MRS_Power:GND #PWR06
+L AutoGardener_Outdoor-rescue:GND-MRS_Power #PWR06
 U 1 1 5D022E97
 P 8800 3400
 F 0 "#PWR06" H 8800 3150 50  0001 C CNN
@@ -752,7 +752,7 @@ Wire Wire Line
 Wire Wire Line
 	8500 3200 8900 3200
 $Comp
-L MRS_Connectors:Header_1x3 J3
+L AutoGardener_Outdoor-rescue:Header_1x3-MRS_Connectors J3
 U 1 1 5D0282F4
 P 8000 5700
 F 0 "J3" H 7950 5850 50  0000 L CNN
@@ -763,7 +763,7 @@ F 3 "" H 7550 5400 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L MRS_Connectors:Header_1x2 J4
+L AutoGardener_Outdoor-rescue:Header_1x2-MRS_Connectors J4
 U 1 1 5D028386
 P 10650 5450
 F 0 "J4" H 10728 5491 50  0000 L CNN
@@ -774,7 +774,7 @@ F 3 "" H 10200 5150 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L MRS_Connectors:Header_1x3 J2
+L AutoGardener_Outdoor-rescue:Header_1x3-MRS_Connectors J2
 U 1 1 5D0289F1
 P 9050 3250
 F 0 "J2" H 8950 3400 50  0000 L CNN
@@ -793,7 +793,7 @@ Wire Wire Line
 Wire Wire Line
 	10500 2950 9950 2950
 $Comp
-L Mr_Gardener_Logos:Mr_Gardener_Logo_Small H111
+L AutoGardener_Outdoor-rescue:Mr_Gardener_Logo_Small-Mr_Gardener_Logos H111
 U 1 1 5D2C678A
 P 8150 3500
 F 0 "H111" H 8150 3650 50  0001 C CNN
@@ -808,7 +808,7 @@ Wire Wire Line
 Wire Wire Line
 	7450 5750 7850 5750
 $Comp
-L MRS_Transistors:AO3434A Q1
+L AutoGardener_Outdoor-rescue:AO3434A-MRS_Transistors Q1
 U 1 1 5D2D6490
 P 6850 5850
 F 0 "Q1" H 6956 5896 50  0000 L CNN
@@ -825,7 +825,7 @@ Wire Wire Line
 	6150 5850 6550 5850
 Connection ~ 6550 5850
 $Comp
-L MRS_Power:GND #PWR0103
+L AutoGardener_Outdoor-rescue:GND-MRS_Power #PWR0103
 U 1 1 5D2DDD9E
 P 6550 6150
 F 0 "#PWR0103" H 6550 5900 50  0001 C CNN
@@ -838,7 +838,7 @@ $EndComp
 Wire Wire Line
 	6850 6150 6850 6050
 $Comp
-L MRS_Power:VCC #PWR0104
+L AutoGardener_Outdoor-rescue:VCC-MRS_Power #PWR0104
 U 1 1 5D2DF414
 P 7450 5750
 F 0 "#PWR0104" H 7450 5600 50  0001 C CNN
@@ -849,7 +849,7 @@ F 3 "" H 7450 5750 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L MRS_Transistors:AO3434A Q2
+L AutoGardener_Outdoor-rescue:AO3434A-MRS_Transistors Q2
 U 1 1 5D2DFC92
 P 10250 5700
 F 0 "Q2" H 10356 5746 50  0000 L CNN
@@ -866,6 +866,7 @@ Text Label 10500 1750 2    50   ~ 0
 LED1
 Wire Wire Line
 	10500 1650 9950 1650
+<<<<<<< HEAD
 $Comp
 L MRS_Mechanical:Break_away_tab H6
 U 1 1 5D3F0E44
@@ -914,4 +915,6 @@ Text Notes 6700 4300 0    50   ~ 0
 REMOVE
 Text Notes 8700 4300 0    50   ~ 0
 REMOVE
+=======
+>>>>>>> ac68c4224815bc7604def206a6400d8efdd1c6c5
 $EndSCHEMATC
