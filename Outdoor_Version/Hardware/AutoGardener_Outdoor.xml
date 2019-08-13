@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <export version="D">
   <design>
-    <source>/home/david/HDD/KiCAD/PlantMeterProto/Hardware/Plant_monitoring_device.sch</source>
-    <date>Čt 11. dubna 2019, 22:27:00 CEST</date>
+    <source>/home/zaitldav/Personal/AutoGardener/Outdoor_Version/Hardware/AutoGardener_Outdoor.sch</source>
+    <date>Mon 22 Jul 2019 11:05:28 CEST</date>
     <tool>Eeschema 5.0.2-bee76a0~70~ubuntu18.04.1</tool>
     <sheet number="1" name="/" tstamps="/">
       <title_block>
@@ -10,7 +10,7 @@
         <company/>
         <rev>1</rev>
         <date>2019-03-30</date>
-        <source>Plant_monitoring_device.sch</source>
+        <source>AutoGardener_Outdoor.sch</source>
         <comment number="1" value=""/>
         <comment number="2" value=""/>
         <comment number="3" value=""/>
@@ -19,13 +19,6 @@
     </sheet>
   </design>
   <components>
-    <comp ref="A1">
-      <value>Antenna</value>
-      <footprint>MRS_Connectors:ANT_WIRE_THT</footprint>
-      <libsource lib="MRS_Communication" part="Antenna" description=""/>
-      <sheetpath names="/" tstamps="/"/>
-      <tstamp>5CA03A90</tstamp>
-    </comp>
     <comp ref="LD3">
       <value>ORANGE</value>
       <footprint>MRS_Diodes:LED_0805</footprint>
@@ -35,36 +28,6 @@
       <libsource lib="MRS_Diodes" part="Diode_LED_0805" description=""/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>5CA03BD4</tstamp>
-    </comp>
-    <comp ref="LD4">
-      <value>ORANGE</value>
-      <footprint>MRS_Diodes:LED_0805</footprint>
-      <fields>
-        <field name="TME">LTST-C170KFKT</field>
-      </fields>
-      <libsource lib="MRS_Diodes" part="Diode_LED_0805" description=""/>
-      <sheetpath names="/" tstamps="/"/>
-      <tstamp>5CA03C91</tstamp>
-    </comp>
-    <comp ref="LD5">
-      <value>ORANGE</value>
-      <footprint>MRS_Diodes:LED_0805</footprint>
-      <fields>
-        <field name="TME">LTST-C170KFKT</field>
-      </fields>
-      <libsource lib="MRS_Diodes" part="Diode_LED_0805" description=""/>
-      <sheetpath names="/" tstamps="/"/>
-      <tstamp>5CA03CB7</tstamp>
-    </comp>
-    <comp ref="LD6">
-      <value>ORANGE</value>
-      <footprint>MRS_Diodes:LED_0805</footprint>
-      <fields>
-        <field name="TME">LTST-C170KFKT</field>
-      </fields>
-      <libsource lib="MRS_Diodes" part="Diode_LED_0805" description=""/>
-      <sheetpath names="/" tstamps="/"/>
-      <tstamp>5CA03CE3</tstamp>
     </comp>
     <comp ref="LD13">
       <value>RED</value>
@@ -86,37 +49,7 @@
       <sheetpath names="/" tstamps="/"/>
       <tstamp>5CA0E06E</tstamp>
     </comp>
-    <comp ref="R4">
-      <value>1k</value>
-      <footprint>MRS_Passives:R0603</footprint>
-      <fields>
-        <field name="TME">WF06P-1K-5%</field>
-      </fields>
-      <libsource lib="MRS_Passives" part="R" description=""/>
-      <sheetpath names="/" tstamps="/"/>
-      <tstamp>5CA0E0F2</tstamp>
-    </comp>
-    <comp ref="R5">
-      <value>1k</value>
-      <footprint>MRS_Passives:R0603</footprint>
-      <fields>
-        <field name="TME">WF06P-1K-5%</field>
-      </fields>
-      <libsource lib="MRS_Passives" part="R" description=""/>
-      <sheetpath names="/" tstamps="/"/>
-      <tstamp>5CA0E11E</tstamp>
-    </comp>
-    <comp ref="R6">
-      <value>1k</value>
-      <footprint>MRS_Passives:R0603</footprint>
-      <fields>
-        <field name="TME">WF06P-1K-5%</field>
-      </fields>
-      <libsource lib="MRS_Passives" part="R" description=""/>
-      <sheetpath names="/" tstamps="/"/>
-      <tstamp>5CA0E156</tstamp>
-    </comp>
-    <comp ref="R13">
+    <comp ref="R2">
       <value>1k</value>
       <footprint>MRS_Passives:R0603</footprint>
       <fields>
@@ -126,7 +59,7 @@
       <sheetpath names="/" tstamps="/"/>
       <tstamp>5CA0E18A</tstamp>
     </comp>
-    <comp ref="C11">
+    <comp ref="C1">
       <value>1uF</value>
       <footprint>MRS_Passives:C0603</footprint>
       <fields>
@@ -136,7 +69,7 @@
       <sheetpath names="/" tstamps="/"/>
       <tstamp>5CA1A1FA</tstamp>
     </comp>
-    <comp ref="C12">
+    <comp ref="C2">
       <value>0.1uF</value>
       <footprint>MRS_Passives:C0603</footprint>
       <fields>
@@ -146,7 +79,7 @@
       <sheetpath names="/" tstamps="/"/>
       <tstamp>5CA1AEDD</tstamp>
     </comp>
-    <comp ref="C13">
+    <comp ref="C3">
       <value>0.1uF</value>
       <footprint>MRS_Passives:C0603</footprint>
       <fields>
@@ -156,27 +89,7 @@
       <sheetpath names="/" tstamps="/"/>
       <tstamp>5CA1BA39</tstamp>
     </comp>
-    <comp ref="R42">
-      <value>10k</value>
-      <footprint>MRS_Passives:R0603</footprint>
-      <fields>
-        <field name="TME">WF06P-10K-5%</field>
-      </fields>
-      <libsource lib="MRS_Passives" part="R" description=""/>
-      <sheetpath names="/" tstamps="/"/>
-      <tstamp>5CA1E22C</tstamp>
-    </comp>
-    <comp ref="R41">
-      <value>10k</value>
-      <footprint>MRS_Passives:R0603</footprint>
-      <fields>
-        <field name="TME">WF06P-10K-5%</field>
-      </fields>
-      <libsource lib="MRS_Passives" part="R" description=""/>
-      <sheetpath names="/" tstamps="/"/>
-      <tstamp>5CA1E398</tstamp>
-    </comp>
-    <comp ref="C32">
+    <comp ref="C5">
       <value>1uF</value>
       <footprint>MRS_Passives:C0603</footprint>
       <fields>
@@ -186,7 +99,7 @@
       <sheetpath names="/" tstamps="/"/>
       <tstamp>5CA26949</tstamp>
     </comp>
-    <comp ref="C31">
+    <comp ref="C4">
       <value>10uF</value>
       <footprint>MRS_Passives:C0603</footprint>
       <fields>
@@ -196,20 +109,9 @@
       <sheetpath names="/" tstamps="/"/>
       <tstamp>5CA26A1F</tstamp>
     </comp>
-    <comp ref="J1">
-      <value>Barrel_Jack</value>
-      <footprint>MRS_Connectors:BarrelJack_Horizontal</footprint>
-      <datasheet>~</datasheet>
-      <fields>
-        <field name="TME">PC-GK2.5</field>
-      </fields>
-      <libsource lib="MRS_Connectors" part="Barrel_Jack" description="DC Barrel Jack"/>
-      <sheetpath names="/" tstamps="/"/>
-      <tstamp>5CA67B18</tstamp>
-    </comp>
     <comp ref="BAT1">
       <value>Battery</value>
-      <footprint>MRS_Connectors:BatteryHolder_Keystone_2468_2xAAA</footprint>
+      <footprint>MRS_Connectors:Header_1x02_P2.54mm</footprint>
       <datasheet>~</datasheet>
       <fields>
         <field name="TME">KEYS2468RB</field>
@@ -217,143 +119,6 @@
       <libsource lib="MRS_Power" part="Battery" description="Multiple-cell battery"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>5CA6EBCF</tstamp>
-    </comp>
-    <comp ref="U2">
-      <value>RN2483A</value>
-      <footprint>MRS_Communication:RN2483A</footprint>
-      <datasheet>https://www.tme.eu/en/Document/f663ac60d77a20e30178e3c604f8bf21/RN2483.pdf</datasheet>
-      <fields>
-        <field name="TME">RN2483A-I/RM105</field>
-      </fields>
-      <libsource lib="MRS_Communication" part="RN2483A" description=""/>
-      <sheetpath names="/" tstamps="/"/>
-      <tstamp>5CA732AF</tstamp>
-    </comp>
-    <comp ref="C21">
-      <value>1uF</value>
-      <footprint>MRS_Passives:C0603</footprint>
-      <fields>
-        <field name="TME">CL10A105KA8NNNC</field>
-      </fields>
-      <libsource lib="MRS_Passives" part="C" description=""/>
-      <sheetpath names="/" tstamps="/"/>
-      <tstamp>5CAB9FF8</tstamp>
-    </comp>
-    <comp ref="C22">
-      <value>0.1uF</value>
-      <footprint>MRS_Passives:C0603</footprint>
-      <fields>
-        <field name="TME">CL10B104KO8NNNC</field>
-      </fields>
-      <libsource lib="MRS_Passives" part="C" description=""/>
-      <sheetpath names="/" tstamps="/"/>
-      <tstamp>5CABA3CF</tstamp>
-    </comp>
-    <comp ref="SB1">
-      <value>SolderBridge</value>
-      <footprint>MRS_Connectors:SB0603</footprint>
-      <libsource lib="MRS_Connectors" part="SolderBridge" description=""/>
-      <sheetpath names="/" tstamps="/"/>
-      <tstamp>5CAD4CD7</tstamp>
-    </comp>
-    <comp ref="Q7">
-      <value>IRLML6346TRPBF</value>
-      <footprint>MRS_SOT:SOT-23</footprint>
-      <datasheet>https://www.tme.eu/en/Document/4178252f9f9aa1820c70dfb7aab5282b/irlml6346pbf.pdf</datasheet>
-      <fields>
-        <field name="TME">IRLML6346TRPBF</field>
-      </fields>
-      <libsource lib="MRS_Transistors" part="IRLML6346TRPBF" description=""/>
-      <sheetpath names="/" tstamps="/"/>
-      <tstamp>5CA7D2A4</tstamp>
-    </comp>
-    <comp ref="Q8">
-      <value>IRLML6346TRPBF</value>
-      <footprint>MRS_SOT:SOT-23</footprint>
-      <datasheet>https://www.tme.eu/en/Document/4178252f9f9aa1820c70dfb7aab5282b/irlml6346pbf.pdf</datasheet>
-      <fields>
-        <field name="TME">IRLML6346TRPBF</field>
-      </fields>
-      <libsource lib="MRS_Transistors" part="IRLML6346TRPBF" description=""/>
-      <sheetpath names="/" tstamps="/"/>
-      <tstamp>5CA961A6</tstamp>
-    </comp>
-    <comp ref="Q9">
-      <value>IRLML6346TRPBF</value>
-      <footprint>MRS_SOT:SOT-23</footprint>
-      <datasheet>https://www.tme.eu/en/Document/4178252f9f9aa1820c70dfb7aab5282b/irlml6346pbf.pdf</datasheet>
-      <fields>
-        <field name="TME">IRLML6346TRPBF</field>
-      </fields>
-      <libsource lib="MRS_Transistors" part="IRLML6346TRPBF" description=""/>
-      <sheetpath names="/" tstamps="/"/>
-      <tstamp>5CA9A623</tstamp>
-    </comp>
-    <comp ref="Q10">
-      <value>IRLML6346TRPBF</value>
-      <footprint>MRS_SOT:SOT-23</footprint>
-      <datasheet>https://www.tme.eu/en/Document/4178252f9f9aa1820c70dfb7aab5282b/irlml6346pbf.pdf</datasheet>
-      <fields>
-        <field name="TME">IRLML6346TRPBF</field>
-      </fields>
-      <libsource lib="MRS_Transistors" part="IRLML6346TRPBF" description=""/>
-      <sheetpath names="/" tstamps="/"/>
-      <tstamp>5CAA3F3F</tstamp>
-    </comp>
-    <comp ref="Q3">
-      <value>IRLML6346TRPBF</value>
-      <footprint>MRS_SOT:SOT-23</footprint>
-      <datasheet>https://www.tme.eu/en/Document/4178252f9f9aa1820c70dfb7aab5282b/irlml6346pbf.pdf</datasheet>
-      <fields>
-        <field name="TME">IRLML6346TRPBF</field>
-      </fields>
-      <libsource lib="MRS_Transistors" part="IRLML6346TRPBF" description=""/>
-      <sheetpath names="/" tstamps="/"/>
-      <tstamp>5CAB72CD</tstamp>
-    </comp>
-    <comp ref="Q4">
-      <value>IRLML6346TRPBF</value>
-      <footprint>MRS_SOT:SOT-23</footprint>
-      <datasheet>https://www.tme.eu/en/Document/4178252f9f9aa1820c70dfb7aab5282b/irlml6346pbf.pdf</datasheet>
-      <fields>
-        <field name="TME">IRLML6346TRPBF</field>
-      </fields>
-      <libsource lib="MRS_Transistors" part="IRLML6346TRPBF" description=""/>
-      <sheetpath names="/" tstamps="/"/>
-      <tstamp>5CAB72ED</tstamp>
-    </comp>
-    <comp ref="Q5">
-      <value>IRLML6346TRPBF</value>
-      <footprint>MRS_SOT:SOT-23</footprint>
-      <datasheet>https://www.tme.eu/en/Document/4178252f9f9aa1820c70dfb7aab5282b/irlml6346pbf.pdf</datasheet>
-      <fields>
-        <field name="TME">IRLML6346TRPBF</field>
-      </fields>
-      <libsource lib="MRS_Transistors" part="IRLML6346TRPBF" description=""/>
-      <sheetpath names="/" tstamps="/"/>
-      <tstamp>5CAB730D</tstamp>
-    </comp>
-    <comp ref="Q6">
-      <value>IRLML6346TRPBF</value>
-      <footprint>MRS_SOT:SOT-23</footprint>
-      <datasheet>https://www.tme.eu/en/Document/4178252f9f9aa1820c70dfb7aab5282b/irlml6346pbf.pdf</datasheet>
-      <fields>
-        <field name="TME">IRLML6346TRPBF</field>
-      </fields>
-      <libsource lib="MRS_Transistors" part="IRLML6346TRPBF" description=""/>
-      <sheetpath names="/" tstamps="/"/>
-      <tstamp>5CAB732D</tstamp>
-    </comp>
-    <comp ref="Q1">
-      <value>FDN308P</value>
-      <footprint>MRS_SOT:SOT-23</footprint>
-      <datasheet>https://www.tme.eu/en/Document/dcf621237b7a9c3e175e2f189154a640/FDN308P.pdf</datasheet>
-      <fields>
-        <field name="TME">FDN308P</field>
-      </fields>
-      <libsource lib="MRS_Transistors" part="FDN308P" description=""/>
-      <sheetpath names="/" tstamps="/"/>
-      <tstamp>5CAFE1A8</tstamp>
     </comp>
     <comp ref="R1">
       <value>10k</value>
@@ -365,117 +130,7 @@
       <sheetpath names="/" tstamps="/"/>
       <tstamp>5CB27C07</tstamp>
     </comp>
-    <comp ref="R7">
-      <value>10k</value>
-      <footprint>MRS_Passives:R0603</footprint>
-      <fields>
-        <field name="TME">WF06P-10K-5%</field>
-      </fields>
-      <libsource lib="MRS_Passives" part="R" description=""/>
-      <sheetpath names="/" tstamps="/"/>
-      <tstamp>5CB37598</tstamp>
-    </comp>
-    <comp ref="R8">
-      <value>10k</value>
-      <footprint>MRS_Passives:R0603</footprint>
-      <fields>
-        <field name="TME">WF06P-10K-5%</field>
-      </fields>
-      <libsource lib="MRS_Passives" part="R" description=""/>
-      <sheetpath names="/" tstamps="/"/>
-      <tstamp>5CB3797A</tstamp>
-    </comp>
-    <comp ref="R9">
-      <value>10k</value>
-      <footprint>MRS_Passives:R0603</footprint>
-      <fields>
-        <field name="TME">WF06P-10K-5%</field>
-      </fields>
-      <libsource lib="MRS_Passives" part="R" description=""/>
-      <sheetpath names="/" tstamps="/"/>
-      <tstamp>5CB3CD18</tstamp>
-    </comp>
-    <comp ref="R10">
-      <value>10k</value>
-      <footprint>MRS_Passives:R0603</footprint>
-      <fields>
-        <field name="TME">WF06P-10K-5%</field>
-      </fields>
-      <libsource lib="MRS_Passives" part="R" description=""/>
-      <sheetpath names="/" tstamps="/"/>
-      <tstamp>5CB3CF3C</tstamp>
-    </comp>
-    <comp ref="SB3">
-      <value>SolderBridge</value>
-      <footprint>MRS_Connectors:SB0603</footprint>
-      <libsource lib="MRS_Connectors" part="SolderBridge" description=""/>
-      <sheetpath names="/" tstamps="/"/>
-      <tstamp>5CB5CB34</tstamp>
-    </comp>
-    <comp ref="SB4">
-      <value>SolderBridge</value>
-      <footprint>MRS_Connectors:SB0603</footprint>
-      <libsource lib="MRS_Connectors" part="SolderBridge" description=""/>
-      <sheetpath names="/" tstamps="/"/>
-      <tstamp>5CB5CD38</tstamp>
-    </comp>
-    <comp ref="SB5">
-      <value>SolderBridge</value>
-      <footprint>MRS_Connectors:SB0603</footprint>
-      <libsource lib="MRS_Connectors" part="SolderBridge" description=""/>
-      <sheetpath names="/" tstamps="/"/>
-      <tstamp>5CB5CE6D</tstamp>
-    </comp>
-    <comp ref="SB6">
-      <value>SolderBridge</value>
-      <footprint>MRS_Connectors:SB0603</footprint>
-      <libsource lib="MRS_Connectors" part="SolderBridge" description=""/>
-      <sheetpath names="/" tstamps="/"/>
-      <tstamp>5CB5D031</tstamp>
-    </comp>
-    <comp ref="U4">
-      <value>SHT31</value>
-      <footprint>MRS_Sensors:SHT31</footprint>
-      <datasheet>https://www.sensirion.com/fileadmin/user_upload/customers/sensirion/Dokumente/0_Datasheets/Humidity/Sensirion_Humidity_Sensors_SHT3x_Datasheet_digital.pdf</datasheet>
-      <fields>
-        <field name="TME">SHT31-DIS-B</field>
-      </fields>
-      <libsource lib="MRS_Sensors" part="SHT31" description=""/>
-      <sheetpath names="/" tstamps="/"/>
-      <tstamp>5CA8A4DB</tstamp>
-    </comp>
-    <comp ref="Q2">
-      <value>FDN308P</value>
-      <footprint>MRS_SOT:SOT-23</footprint>
-      <datasheet>https://www.tme.eu/en/Document/dcf621237b7a9c3e175e2f189154a640/FDN308P.pdf</datasheet>
-      <fields>
-        <field name="TME">FDN308P</field>
-      </fields>
-      <libsource lib="MRS_Transistors" part="FDN308P" description=""/>
-      <sheetpath names="/" tstamps="/"/>
-      <tstamp>5CA9C1F1</tstamp>
-    </comp>
-    <comp ref="R2">
-      <value>10k</value>
-      <footprint>MRS_Passives:R0603</footprint>
-      <fields>
-        <field name="TME">WF06P-10K-5%</field>
-      </fields>
-      <libsource lib="MRS_Passives" part="R" description=""/>
-      <sheetpath names="/" tstamps="/"/>
-      <tstamp>5CA9C1FD</tstamp>
-    </comp>
-    <comp ref="C41">
-      <value>0.1uF</value>
-      <footprint>MRS_Passives:C0603</footprint>
-      <fields>
-        <field name="TME">CL10B104KO8NNNC</field>
-      </fields>
-      <libsource lib="MRS_Passives" part="C" description=""/>
-      <sheetpath names="/" tstamps="/"/>
-      <tstamp>5CB39BA3</tstamp>
-    </comp>
-    <comp ref="J2">
+    <comp ref="J1">
       <value>SWO</value>
       <footprint>MRS_Connectors:Header_1x05_P2.54mm</footprint>
       <libsource lib="MRS_Connectors" part="Header_1x5" description=""/>
@@ -489,7 +144,7 @@
       <sheetpath names="/" tstamps="/"/>
       <tstamp>5CB29AA5</tstamp>
     </comp>
-    <comp ref="U3">
+    <comp ref="U2">
       <value>AP2204RB-3.3TRG1</value>
       <footprint>MRS_SOT:SOT-89</footprint>
       <datasheet>https://www.tme.eu/Document/1c13c0a4489a83f613509c4f26653ad8/AP2204.pdf</datasheet>
@@ -500,7 +155,7 @@
       <sheetpath names="/" tstamps="/"/>
       <tstamp>5CAD38B8</tstamp>
     </comp>
-    <comp ref="C33">
+    <comp ref="C6">
       <value>10uF</value>
       <footprint>MRS_Passives:C0603</footprint>
       <fields>
@@ -510,7 +165,7 @@
       <sheetpath names="/" tstamps="/"/>
       <tstamp>5CAD3977</tstamp>
     </comp>
-    <comp ref="C34">
+    <comp ref="C7">
       <value>1uF</value>
       <footprint>MRS_Passives:C0603</footprint>
       <fields>
@@ -520,158 +175,12 @@
       <sheetpath names="/" tstamps="/"/>
       <tstamp>5CAD3BF7</tstamp>
     </comp>
-    <comp ref="J3">
-      <value>NXW-02</value>
-      <footprint>MRS_Connectors:NXW-02</footprint>
-      <datasheet>https://www.tme.eu/Document/5dc6feb351d751d2aaf71b67b5e56596/nxw-02.pdf</datasheet>
-      <fields>
-        <field name="TME">NXW-02, NXG-02, NXG-T</field>
-      </fields>
-      <libsource lib="MRS_Connectors" part="NXW-02" description=""/>
-      <sheetpath names="/" tstamps="/"/>
-      <tstamp>5CAEB3EF</tstamp>
-    </comp>
-    <comp ref="J4">
-      <value>NXW-02</value>
-      <footprint>MRS_Connectors:NXW-02</footprint>
-      <datasheet>https://www.tme.eu/Document/5dc6feb351d751d2aaf71b67b5e56596/nxw-02.pdf</datasheet>
-      <fields>
-        <field name="TME">NXW-02, NXG-02, NXG-T</field>
-      </fields>
-      <libsource lib="MRS_Connectors" part="NXW-02" description=""/>
-      <sheetpath names="/" tstamps="/"/>
-      <tstamp>5CAEB5E3</tstamp>
-    </comp>
-    <comp ref="J5">
-      <value>NXW-02</value>
-      <footprint>MRS_Connectors:NXW-02</footprint>
-      <datasheet>https://www.tme.eu/Document/5dc6feb351d751d2aaf71b67b5e56596/nxw-02.pdf</datasheet>
-      <fields>
-        <field name="TME">NXW-02, NXG-02, NXG-T</field>
-      </fields>
-      <libsource lib="MRS_Connectors" part="NXW-02" description=""/>
-      <sheetpath names="/" tstamps="/"/>
-      <tstamp>5CAEB681</tstamp>
-    </comp>
-    <comp ref="J6">
-      <value>NXW-02</value>
-      <footprint>MRS_Connectors:NXW-02</footprint>
-      <datasheet>https://www.tme.eu/Document/5dc6feb351d751d2aaf71b67b5e56596/nxw-02.pdf</datasheet>
-      <fields>
-        <field name="TME">NXW-02, NXG-02, NXG-T</field>
-      </fields>
-      <libsource lib="MRS_Connectors" part="NXW-02" description=""/>
-      <sheetpath names="/" tstamps="/"/>
-      <tstamp>5CAEB7CF</tstamp>
-    </comp>
-    <comp ref="J7">
-      <value>NXW-02</value>
-      <footprint>MRS_Connectors:NXW-02</footprint>
-      <datasheet>https://www.tme.eu/Document/5dc6feb351d751d2aaf71b67b5e56596/nxw-02.pdf</datasheet>
-      <fields>
-        <field name="TME">NXW-02, NXG-02, NXG-T</field>
-      </fields>
-      <libsource lib="MRS_Connectors" part="NXW-02" description=""/>
-      <sheetpath names="/" tstamps="/"/>
-      <tstamp>5CAEBD6F</tstamp>
-    </comp>
-    <comp ref="J8">
-      <value>NXW-02</value>
-      <footprint>MRS_Connectors:NXW-02</footprint>
-      <datasheet>https://www.tme.eu/Document/5dc6feb351d751d2aaf71b67b5e56596/nxw-02.pdf</datasheet>
-      <fields>
-        <field name="TME">NXW-02, NXG-02, NXG-T</field>
-      </fields>
-      <libsource lib="MRS_Connectors" part="NXW-02" description=""/>
-      <sheetpath names="/" tstamps="/"/>
-      <tstamp>5CAEBE25</tstamp>
-    </comp>
-    <comp ref="J9">
-      <value>NXW-02</value>
-      <footprint>MRS_Connectors:NXW-02</footprint>
-      <datasheet>https://www.tme.eu/Document/5dc6feb351d751d2aaf71b67b5e56596/nxw-02.pdf</datasheet>
-      <fields>
-        <field name="TME">NXW-02, NXG-02, NXG-T</field>
-      </fields>
-      <libsource lib="MRS_Connectors" part="NXW-02" description=""/>
-      <sheetpath names="/" tstamps="/"/>
-      <tstamp>5CAEBEE5</tstamp>
-    </comp>
-    <comp ref="J10">
-      <value>NXW-02</value>
-      <footprint>MRS_Connectors:NXW-02</footprint>
-      <datasheet>https://www.tme.eu/Document/5dc6feb351d751d2aaf71b67b5e56596/nxw-02.pdf</datasheet>
-      <fields>
-        <field name="TME">NXW-02, NXG-02, NXG-T</field>
-      </fields>
-      <libsource lib="MRS_Connectors" part="NXW-02" description=""/>
-      <sheetpath names="/" tstamps="/"/>
-      <tstamp>5CAEBFAD</tstamp>
-    </comp>
-    <comp ref="J11">
-      <value>NXW-03</value>
-      <footprint>MRS_Connectors:NXW-03</footprint>
-      <datasheet>https://www.tme.eu/Document/5dc6feb351d751d2aaf71b67b5e56596/nxw-02.pdf</datasheet>
-      <fields>
-        <field name="TME">NXW-03, NXG-03, NXG-T</field>
-      </fields>
-      <libsource lib="MRS_Connectors" part="NXW-03" description=""/>
-      <sheetpath names="/" tstamps="/"/>
-      <tstamp>5CAEDC61</tstamp>
-    </comp>
-    <comp ref="J12">
-      <value>NXW-03</value>
-      <footprint>MRS_Connectors:NXW-03</footprint>
-      <datasheet>https://www.tme.eu/Document/5dc6feb351d751d2aaf71b67b5e56596/nxw-02.pdf</datasheet>
-      <fields>
-        <field name="TME">NXW-03, NXG-03, NXG-T</field>
-      </fields>
-      <libsource lib="MRS_Connectors" part="NXW-03" description=""/>
-      <sheetpath names="/" tstamps="/"/>
-      <tstamp>5CAEDE45</tstamp>
-    </comp>
-    <comp ref="J13">
-      <value>NXW-03</value>
-      <footprint>MRS_Connectors:NXW-03</footprint>
-      <datasheet>https://www.tme.eu/Document/5dc6feb351d751d2aaf71b67b5e56596/nxw-02.pdf</datasheet>
-      <fields>
-        <field name="TME">NXW-03, NXG-03, NXG-T</field>
-      </fields>
-      <libsource lib="MRS_Connectors" part="NXW-03" description=""/>
-      <sheetpath names="/" tstamps="/"/>
-      <tstamp>5CAEDF71</tstamp>
-    </comp>
-    <comp ref="J14">
-      <value>NXW-03</value>
-      <footprint>MRS_Connectors:NXW-03</footprint>
-      <datasheet>https://www.tme.eu/Document/5dc6feb351d751d2aaf71b67b5e56596/nxw-02.pdf</datasheet>
-      <fields>
-        <field name="TME">NXW-03, NXG-03, NXG-T</field>
-      </fields>
-      <libsource lib="MRS_Connectors" part="NXW-03" description=""/>
-      <sheetpath names="/" tstamps="/"/>
-      <tstamp>5CAEE029</tstamp>
-    </comp>
-    <comp ref="SB2">
-      <value>SolderBridge</value>
-      <footprint>MRS_Connectors:SB0603</footprint>
-      <libsource lib="MRS_Connectors" part="SolderBridge" description=""/>
-      <sheetpath names="/" tstamps="/"/>
-      <tstamp>5CAFEB32</tstamp>
-    </comp>
     <comp ref="H2">
       <value>Mounting_hole_unplated_3,2mm</value>
       <footprint>MRS_Mechanical:Mounting_hole_unplated_3,2mm</footprint>
       <libsource lib="MRS_Mechanical" part="Mounting_hole_unplated_3,2mm" description=""/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>5CB07C28</tstamp>
-    </comp>
-    <comp ref="H3">
-      <value>Mounting_hole_unplated_3,2mm</value>
-      <footprint>MRS_Mechanical:Mounting_hole_unplated_3,2mm</footprint>
-      <libsource lib="MRS_Mechanical" part="Mounting_hole_unplated_3,2mm" description=""/>
-      <sheetpath names="/" tstamps="/"/>
-      <tstamp>5CB0F3CF</tstamp>
     </comp>
     <comp ref="U1">
       <value>STM32L031K6T6</value>
@@ -684,91 +193,107 @@
       <sheetpath names="/" tstamps="/"/>
       <tstamp>5CAFA03F</tstamp>
     </comp>
+    <comp ref="J3">
+      <value>Header_1x3</value>
+      <footprint>MRS_Connectors:Header_1x03_P2.54mm</footprint>
+      <libsource lib="MRS_Connectors" part="Header_1x3" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5D0282F4</tstamp>
+    </comp>
+    <comp ref="J4">
+      <value>Header_1x2</value>
+      <footprint>MRS_Connectors:Header_1x02_P2.54mm</footprint>
+      <libsource lib="MRS_Connectors" part="Header_1x2" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5D028386</tstamp>
+    </comp>
+    <comp ref="J2">
+      <value>Header_1x3</value>
+      <footprint>MRS_Connectors:Header_1x03_P2.54mm</footprint>
+      <libsource lib="MRS_Connectors" part="Header_1x3" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5D0289F1</tstamp>
+    </comp>
+    <comp ref="H111">
+      <value>Mr_Gardener_Logo_Small</value>
+      <footprint>Logos:mrg_gardener_08mm</footprint>
+      <libsource lib="Mr_Gardener_Logos" part="Mr_Gardener_Logo_Small" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5D2C678A</tstamp>
+    </comp>
+    <comp ref="Q1">
+      <value>2N7002P.215</value>
+      <footprint>MRS_SOT:SOT-23</footprint>
+      <datasheet>https://www.tme.eu/Document/fda24b70d66290936384ff869f03745e/2N7002P.pdf</datasheet>
+      <fields>
+        <field name="TME">2N7002P.215</field>
+      </fields>
+      <libsource lib="MRS_Transistors" part="AO3434A" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5D2D6490</tstamp>
+    </comp>
+    <comp ref="Q2">
+      <value>2N7002P.215</value>
+      <footprint>MRS_SOT:SOT-23</footprint>
+      <datasheet>https://www.tme.eu/Document/fda24b70d66290936384ff869f03745e/2N7002P.pdf</datasheet>
+      <fields>
+        <field name="TME">2N7002P.215</field>
+      </fields>
+      <libsource lib="MRS_Transistors" part="AO3434A" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5D2DFC92</tstamp>
+    </comp>
+    <comp ref="H6">
+      <value>Break_away_tab</value>
+      <footprint>MRS_Mechanical:Breakaway_tab_holes</footprint>
+      <libsource lib="MRS_Mechanical" part="Break_away_tab" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5D3F0E44</tstamp>
+    </comp>
+    <comp ref="H5">
+      <value>Break_away_tab</value>
+      <footprint>MRS_Mechanical:Breakaway_tab_holes</footprint>
+      <libsource lib="MRS_Mechanical" part="Break_away_tab" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5D3F0ED4</tstamp>
+    </comp>
+    <comp ref="H4">
+      <value>Break_away_tab</value>
+      <footprint>MRS_Mechanical:Breakaway_tab_holes</footprint>
+      <libsource lib="MRS_Mechanical" part="Break_away_tab" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5D3F0F09</tstamp>
+    </comp>
+    <comp ref="H3">
+      <value>Break_away_tab</value>
+      <footprint>MRS_Mechanical:Breakaway_tab_holes</footprint>
+      <libsource lib="MRS_Mechanical" part="Break_away_tab" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5D3F0F3E</tstamp>
+    </comp>
   </components>
   <libparts>
-    <libpart lib="MRS_Communication" part="Antenna">
-      <fields>
-        <field name="Reference">A</field>
-        <field name="Value">Antenna</field>
-      </fields>
-      <pins>
-        <pin num="1" name="A" type="input"/>
-      </pins>
-    </libpart>
-    <libpart lib="MRS_Communication" part="RN2483A">
-      <fields>
-        <field name="Reference">U</field>
-        <field name="Value">RN2483A</field>
-        <field name="Footprint">MRS_Communication:RN2483A</field>
-        <field name="Datasheet">https://www.tme.eu/en/Document/f663ac60d77a20e30178e3c604f8bf21/RN2483.pdf</field>
-        <field name="TME">RN2483A-I/RM105</field>
-      </fields>
-      <pins>
-        <pin num="1" name="GND" type="input"/>
-        <pin num="2" name="UART_RTS" type="input"/>
-        <pin num="3" name="UART_CTS" type="input"/>
-        <pin num="4" name="RES" type="input"/>
-        <pin num="5" name="RES" type="input"/>
-        <pin num="6" name="UART_TX" type="input"/>
-        <pin num="7" name="UART_RX" type="input"/>
-        <pin num="8" name="GND" type="input"/>
-        <pin num="9" name="GPIO13" type="input"/>
-        <pin num="10" name="GPIO12" type="input"/>
-        <pin num="11" name="GND" type="input"/>
-        <pin num="12" name="VDD" type="input"/>
-        <pin num="13" name="GPIO11" type="input"/>
-        <pin num="14" name="GPIO10" type="input"/>
-        <pin num="15" name="NC" type="input"/>
-        <pin num="16" name="NC" type="input"/>
-        <pin num="17" name="NC" type="input"/>
-        <pin num="18" name="NC" type="input"/>
-        <pin num="19" name="NC" type="input"/>
-        <pin num="20" name="GND" type="input"/>
-        <pin num="21" name="GND" type="input"/>
-        <pin num="22" name="GND" type="input"/>
-        <pin num="23" name="RFH" type="input"/>
-        <pin num="24" name="GND" type="input"/>
-        <pin num="25" name="RFL" type="input"/>
-        <pin num="26" name="GND" type="input"/>
-        <pin num="27" name="GND" type="input"/>
-        <pin num="28" name="GND" type="input"/>
-        <pin num="29" name="NC" type="input"/>
-        <pin num="30" name="PGC_INT" type="input"/>
-        <pin num="31" name="PGD_INT" type="input"/>
-        <pin num="32" name="nRESET" type="input"/>
-        <pin num="33" name="GND" type="input"/>
-        <pin num="34" name="VDD" type="input"/>
-        <pin num="35" name="GPIO0" type="input"/>
-        <pin num="36" name="GPIO1" type="input"/>
-        <pin num="37" name="GPIO2" type="input"/>
-        <pin num="38" name="GPIO3" type="input"/>
-        <pin num="39" name="GPIO4" type="input"/>
-        <pin num="40" name="GPIO5" type="input"/>
-        <pin num="41" name="GND" type="input"/>
-        <pin num="42" name="NC" type="input"/>
-        <pin num="43" name="GPIO6" type="input"/>
-        <pin num="44" name="GPIO7" type="input"/>
-        <pin num="45" name="GPIO8" type="input"/>
-        <pin num="46" name="GPIO9" type="input"/>
-        <pin num="47" name="GND" type="input"/>
-      </pins>
-    </libpart>
-    <libpart lib="MRS_Connectors" part="Barrel_Jack">
-      <aliases>
-        <alias>Jack-DC</alias>
-      </aliases>
-      <description>DC Barrel Jack</description>
-      <docs>~</docs>
-      <footprints>
-        <fp>BarrelJack*</fp>
-      </footprints>
+    <libpart lib="MRS_Connectors" part="Header_1x2">
       <fields>
         <field name="Reference">J</field>
-        <field name="Value">Barrel_Jack</field>
+        <field name="Value">Header_1x2</field>
+        <field name="Footprint">MRS_Connectors:Header_1x02_P2.54mm</field>
       </fields>
       <pins>
-        <pin num="1" name="~" type="passive"/>
-        <pin num="2" name="~" type="passive"/>
+        <pin num="1" name="1" type="BiDi"/>
+        <pin num="2" name="2" type="BiDi"/>
+      </pins>
+    </libpart>
+    <libpart lib="MRS_Connectors" part="Header_1x3">
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">Header_1x3</field>
+        <field name="Footprint">MRS_Connectors:Header_1x03_P2.54mm</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="BiDi"/>
+        <pin num="2" name="2" type="BiDi"/>
+        <pin num="3" name="3" type="input"/>
       </pins>
     </libpart>
     <libpart lib="MRS_Connectors" part="Header_1x5">
@@ -783,44 +308,6 @@
         <pin num="3" name="3" type="input"/>
         <pin num="4" name="4" type="input"/>
         <pin num="5" name="5" type="input"/>
-      </pins>
-    </libpart>
-    <libpart lib="MRS_Connectors" part="NXW-02">
-      <fields>
-        <field name="Reference">J</field>
-        <field name="Value">NXW-02</field>
-        <field name="Footprint">MRS_Connectors:NXW-02</field>
-        <field name="Datasheet">https://www.tme.eu/Document/5dc6feb351d751d2aaf71b67b5e56596/nxw-02.pdf</field>
-        <field name="TME">NXW-02, NXG-02, NXG-T</field>
-      </fields>
-      <pins>
-        <pin num="1" name="1" type="BiDi"/>
-        <pin num="2" name="2" type="BiDi"/>
-      </pins>
-    </libpart>
-    <libpart lib="MRS_Connectors" part="NXW-03">
-      <fields>
-        <field name="Reference">J</field>
-        <field name="Value">NXW-03</field>
-        <field name="Footprint">MRS_Connectors:NXW-03</field>
-        <field name="Datasheet">https://www.tme.eu/Document/5dc6feb351d751d2aaf71b67b5e56596/nxw-02.pdf</field>
-        <field name="TME">NXW-03, NXG-03, NXG-T</field>
-      </fields>
-      <pins>
-        <pin num="1" name="1" type="BiDi"/>
-        <pin num="2" name="2" type="BiDi"/>
-        <pin num="3" name="3" type="input"/>
-      </pins>
-    </libpart>
-    <libpart lib="MRS_Connectors" part="SolderBridge">
-      <fields>
-        <field name="Reference">SB</field>
-        <field name="Value">SolderBridge</field>
-        <field name="Footprint">MRS_Connectors:SB0603</field>
-      </fields>
-      <pins>
-        <pin num="1" name="1" type="BiDi"/>
-        <pin num="2" name="2" type="BiDi"/>
       </pins>
     </libpart>
     <libpart lib="MRS_Diodes" part="Diode_LED_0805">
@@ -882,6 +369,13 @@
         <pin num="32" name="VSS" type="input"/>
       </pins>
     </libpart>
+    <libpart lib="MRS_Mechanical" part="Break_away_tab">
+      <fields>
+        <field name="Reference">H</field>
+        <field name="Value">Break_away_tab</field>
+        <field name="Footprint">MRS_Mechanical:Breakaway_tab_holes</field>
+      </fields>
+    </libpart>
     <libpart lib="MRS_Mechanical" part="Mounting_hole_unplated_3,2mm">
       <fields>
         <field name="Reference">H</field>
@@ -896,7 +390,7 @@
       <fields>
         <field name="Reference">C</field>
         <field name="Value">C</field>
-        <field name="Footprint">MRS_lib_general_footprints:C0603</field>
+        <field name="Footprint">MRS_Passives:C0603</field>
       </fields>
       <pins>
         <pin num="1" name="~" type="passive"/>
@@ -910,7 +404,7 @@
       <fields>
         <field name="Reference">R</field>
         <field name="Value">R</field>
-        <field name="Footprint">MRS_lib_general_footprints:R0603</field>
+        <field name="Footprint">MRS_Passives:R0603</field>
       </fields>
       <pins>
         <pin num="1" name="~" type="passive"/>
@@ -943,33 +437,13 @@
         <pin num="3" name="VIN" type="input"/>
       </pins>
     </libpart>
-    <libpart lib="MRS_Sensors" part="SHT31">
-      <fields>
-        <field name="Reference">U</field>
-        <field name="Value">SHT31</field>
-        <field name="Footprint">MRS_Sensors:SHT31</field>
-        <field name="Datasheet">https://www.sensirion.com/fileadmin/user_upload/customers/sensirion/Dokumente/0_Datasheets/Humidity/Sensirion_Humidity_Sensors_SHT3x_Datasheet_digital.pdf</field>
-        <field name="TME">SHT31-DIS-B</field>
-      </fields>
-      <pins>
-        <pin num="0" name="DIE" type="input"/>
-        <pin num="1" name="SDA" type="input"/>
-        <pin num="2" name="ADDR" type="input"/>
-        <pin num="3" name="ALERT" type="input"/>
-        <pin num="4" name="SCL" type="input"/>
-        <pin num="5" name="VDD" type="input"/>
-        <pin num="6" name="nRESET" type="input"/>
-        <pin num="7" name="R" type="input"/>
-        <pin num="8" name="GND" type="input"/>
-      </pins>
-    </libpart>
-    <libpart lib="MRS_Transistors" part="FDN308P">
+    <libpart lib="MRS_Transistors" part="AO3434A">
       <fields>
         <field name="Reference">Q</field>
-        <field name="Value">FDN308P</field>
+        <field name="Value">AO3434A</field>
         <field name="Footprint">MRS_SOT:SOT-23</field>
-        <field name="Datasheet">https://www.tme.eu/en/Document/dcf621237b7a9c3e175e2f189154a640/FDN308P.pdf</field>
-        <field name="TME">FDN308P</field>
+        <field name="Datasheet">https://www.tme.eu/Document/4509fa3f77a84abf7aefb1af8d205323/AO3434A.pdf</field>
+        <field name="TME">AO3434A</field>
       </fields>
       <pins>
         <pin num="1" name="G" type="input"/>
@@ -977,440 +451,186 @@
         <pin num="3" name="D" type="passive"/>
       </pins>
     </libpart>
-    <libpart lib="MRS_Transistors" part="IRLML6346TRPBF">
+    <libpart lib="Mr_Gardener_Logos" part="Mr_Gardener_Logo_Small">
       <fields>
-        <field name="Reference">Q</field>
-        <field name="Value">IRLML6346TRPBF</field>
-        <field name="Footprint">MRS_SOT:SOT-23</field>
-        <field name="Datasheet">https://www.tme.eu/en/Document/4178252f9f9aa1820c70dfb7aab5282b/irlml6346pbf.pdf</field>
-        <field name="TME">IRLML6346TRPBF</field>
+        <field name="Reference">H</field>
+        <field name="Value">Mr_Gardener_Logo_Small</field>
       </fields>
-      <pins>
-        <pin num="1" name="G" type="input"/>
-        <pin num="2" name="S" type="passive"/>
-        <pin num="3" name="D" type="passive"/>
-      </pins>
     </libpart>
   </libparts>
   <libraries>
-    <library logical="MRS_Communication">
-      <uri>/home/david/HDD/KiCAD/mrs-kicad-libs/MRS_Communication/MRS_Communication.lib</uri>
-    </library>
     <library logical="MRS_Connectors">
-      <uri>/home/david/HDD/KiCAD/mrs-kicad-libs/MRS_Connectors/MRS_Connectors.lib</uri>
+      <uri>/home/zaitldav/MRS/KiCad/mrs-kicad-libs/MRS_Connectors/MRS_Connectors.lib</uri>
     </library>
     <library logical="MRS_Diodes">
-      <uri>/home/david/HDD/KiCAD/mrs-kicad-libs/MRS_Diodes/MRS_Diodes.lib</uri>
+      <uri>/home/zaitldav/MRS/KiCad/mrs-kicad-libs/MRS_Diodes/MRS_Diodes.lib</uri>
     </library>
     <library logical="MRS_MCUs">
-      <uri>/home/david/HDD/KiCAD/mrs-kicad-libs/MRS_MCUs/MRS_MCUs.lib</uri>
+      <uri>/home/zaitldav/MRS/KiCad/mrs-kicad-libs/MRS_MCUs/MRS_MCUs.lib</uri>
     </library>
     <library logical="MRS_Mechanical">
-      <uri>/home/david/HDD/KiCAD/mrs-kicad-libs/MRS_Mechanical/MRS_Mechanical.lib</uri>
+      <uri>/home/zaitldav/MRS/KiCad/mrs-kicad-libs/MRS_Mechanical/MRS_Mechanical.lib</uri>
     </library>
     <library logical="MRS_Passives">
-      <uri>/home/david/HDD/KiCAD/mrs-kicad-libs/MRS_Passives/MRS_Passives.lib</uri>
+      <uri>/home/zaitldav/MRS/KiCad/mrs-kicad-libs/MRS_Passives/MRS_Passives.lib</uri>
     </library>
     <library logical="MRS_Power">
-      <uri>/home/david/HDD/KiCAD/mrs-kicad-libs/MRS_Power/MRS_Power.lib</uri>
+      <uri>/home/zaitldav/MRS/KiCad/mrs-kicad-libs/MRS_Power/MRS_Power.lib</uri>
     </library>
     <library logical="MRS_Power_Management">
-      <uri>/home/david/HDD/KiCAD/mrs-kicad-libs/MRS_Power_Management/MRS_Power_Management.lib</uri>
-    </library>
-    <library logical="MRS_Sensors">
-      <uri>/mnt/HDD/KiCAD/mrs-kicad-libs//MRS_Sensors/MRS_Sensors.lib</uri>
+      <uri>/home/zaitldav/MRS/KiCad/mrs-kicad-libs/MRS_Power_Management/MRS_Power_Management.lib</uri>
     </library>
     <library logical="MRS_Transistors">
-      <uri>/home/david/HDD/KiCAD/mrs-kicad-libs/MRS_Transistors/MRS_Transistors.lib</uri>
+      <uri>/home/zaitldav/MRS/KiCad/mrs-kicad-libs/MRS_Transistors/MRS_Transistors.lib</uri>
+    </library>
+    <library logical="Mr_Gardener_Logos">
+      <uri>/home/zaitldav/Personal/AutoGardener/Logos/Mr_Gardener_Logos.lib</uri>
     </library>
   </libraries>
   <nets>
-    <net code="1" name="GND">
-      <node ref="J1" pin="2"/>
-      <node ref="Q5" pin="2"/>
-      <node ref="U2" pin="22"/>
-      <node ref="U2" pin="21"/>
-      <node ref="U2" pin="20"/>
-      <node ref="U2" pin="11"/>
-      <node ref="U2" pin="1"/>
-      <node ref="Q6" pin="2"/>
-      <node ref="BAT1" pin="2"/>
-      <node ref="C11" pin="2"/>
-      <node ref="Q9" pin="2"/>
-      <node ref="Q10" pin="2"/>
-      <node ref="J11" pin="3"/>
-      <node ref="LD13" pin="1"/>
-      <node ref="LD6" pin="1"/>
-      <node ref="LD5" pin="1"/>
-      <node ref="LD4" pin="1"/>
-      <node ref="C33" pin="2"/>
-      <node ref="U3" pin="2"/>
-      <node ref="U1" pin="32"/>
-      <node ref="C34" pin="2"/>
-      <node ref="C41" pin="2"/>
-      <node ref="U1" pin="16"/>
-      <node ref="C31" pin="2"/>
-      <node ref="J12" pin="3"/>
-      <node ref="J13" pin="3"/>
-      <node ref="J14" pin="3"/>
-      <node ref="C32" pin="2"/>
-      <node ref="C13" pin="2"/>
-      <node ref="C12" pin="2"/>
-      <node ref="J2" pin="3"/>
-      <node ref="R8" pin="2"/>
-      <node ref="R9" pin="2"/>
-      <node ref="R10" pin="2"/>
-      <node ref="U2" pin="8"/>
-      <node ref="U2" pin="47"/>
-      <node ref="Q7" pin="2"/>
-      <node ref="Q8" pin="2"/>
-      <node ref="U2" pin="41"/>
-      <node ref="U2" pin="28"/>
-      <node ref="U2" pin="27"/>
-      <node ref="U2" pin="26"/>
-      <node ref="U2" pin="24"/>
-      <node ref="U2" pin="33"/>
-      <node ref="R7" pin="2"/>
-      <node ref="Q3" pin="2"/>
-      <node ref="U4" pin="8"/>
-      <node ref="LD3" pin="1"/>
-      <node ref="Q4" pin="2"/>
-      <node ref="U4" pin="2"/>
-      <node ref="C22" pin="2"/>
-      <node ref="C21" pin="2"/>
-      <node ref="U4" pin="0"/>
-    </net>
-    <net code="2" name="/LED_PWM1">
-      <node ref="R7" pin="1"/>
-      <node ref="Q7" pin="1"/>
-      <node ref="U1" pin="11"/>
-    </net>
-    <net code="3" name="Net-(Q3-Pad1)">
-      <node ref="Q3" pin="1"/>
-      <node ref="SB3" pin="2"/>
-    </net>
-    <net code="4" name="Net-(Q4-Pad1)">
-      <node ref="Q4" pin="1"/>
-      <node ref="SB4" pin="2"/>
-    </net>
-    <net code="5" name="Net-(Q5-Pad1)">
-      <node ref="Q5" pin="1"/>
-      <node ref="SB5" pin="2"/>
-    </net>
-    <net code="6" name="VCC">
-      <node ref="C34" pin="1"/>
-      <node ref="U1" pin="17"/>
-      <node ref="BAT1" pin="1"/>
-      <node ref="C11" pin="1"/>
-      <node ref="C13" pin="1"/>
-      <node ref="SB1" pin="1"/>
-      <node ref="C12" pin="1"/>
-      <node ref="J2" pin="1"/>
-      <node ref="U3" pin="1"/>
-      <node ref="C33" pin="1"/>
-      <node ref="Q1" pin="3"/>
-      <node ref="U1" pin="1"/>
-      <node ref="U1" pin="6"/>
-      <node ref="R1" pin="1"/>
-      <node ref="U1" pin="5"/>
-      <node ref="SB2" pin="2"/>
-      <node ref="Q2" pin="3"/>
-      <node ref="R2" pin="1"/>
-    </net>
-    <net code="7" name="VDD">
-      <node ref="Q2" pin="2"/>
-      <node ref="C21" pin="1"/>
-      <node ref="C22" pin="1"/>
-      <node ref="U2" pin="34"/>
-      <node ref="U2" pin="12"/>
-    </net>
-    <net code="8" name="/COMM_ENA">
-      <node ref="R2" pin="2"/>
-      <node ref="Q2" pin="1"/>
-      <node ref="U1" pin="28"/>
-    </net>
-    <net code="9" name="Net-(Q6-Pad1)">
-      <node ref="Q6" pin="1"/>
-      <node ref="SB6" pin="2"/>
-    </net>
-    <net code="10" name="/I2C_SDA">
-      <node ref="R42" pin="2"/>
-      <node ref="U4" pin="1"/>
-      <node ref="U1" pin="30"/>
-    </net>
-    <net code="11" name="Net-(U4-Pad3)">
-      <node ref="U4" pin="3"/>
-    </net>
-    <net code="12" name="/I2C_SCL">
-      <node ref="U1" pin="29"/>
-      <node ref="U4" pin="4"/>
-      <node ref="R41" pin="2"/>
-    </net>
-    <net code="13" name="Net-(U4-Pad6)">
-      <node ref="U4" pin="6"/>
-    </net>
-    <net code="14" name="Net-(J3-Pad2)">
-      <node ref="J3" pin="2"/>
-      <node ref="Q3" pin="3"/>
-    </net>
-    <net code="15" name="+12V">
-      <node ref="J1" pin="1"/>
-      <node ref="C32" pin="1"/>
-      <node ref="U3" pin="3"/>
-      <node ref="J9" pin="1"/>
-      <node ref="J10" pin="1"/>
-      <node ref="C31" pin="1"/>
-      <node ref="J5" pin="1"/>
-      <node ref="J6" pin="1"/>
-      <node ref="J8" pin="1"/>
-      <node ref="J7" pin="1"/>
-      <node ref="J3" pin="1"/>
-      <node ref="J4" pin="1"/>
-      <node ref="SB2" pin="1"/>
-    </net>
-    <net code="16" name="Net-(J4-Pad2)">
-      <node ref="J4" pin="2"/>
-      <node ref="Q4" pin="3"/>
-    </net>
-    <net code="17" name="Net-(J9-Pad2)">
-      <node ref="J9" pin="2"/>
-      <node ref="Q9" pin="3"/>
-    </net>
-    <net code="18" name="Net-(J10-Pad2)">
-      <node ref="J10" pin="2"/>
-      <node ref="Q10" pin="3"/>
-    </net>
-    <net code="19" name="VDDA">
-      <node ref="Q1" pin="2"/>
-      <node ref="R42" pin="1"/>
-      <node ref="C41" pin="1"/>
-      <node ref="J12" pin="1"/>
-      <node ref="J11" pin="1"/>
-      <node ref="SB1" pin="2"/>
-      <node ref="J14" pin="1"/>
-      <node ref="J13" pin="1"/>
-      <node ref="U4" pin="7"/>
-      <node ref="U4" pin="5"/>
-      <node ref="R41" pin="1"/>
-    </net>
-    <net code="20" name="Net-(J5-Pad2)">
-      <node ref="J5" pin="2"/>
-      <node ref="Q5" pin="3"/>
-    </net>
-    <net code="21" name="Net-(J6-Pad2)">
-      <node ref="J6" pin="2"/>
-      <node ref="Q6" pin="3"/>
-    </net>
-    <net code="22" name="Net-(J7-Pad2)">
-      <node ref="Q7" pin="3"/>
-      <node ref="J7" pin="2"/>
-    </net>
-    <net code="23" name="Net-(U1-Pad31)">
-      <node ref="U1" pin="31"/>
-    </net>
-    <net code="24" name="/SWCLK">
-      <node ref="U1" pin="24"/>
-      <node ref="J2" pin="2"/>
-    </net>
-    <net code="25" name="/UART_TX">
-      <node ref="U1" pin="19"/>
-      <node ref="U2" pin="7"/>
-    </net>
-    <net code="26" name="/SENS_ENA">
-      <node ref="Q1" pin="1"/>
-      <node ref="U1" pin="15"/>
-      <node ref="R1" pin="2"/>
-    </net>
-    <net code="27" name="/UART_RX">
-      <node ref="U2" pin="6"/>
-      <node ref="U1" pin="20"/>
-    </net>
-    <net code="28" name="/PA11">
-      <node ref="U1" pin="21"/>
-    </net>
-    <net code="29" name="/OUT4">
-      <node ref="R6" pin="1"/>
-      <node ref="SB6" pin="1"/>
-      <node ref="U1" pin="22"/>
-    </net>
-    <net code="30" name="/OUT3">
-      <node ref="R5" pin="1"/>
-      <node ref="SB5" pin="1"/>
-      <node ref="U1" pin="25"/>
-    </net>
-    <net code="31" name="/OUT2">
-      <node ref="R4" pin="1"/>
-      <node ref="U1" pin="26"/>
-      <node ref="SB4" pin="1"/>
-    </net>
-    <net code="32" name="/OUT1">
-      <node ref="R3" pin="1"/>
+    <net code="1" name="Net-(U1-Pad27)">
       <node ref="U1" pin="27"/>
-      <node ref="SB3" pin="1"/>
     </net>
-    <net code="33" name="/NRST">
-      <node ref="J2" pin="5"/>
-      <node ref="U1" pin="4"/>
+    <net code="2" name="Net-(U1-Pad14)">
+      <node ref="U1" pin="14"/>
     </net>
-    <net code="34" name="/SWDIO">
-      <node ref="U1" pin="23"/>
-      <node ref="J2" pin="4"/>
+    <net code="3" name="Net-(U1-Pad15)">
+      <node ref="U1" pin="15"/>
     </net>
-    <net code="35" name="Net-(LD5-Pad2)">
-      <node ref="LD5" pin="2"/>
-      <node ref="R5" pin="2"/>
-    </net>
-    <net code="36" name="Net-(LD3-Pad2)">
-      <node ref="R3" pin="2"/>
-      <node ref="LD3" pin="2"/>
-    </net>
-    <net code="37" name="Net-(LD4-Pad2)">
-      <node ref="R4" pin="2"/>
-      <node ref="LD4" pin="2"/>
-    </net>
-    <net code="38" name="Net-(LD6-Pad2)">
-      <node ref="R6" pin="2"/>
-      <node ref="LD6" pin="2"/>
-    </net>
-    <net code="39" name="/BAT_LO">
-      <node ref="R13" pin="1"/>
+    <net code="4" name="Net-(U1-Pad18)">
       <node ref="U1" pin="18"/>
     </net>
-    <net code="40" name="Net-(LD13-Pad2)">
-      <node ref="R13" pin="2"/>
-      <node ref="LD13" pin="2"/>
+    <net code="5" name="Net-(U1-Pad22)">
+      <node ref="U1" pin="22"/>
     </net>
-    <net code="41" name="Net-(U2-Pad14)">
-      <node ref="U2" pin="14"/>
+    <net code="6" name="/SWCLK">
+      <node ref="J1" pin="2"/>
+      <node ref="U1" pin="24"/>
     </net>
-    <net code="42" name="Net-(U2-Pad10)">
-      <node ref="U2" pin="10"/>
+    <net code="7" name="/SENS_ENA">
+      <node ref="R1" pin="1"/>
+      <node ref="Q1" pin="1"/>
+      <node ref="U1" pin="25"/>
     </net>
-    <net code="43" name="Net-(U2-Pad13)">
-      <node ref="U2" pin="13"/>
+    <net code="8" name="Net-(U1-Pad26)">
+      <node ref="U1" pin="26"/>
     </net>
-    <net code="44" name="Net-(U2-Pad15)">
-      <node ref="U2" pin="15"/>
-    </net>
-    <net code="45" name="Net-(U2-Pad16)">
-      <node ref="U2" pin="16"/>
-    </net>
-    <net code="46" name="Net-(U2-Pad17)">
-      <node ref="U2" pin="17"/>
-    </net>
-    <net code="47" name="Net-(U2-Pad18)">
-      <node ref="U2" pin="18"/>
-    </net>
-    <net code="48" name="Net-(U2-Pad19)">
-      <node ref="U2" pin="19"/>
-    </net>
-    <net code="49" name="Net-(U2-Pad2)">
-      <node ref="U2" pin="2"/>
-    </net>
-    <net code="50" name="/LED_PWM4">
-      <node ref="R10" pin="1"/>
-      <node ref="U1" pin="14"/>
-      <node ref="Q10" pin="1"/>
-    </net>
-    <net code="51" name="/LED_PWM2">
-      <node ref="R8" pin="1"/>
-      <node ref="U1" pin="12"/>
-      <node ref="Q8" pin="1"/>
-    </net>
-    <net code="52" name="/LED_PWM3">
+    <net code="9" name="Net-(U1-Pad13)">
       <node ref="U1" pin="13"/>
-      <node ref="Q9" pin="1"/>
-      <node ref="R9" pin="1"/>
     </net>
-    <net code="53" name="/PF0">
-      <node ref="U1" pin="2"/>
+    <net code="10" name="Net-(U1-Pad28)">
+      <node ref="U1" pin="28"/>
     </net>
-    <net code="54" name="/PF1">
+    <net code="11" name="Net-(U1-Pad29)">
+      <node ref="U1" pin="29"/>
+    </net>
+    <net code="12" name="/PF1">
       <node ref="U1" pin="3"/>
     </net>
-    <net code="55" name="/ADC_SOIL1">
-      <node ref="J11" pin="2"/>
-      <node ref="U1" pin="7"/>
+    <net code="13" name="Net-(U1-Pad30)">
+      <node ref="U1" pin="30"/>
     </net>
-    <net code="56" name="/ADC_SOIL2">
-      <node ref="U1" pin="8"/>
-      <node ref="J12" pin="2"/>
+    <net code="14" name="/NRST">
+      <node ref="J1" pin="5"/>
+      <node ref="U1" pin="4"/>
     </net>
-    <net code="57" name="/ADC_SOIL3">
-      <node ref="J13" pin="2"/>
+    <net code="15" name="/LED1">
+      <node ref="R3" pin="1"/>
       <node ref="U1" pin="9"/>
     </net>
-    <net code="58" name="/ADC_SOIL4">
-      <node ref="U1" pin="10"/>
-      <node ref="J14" pin="2"/>
-    </net>
-    <net code="59" name="Net-(A1-Pad1)">
-      <node ref="U2" pin="23"/>
-      <node ref="A1" pin="1"/>
-    </net>
-    <net code="60" name="/LORA_nRESET">
-      <node ref="U2" pin="32"/>
-    </net>
-    <net code="61" name="Net-(J8-Pad2)">
-      <node ref="J8" pin="2"/>
-      <node ref="Q8" pin="3"/>
-    </net>
-    <net code="62" name="Net-(U2-Pad43)">
-      <node ref="U2" pin="43"/>
-    </net>
-    <net code="63" name="Net-(U2-Pad44)">
-      <node ref="U2" pin="44"/>
-    </net>
-    <net code="64" name="Net-(U2-Pad45)">
-      <node ref="U2" pin="45"/>
-    </net>
-    <net code="65" name="Net-(U2-Pad46)">
-      <node ref="U2" pin="46"/>
-    </net>
-    <net code="66" name="Net-(U2-Pad5)">
-      <node ref="U2" pin="5"/>
-    </net>
-    <net code="67" name="Net-(U2-Pad9)">
-      <node ref="U2" pin="9"/>
-    </net>
-    <net code="68" name="Net-(U2-Pad42)">
-      <node ref="U2" pin="42"/>
-    </net>
-    <net code="69" name="Net-(U2-Pad25)">
-      <node ref="U2" pin="25"/>
-    </net>
-    <net code="70" name="Net-(U2-Pad29)">
-      <node ref="U2" pin="29"/>
-    </net>
-    <net code="71" name="Net-(U2-Pad3)">
+    <net code="16" name="+5V">
+      <node ref="J4" pin="1"/>
       <node ref="U2" pin="3"/>
+      <node ref="BAT1" pin="1"/>
+      <node ref="C4" pin="1"/>
+      <node ref="C5" pin="1"/>
     </net>
-    <net code="72" name="Net-(U2-Pad30)">
-      <node ref="U2" pin="30"/>
+    <net code="17" name="GND">
+      <node ref="C4" pin="2"/>
+      <node ref="LD3" pin="1"/>
+      <node ref="LD13" pin="1"/>
+      <node ref="BAT1" pin="2"/>
+      <node ref="C2" pin="2"/>
+      <node ref="C3" pin="2"/>
+      <node ref="C1" pin="2"/>
+      <node ref="C5" pin="2"/>
+      <node ref="R1" pin="2"/>
+      <node ref="C6" pin="2"/>
+      <node ref="U2" pin="2"/>
+      <node ref="C7" pin="2"/>
+      <node ref="Q1" pin="2"/>
+      <node ref="Q2" pin="2"/>
+      <node ref="J1" pin="3"/>
+      <node ref="J2" pin="3"/>
+      <node ref="U1" pin="32"/>
+      <node ref="U1" pin="31"/>
+      <node ref="U1" pin="16"/>
     </net>
-    <net code="73" name="Net-(U2-Pad31)">
-      <node ref="U2" pin="31"/>
+    <net code="18" name="/PA11">
+      <node ref="U1" pin="21"/>
     </net>
-    <net code="74" name="Net-(U2-Pad35)">
-      <node ref="U2" pin="35"/>
+    <net code="19" name="/BAT_LO">
+      <node ref="R2" pin="1"/>
+      <node ref="U1" pin="10"/>
     </net>
-    <net code="75" name="Net-(U2-Pad36)">
-      <node ref="U2" pin="36"/>
+    <net code="20" name="Net-(U1-Pad11)">
+      <node ref="U1" pin="11"/>
     </net>
-    <net code="76" name="Net-(U2-Pad37)">
-      <node ref="U2" pin="37"/>
+    <net code="21" name="Net-(U1-Pad12)">
+      <node ref="U1" pin="12"/>
     </net>
-    <net code="77" name="Net-(U2-Pad38)">
-      <node ref="U2" pin="38"/>
+    <net code="22" name="Net-(J3-Pad1)">
+      <node ref="Q1" pin="3"/>
+      <node ref="J3" pin="1"/>
     </net>
-    <net code="78" name="Net-(U2-Pad39)">
-      <node ref="U2" pin="39"/>
+    <net code="23" name="VCC">
+      <node ref="U1" pin="6"/>
+      <node ref="U1" pin="5"/>
+      <node ref="U1" pin="1"/>
+      <node ref="U1" pin="17"/>
+      <node ref="J1" pin="1"/>
+      <node ref="C6" pin="1"/>
+      <node ref="C3" pin="1"/>
+      <node ref="U2" pin="1"/>
+      <node ref="C7" pin="1"/>
+      <node ref="C2" pin="1"/>
+      <node ref="C1" pin="1"/>
+      <node ref="J3" pin="2"/>
     </net>
-    <net code="79" name="Net-(U2-Pad4)">
-      <node ref="U2" pin="4"/>
+    <net code="24" name="Net-(J4-Pad2)">
+      <node ref="J4" pin="2"/>
+      <node ref="Q2" pin="3"/>
     </net>
-    <net code="80" name="Net-(U2-Pad40)">
-      <node ref="U2" pin="40"/>
+    <net code="25" name="/OUT1">
+      <node ref="Q2" pin="1"/>
+      <node ref="U1" pin="8"/>
+    </net>
+    <net code="26" name="/UART_TX">
+      <node ref="U1" pin="19"/>
+      <node ref="J2" pin="2"/>
+    </net>
+    <net code="27" name="/UART_RX">
+      <node ref="J2" pin="1"/>
+      <node ref="U1" pin="20"/>
+    </net>
+    <net code="28" name="Net-(LD3-Pad2)">
+      <node ref="LD3" pin="2"/>
+      <node ref="R3" pin="2"/>
+    </net>
+    <net code="29" name="Net-(LD13-Pad2)">
+      <node ref="LD13" pin="2"/>
+      <node ref="R2" pin="2"/>
+    </net>
+    <net code="30" name="/ADC_SOIL1">
+      <node ref="U1" pin="7"/>
+      <node ref="J3" pin="3"/>
+    </net>
+    <net code="31" name="/PF0">
+      <node ref="U1" pin="2"/>
+    </net>
+    <net code="32" name="/SWDIO">
+      <node ref="U1" pin="23"/>
+      <node ref="J1" pin="4"/>
     </net>
   </nets>
 </export>
