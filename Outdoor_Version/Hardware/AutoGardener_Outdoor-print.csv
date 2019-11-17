@@ -2,7 +2,7 @@
 "BAT1, ","1","Battery","MRS_Connectors:Header_1x02_P2.54mm"
 "C1, C5, C7, ","3","1uF","MRS_Passives:C0603"
 "C2, C3, ","2","0.1uF","MRS_Passives:C0603"
-"C4, C6, ","2","10uF","MRS_Passives:C0603"
+"C4, C6, ","2","2.2uF","MRS_Passives:C0603"
 "H1, H2, ","2","Mounting_hole_unplated_3,2mm","MRS_Mechanical:Mounting_hole_unplated_3,2mm"
 "H6, H5, H4, H3, ","4","Break_away_tab","MRS_Mechanical:Breakaway_tab_holes"
 "H111, ","1","Mr_Gardener_Logo_Small","Logos:mrg_gardener_08mm"
