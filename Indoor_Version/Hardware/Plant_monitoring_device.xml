@@ -2,7 +2,7 @@
 <export version="D">
   <design>
     <source>/home/zaitldav/Personal/AutoGardener/Indoor_Version/Hardware/Plant_monitoring_device.sch</source>
-    <date>Mon 22 Jul 2019 11:23:13 CEST</date>
+    <date>Tue 13 Aug 2019 15:34:50 CEST</date>
     <tool>Eeschema 5.0.2-bee76a0~70~ubuntu18.04.1</tool>
     <sheet number="1" name="/" tstamps="/">
       <title_block>
@@ -25,7 +25,7 @@
       <fields>
         <field name="TME">CL10A105KA8NNNC</field>
       </fields>
-      <libsource lib="MRS_Passives" part="C" description=""/>
+      <libsource lib="Plant_monitoring_device-rescue" part="C-MRS_Passives" description=""/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>5CA1A1FA</tstamp>
     </comp>
@@ -35,7 +35,7 @@
       <fields>
         <field name="TME">CL10B104KO8NNNC</field>
       </fields>
-      <libsource lib="MRS_Passives" part="C" description=""/>
+      <libsource lib="Plant_monitoring_device-rescue" part="C-MRS_Passives" description=""/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>5CA1AEDD</tstamp>
     </comp>
@@ -45,7 +45,7 @@
       <fields>
         <field name="TME">WF06P-10K-5%</field>
       </fields>
-      <libsource lib="MRS_Passives" part="R" description=""/>
+      <libsource lib="Plant_monitoring_device-rescue" part="R-MRS_Passives" description=""/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>5CA1E22C</tstamp>
     </comp>
@@ -55,7 +55,7 @@
       <fields>
         <field name="TME">WF06P-10K-5%</field>
       </fields>
-      <libsource lib="MRS_Passives" part="R" description=""/>
+      <libsource lib="Plant_monitoring_device-rescue" part="R-MRS_Passives" description=""/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>5CA1E398</tstamp>
     </comp>
@@ -65,7 +65,7 @@
       <fields>
         <field name="TME">CL10A105KA8NNNC</field>
       </fields>
-      <libsource lib="MRS_Passives" part="C" description=""/>
+      <libsource lib="Plant_monitoring_device-rescue" part="C-MRS_Passives" description=""/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>5CA26949</tstamp>
     </comp>
@@ -75,7 +75,7 @@
       <fields>
         <field name="TME">CL32B106KAJNNNE</field>
       </fields>
-      <libsource lib="MRS_Passives" part="C" description=""/>
+      <libsource lib="Plant_monitoring_device-rescue" part="C-MRS_Passives" description=""/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>5CA26A1F</tstamp>
     </comp>
@@ -86,7 +86,7 @@
       <fields>
         <field name="TME">PC-GK2.5</field>
       </fields>
-      <libsource lib="MRS_Connectors" part="Barrel_Jack" description="DC Barrel Jack"/>
+      <libsource lib="Plant_monitoring_device-rescue" part="Barrel_Jack-MRS_Connectors" description=""/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>5CA67B18</tstamp>
     </comp>
@@ -97,7 +97,7 @@
       <fields>
         <field name="TME">IRLML6346TRPBF</field>
       </fields>
-      <libsource lib="MRS_Transistors" part="IRLML6346TRPBF" description=""/>
+      <libsource lib="Plant_monitoring_device-rescue" part="IRLML6346TRPBF-MRS_Transistors" description=""/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>5CA7D2A4</tstamp>
     </comp>
@@ -108,7 +108,7 @@
       <fields>
         <field name="TME">IRLML6346TRPBF</field>
       </fields>
-      <libsource lib="MRS_Transistors" part="IRLML6346TRPBF" description=""/>
+      <libsource lib="Plant_monitoring_device-rescue" part="IRLML6346TRPBF-MRS_Transistors" description=""/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>5CA961A6</tstamp>
     </comp>
@@ -119,7 +119,7 @@
       <fields>
         <field name="TME">IRLML6346TRPBF</field>
       </fields>
-      <libsource lib="MRS_Transistors" part="IRLML6346TRPBF" description=""/>
+      <libsource lib="Plant_monitoring_device-rescue" part="IRLML6346TRPBF-MRS_Transistors" description=""/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>5CA9A623</tstamp>
     </comp>
@@ -130,7 +130,7 @@
       <fields>
         <field name="TME">IRLML6346TRPBF</field>
       </fields>
-      <libsource lib="MRS_Transistors" part="IRLML6346TRPBF" description=""/>
+      <libsource lib="Plant_monitoring_device-rescue" part="IRLML6346TRPBF-MRS_Transistors" description=""/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>5CAA3F3F</tstamp>
     </comp>
@@ -141,7 +141,7 @@
       <fields>
         <field name="TME">IRLML6346TRPBF</field>
       </fields>
-      <libsource lib="MRS_Transistors" part="IRLML6346TRPBF" description=""/>
+      <libsource lib="Plant_monitoring_device-rescue" part="IRLML6346TRPBF-MRS_Transistors" description=""/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>5CAB72CD</tstamp>
     </comp>
@@ -152,7 +152,7 @@
       <fields>
         <field name="TME">IRLML6346TRPBF</field>
       </fields>
-      <libsource lib="MRS_Transistors" part="IRLML6346TRPBF" description=""/>
+      <libsource lib="Plant_monitoring_device-rescue" part="IRLML6346TRPBF-MRS_Transistors" description=""/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>5CAB72ED</tstamp>
     </comp>
@@ -163,7 +163,7 @@
       <fields>
         <field name="TME">IRLML6346TRPBF</field>
       </fields>
-      <libsource lib="MRS_Transistors" part="IRLML6346TRPBF" description=""/>
+      <libsource lib="Plant_monitoring_device-rescue" part="IRLML6346TRPBF-MRS_Transistors" description=""/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>5CAB730D</tstamp>
     </comp>
@@ -174,7 +174,7 @@
       <fields>
         <field name="TME">IRLML6346TRPBF</field>
       </fields>
-      <libsource lib="MRS_Transistors" part="IRLML6346TRPBF" description=""/>
+      <libsource lib="Plant_monitoring_device-rescue" part="IRLML6346TRPBF-MRS_Transistors" description=""/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>5CAB732D</tstamp>
     </comp>
@@ -184,7 +184,7 @@
       <fields>
         <field name="TME">WF06P-10K-5%</field>
       </fields>
-      <libsource lib="MRS_Passives" part="R" description=""/>
+      <libsource lib="Plant_monitoring_device-rescue" part="R-MRS_Passives" description=""/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>5CB37598</tstamp>
     </comp>
@@ -194,7 +194,7 @@
       <fields>
         <field name="TME">WF06P-10K-5%</field>
       </fields>
-      <libsource lib="MRS_Passives" part="R" description=""/>
+      <libsource lib="Plant_monitoring_device-rescue" part="R-MRS_Passives" description=""/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>5CB3797A</tstamp>
     </comp>
@@ -204,7 +204,7 @@
       <fields>
         <field name="TME">WF06P-10K-5%</field>
       </fields>
-      <libsource lib="MRS_Passives" part="R" description=""/>
+      <libsource lib="Plant_monitoring_device-rescue" part="R-MRS_Passives" description=""/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>5CB3CD18</tstamp>
     </comp>
@@ -214,7 +214,7 @@
       <fields>
         <field name="TME">WF06P-10K-5%</field>
       </fields>
-      <libsource lib="MRS_Passives" part="R" description=""/>
+      <libsource lib="Plant_monitoring_device-rescue" part="R-MRS_Passives" description=""/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>5CB3CF3C</tstamp>
     </comp>
@@ -225,7 +225,7 @@
       <fields>
         <field name="TME">SHT31-DIS-B</field>
       </fields>
-      <libsource lib="MRS_Sensors" part="SHT31" description=""/>
+      <libsource lib="Plant_monitoring_device-rescue" part="SHT31-MRS_Sensors" description=""/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>5CA8A4DB</tstamp>
     </comp>
@@ -235,14 +235,14 @@
       <fields>
         <field name="TME">CL10B104KO8NNNC</field>
       </fields>
-      <libsource lib="MRS_Passives" part="C" description=""/>
+      <libsource lib="Plant_monitoring_device-rescue" part="C-MRS_Passives" description=""/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>5CB39BA3</tstamp>
     </comp>
     <comp ref="H1">
       <value>Mounting_hole_unplated_3,2mm</value>
       <footprint>MRS_Mechanical:Mounting_hole_unplated_3,2mm</footprint>
-      <libsource lib="MRS_Mechanical" part="Mounting_hole_unplated_3,2mm" description=""/>
+      <libsource lib="Plant_monitoring_device-rescue" part="Mounting_hole_unplated_3,2mm-MRS_Mechanical" description=""/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>5CB29AA5</tstamp>
     </comp>
@@ -252,7 +252,7 @@
       <fields>
         <field name="TME">CL32B106KAJNNNE</field>
       </fields>
-      <libsource lib="MRS_Passives" part="C" description=""/>
+      <libsource lib="Plant_monitoring_device-rescue" part="C-MRS_Passives" description=""/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>5CAD3977</tstamp>
     </comp>
@@ -262,7 +262,7 @@
       <fields>
         <field name="TME">CL10A105KA8NNNC</field>
       </fields>
-      <libsource lib="MRS_Passives" part="C" description=""/>
+      <libsource lib="Plant_monitoring_device-rescue" part="C-MRS_Passives" description=""/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>5CAD3BF7</tstamp>
     </comp>
@@ -273,7 +273,7 @@
       <fields>
         <field name="TME">NX2500-02SMR</field>
       </fields>
-      <libsource lib="MRS_Connectors" part="NXW-02" description=""/>
+      <libsource lib="Plant_monitoring_device-rescue" part="NXW-02-MRS_Connectors" description=""/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>5CAEB3EF</tstamp>
     </comp>
@@ -284,7 +284,7 @@
       <fields>
         <field name="TME">NX2500-02SMR</field>
       </fields>
-      <libsource lib="MRS_Connectors" part="NXW-02" description=""/>
+      <libsource lib="Plant_monitoring_device-rescue" part="NXW-02-MRS_Connectors" description=""/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>5CAEB5E3</tstamp>
     </comp>
@@ -295,7 +295,7 @@
       <fields>
         <field name="TME">NX2500-02SMR</field>
       </fields>
-      <libsource lib="MRS_Connectors" part="NXW-02" description=""/>
+      <libsource lib="Plant_monitoring_device-rescue" part="NXW-02-MRS_Connectors" description=""/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>5CAEB681</tstamp>
     </comp>
@@ -306,7 +306,7 @@
       <fields>
         <field name="TME">NX2500-02SMR</field>
       </fields>
-      <libsource lib="MRS_Connectors" part="NXW-02" description=""/>
+      <libsource lib="Plant_monitoring_device-rescue" part="NXW-02-MRS_Connectors" description=""/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>5CAEB7CF</tstamp>
     </comp>
@@ -317,7 +317,7 @@
       <fields>
         <field name="TME">NX2500-02SMR</field>
       </fields>
-      <libsource lib="MRS_Connectors" part="NXW-02" description=""/>
+      <libsource lib="Plant_monitoring_device-rescue" part="NXW-02-MRS_Connectors" description=""/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>5CAEBD6F</tstamp>
     </comp>
@@ -328,7 +328,7 @@
       <fields>
         <field name="TME">NX2500-02SMR</field>
       </fields>
-      <libsource lib="MRS_Connectors" part="NXW-02" description=""/>
+      <libsource lib="Plant_monitoring_device-rescue" part="NXW-02-MRS_Connectors" description=""/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>5CAEBE25</tstamp>
     </comp>
@@ -339,7 +339,7 @@
       <fields>
         <field name="TME">NX2500-02SMR</field>
       </fields>
-      <libsource lib="MRS_Connectors" part="NXW-02" description=""/>
+      <libsource lib="Plant_monitoring_device-rescue" part="NXW-02-MRS_Connectors" description=""/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>5CAEBEE5</tstamp>
     </comp>
@@ -350,7 +350,7 @@
       <fields>
         <field name="TME">NX2500-02SMR</field>
       </fields>
-      <libsource lib="MRS_Connectors" part="NXW-02" description=""/>
+      <libsource lib="Plant_monitoring_device-rescue" part="NXW-02-MRS_Connectors" description=""/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>5CAEBFAD</tstamp>
     </comp>
@@ -361,7 +361,7 @@
       <fields>
         <field name="TME">S3B-ZR</field>
       </fields>
-      <libsource lib="MRS_Connectors" part="NXW-03" description=""/>
+      <libsource lib="Plant_monitoring_device-rescue" part="NXW-03-MRS_Connectors" description=""/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>5CAEDC61</tstamp>
     </comp>
@@ -372,7 +372,7 @@
       <fields>
         <field name="TME">S3B-ZR</field>
       </fields>
-      <libsource lib="MRS_Connectors" part="NXW-03" description=""/>
+      <libsource lib="Plant_monitoring_device-rescue" part="NXW-03-MRS_Connectors" description=""/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>5CAEDE45</tstamp>
     </comp>
@@ -383,7 +383,7 @@
       <fields>
         <field name="TME">S3B-ZR</field>
       </fields>
-      <libsource lib="MRS_Connectors" part="NXW-03" description=""/>
+      <libsource lib="Plant_monitoring_device-rescue" part="NXW-03-MRS_Connectors" description=""/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>5CAEDF71</tstamp>
     </comp>
@@ -394,21 +394,21 @@
       <fields>
         <field name="TME">S3B-ZR</field>
       </fields>
-      <libsource lib="MRS_Connectors" part="NXW-03" description=""/>
+      <libsource lib="Plant_monitoring_device-rescue" part="NXW-03-MRS_Connectors" description=""/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>5CAEE029</tstamp>
     </comp>
     <comp ref="H2">
       <value>Mounting_hole_unplated_3,2mm</value>
       <footprint>MRS_Mechanical:Mounting_hole_unplated_3,2mm</footprint>
-      <libsource lib="MRS_Mechanical" part="Mounting_hole_unplated_3,2mm" description=""/>
+      <libsource lib="Plant_monitoring_device-rescue" part="Mounting_hole_unplated_3,2mm-MRS_Mechanical" description=""/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>5CB07C28</tstamp>
     </comp>
     <comp ref="H3">
       <value>Mounting_hole_unplated_3,2mm</value>
       <footprint>MRS_Mechanical:Mounting_hole_unplated_3,2mm</footprint>
-      <libsource lib="MRS_Mechanical" part="Mounting_hole_unplated_3,2mm" description=""/>
+      <libsource lib="Plant_monitoring_device-rescue" part="Mounting_hole_unplated_3,2mm-MRS_Mechanical" description=""/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>5CB0F3CF</tstamp>
     </comp>
@@ -419,21 +419,21 @@
       <fields>
         <field name="TME">ESP32-WROOM-32D</field>
       </fields>
-      <libsource lib="MRS_MCUs" part="ESP32-WROOM" description=""/>
+      <libsource lib="Plant_monitoring_device-rescue" part="ESP32-WROOM-MRS_MCUs" description=""/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>5D25954B</tstamp>
     </comp>
     <comp ref="J2">
       <value>Header_1x6</value>
       <footprint>MRS_Connectors:Header_1x06_P2.54mm</footprint>
-      <libsource lib="MRS_Connectors" part="Header_1x6" description=""/>
+      <libsource lib="Plant_monitoring_device-rescue" part="Header_1x6-MRS_Connectors" description=""/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>5D2C80FE</tstamp>
     </comp>
     <comp ref="H4">
       <value>Mounting_hole_unplated_3,2mm</value>
       <footprint>MRS_Mechanical:Mounting_hole_unplated_3,2mm</footprint>
-      <libsource lib="MRS_Mechanical" part="Mounting_hole_unplated_3,2mm" description=""/>
+      <libsource lib="Plant_monitoring_device-rescue" part="Mounting_hole_unplated_3,2mm-MRS_Mechanical" description=""/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>5D2E8593</tstamp>
     </comp>
@@ -444,7 +444,7 @@
       <fields>
         <field name="TME">AOZ1280CI</field>
       </fields>
-      <libsource lib="MRS_Power_Management" part="AOZ1280" description="Buck converter"/>
+      <libsource lib="Plant_monitoring_device-rescue" part="AOZ1280-MRS_Power_Management" description=""/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>5D2EE545</tstamp>
     </comp>
@@ -454,7 +454,7 @@
       <fields>
         <field name="TME">WF06P-10K-5%</field>
       </fields>
-      <libsource lib="MRS_Passives" part="R" description=""/>
+      <libsource lib="Plant_monitoring_device-rescue" part="R-MRS_Passives" description=""/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>5D2F975C</tstamp>
     </comp>
@@ -465,7 +465,7 @@
       <fields>
         <field name="TME">MBR230LSFT1G</field>
       </fields>
-      <libsource lib="MRS_Diodes" part="Diode_Schottky" description=""/>
+      <libsource lib="Plant_monitoring_device-rescue" part="Diode_Schottky-MRS_Diodes" description=""/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>5D30FB81</tstamp>
     </comp>
@@ -473,9 +473,9 @@
       <value>49k9</value>
       <footprint>MRS_Passives:R0603</footprint>
       <fields>
-        <field name="TME">WF06P-10K-5%</field>
+        <field name="TME">CQ0603-49K9-1%</field>
       </fields>
-      <libsource lib="MRS_Passives" part="R" description=""/>
+      <libsource lib="Plant_monitoring_device-rescue" part="R-MRS_Passives" description=""/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>5D30FD8F</tstamp>
     </comp>
@@ -483,9 +483,9 @@
       <value>15k8</value>
       <footprint>MRS_Passives:R0603</footprint>
       <fields>
-        <field name="TME">WF06P-10K-5%</field>
+        <field name="TME">SMD0603-16K</field>
       </fields>
-      <libsource lib="MRS_Passives" part="R" description=""/>
+      <libsource lib="Plant_monitoring_device-rescue" part="R-MRS_Passives" description=""/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>5D30FE49</tstamp>
     </comp>
@@ -495,7 +495,7 @@
       <fields>
         <field name="TME">LQH32PN2R2NN0L</field>
       </fields>
-      <libsource lib="MRS_Passives" part="L" description=""/>
+      <libsource lib="Plant_monitoring_device-rescue" part="L-MRS_Passives" description=""/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>5D30FF9A</tstamp>
     </comp>
@@ -505,7 +505,7 @@
       <fields>
         <field name="TME">CL10A105KA8NNNC</field>
       </fields>
-      <libsource lib="MRS_Passives" part="C" description=""/>
+      <libsource lib="Plant_monitoring_device-rescue" part="C-MRS_Passives" description=""/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>5D3760BF</tstamp>
     </comp>
@@ -516,7 +516,7 @@
       <fields>
         <field name="TME">PPS1045-3G-DIO</field>
       </fields>
-      <libsource lib="MRS_Diodes" part="Diode_Schottky" description=""/>
+      <libsource lib="Plant_monitoring_device-rescue" part="Diode_Schottky-MRS_Diodes" description=""/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>5D3E29E3</tstamp>
     </comp>
@@ -527,7 +527,7 @@
       <fields>
         <field name="TME">MCP3424-E/SL</field>
       </fields>
-      <libsource lib="MRS_Sensors" part="MCP3424-E_SL" description=""/>
+      <libsource lib="Plant_monitoring_device-rescue" part="MCP3424-E_SL-MRS_Sensors" description=""/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>5D3F28AC</tstamp>
     </comp>
@@ -537,7 +537,7 @@
       <fields>
         <field name="TME">CL32B106KAJNNNE</field>
       </fields>
-      <libsource lib="MRS_Passives" part="C" description=""/>
+      <libsource lib="Plant_monitoring_device-rescue" part="C-MRS_Passives" description=""/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>5D46801E</tstamp>
     </comp>
@@ -547,7 +547,7 @@
       <fields>
         <field name="TME">CL10A105KA8NNNC</field>
       </fields>
-      <libsource lib="MRS_Passives" part="C" description=""/>
+      <libsource lib="Plant_monitoring_device-rescue" part="C-MRS_Passives" description=""/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>5D468026</tstamp>
     </comp>
@@ -557,7 +557,7 @@
       <fields>
         <field name="TME">WF06P-10K-5%</field>
       </fields>
-      <libsource lib="MRS_Passives" part="R" description=""/>
+      <libsource lib="Plant_monitoring_device-rescue" part="R-MRS_Passives" description=""/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>5D2860B8</tstamp>
     </comp>
@@ -567,7 +567,7 @@
       <fields>
         <field name="TME">WF06P-10K-5%</field>
       </fields>
-      <libsource lib="MRS_Passives" part="R" description=""/>
+      <libsource lib="Plant_monitoring_device-rescue" part="R-MRS_Passives" description=""/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>5D286217</tstamp>
     </comp>
@@ -577,7 +577,7 @@
       <fields>
         <field name="TME">WF06P-10K-5%</field>
       </fields>
-      <libsource lib="MRS_Passives" part="R" description=""/>
+      <libsource lib="Plant_monitoring_device-rescue" part="R-MRS_Passives" description=""/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>5D2862DB</tstamp>
     </comp>
@@ -587,7 +587,7 @@
       <fields>
         <field name="TME">WF06P-10K-5%</field>
       </fields>
-      <libsource lib="MRS_Passives" part="R" description=""/>
+      <libsource lib="Plant_monitoring_device-rescue" part="R-MRS_Passives" description=""/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>5D286383</tstamp>
     </comp>
@@ -597,7 +597,7 @@
       <fields>
         <field name="TME">WF06P-10K-5%</field>
       </fields>
-      <libsource lib="MRS_Passives" part="R" description=""/>
+      <libsource lib="Plant_monitoring_device-rescue" part="R-MRS_Passives" description=""/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>5D2BF906</tstamp>
     </comp>
@@ -607,7 +607,7 @@
       <fields>
         <field name="TME">WF06P-10K-5%</field>
       </fields>
-      <libsource lib="MRS_Passives" part="R" description=""/>
+      <libsource lib="Plant_monitoring_device-rescue" part="R-MRS_Passives" description=""/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>5D2BFA98</tstamp>
     </comp>
@@ -617,7 +617,7 @@
       <fields>
         <field name="TME">WF06P-10K-5%</field>
       </fields>
-      <libsource lib="MRS_Passives" part="R" description=""/>
+      <libsource lib="Plant_monitoring_device-rescue" part="R-MRS_Passives" description=""/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>5D34B4B4</tstamp>
     </comp>
@@ -627,7 +627,7 @@
       <fields>
         <field name="TME">WF06P-10K-5%</field>
       </fields>
-      <libsource lib="MRS_Passives" part="R" description=""/>
+      <libsource lib="Plant_monitoring_device-rescue" part="R-MRS_Passives" description=""/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>5D353BAA</tstamp>
     </comp>
@@ -638,7 +638,7 @@
       <fields>
         <field name="TME">RF-W2SA50TS-A39R</field>
       </fields>
-      <libsource lib="MRS_Diodes" part="RF-W2SA50TS-A39R" description=""/>
+      <libsource lib="Plant_monitoring_device-rescue" part="RF-W2SA50TS-A39R-MRS_Diodes" description=""/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>5D37FA8E</tstamp>
     </comp>
@@ -648,7 +648,7 @@
       <fields>
         <field name="TME">WF06P-150R-5%</field>
       </fields>
-      <libsource lib="MRS_Passives" part="R" description=""/>
+      <libsource lib="Plant_monitoring_device-rescue" part="R-MRS_Passives" description=""/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>5D3801EB</tstamp>
     </comp>
@@ -658,7 +658,7 @@
       <fields>
         <field name="TME">WF06P-150R-5%</field>
       </fields>
-      <libsource lib="MRS_Passives" part="R" description=""/>
+      <libsource lib="Plant_monitoring_device-rescue" part="R-MRS_Passives" description=""/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>5D388A81</tstamp>
     </comp>
@@ -668,7 +668,7 @@
       <fields>
         <field name="TME">WF06P-150R-5%</field>
       </fields>
-      <libsource lib="MRS_Passives" part="R" description=""/>
+      <libsource lib="Plant_monitoring_device-rescue" part="R-MRS_Passives" description=""/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>5D388B49</tstamp>
     </comp>
@@ -679,7 +679,7 @@
       <fields>
         <field name="TME">S2B-ZR</field>
       </fields>
-      <libsource lib="MRS_Connectors" part="NXW-02" description=""/>
+      <libsource lib="Plant_monitoring_device-rescue" part="NXW-02-MRS_Connectors" description=""/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>5D50667F</tstamp>
     </comp>
@@ -689,7 +689,7 @@
       <fields>
         <field name="TME">WF06P-1K-5%</field>
       </fields>
-      <libsource lib="MRS_Passives" part="R" description=""/>
+      <libsource lib="Plant_monitoring_device-rescue" part="R-MRS_Passives" description=""/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>5D2D3436</tstamp>
     </comp>
@@ -699,7 +699,7 @@
       <fields>
         <field name="TME">WF06P-1K-5%</field>
       </fields>
-      <libsource lib="MRS_Passives" part="R" description=""/>
+      <libsource lib="Plant_monitoring_device-rescue" part="R-MRS_Passives" description=""/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>5D2E7EE5</tstamp>
     </comp>
@@ -709,7 +709,7 @@
       <fields>
         <field name="TME">WF06P-1K-5%</field>
       </fields>
-      <libsource lib="MRS_Passives" part="R" description=""/>
+      <libsource lib="Plant_monitoring_device-rescue" part="R-MRS_Passives" description=""/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>5D2E8006</tstamp>
     </comp>
@@ -719,7 +719,7 @@
       <fields>
         <field name="TME">WF06P-1K-5%</field>
       </fields>
-      <libsource lib="MRS_Passives" part="R" description=""/>
+      <libsource lib="Plant_monitoring_device-rescue" part="R-MRS_Passives" description=""/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>5D2E821C</tstamp>
     </comp>
@@ -729,7 +729,7 @@
       <fields>
         <field name="TME">WF06P-1K-5%</field>
       </fields>
-      <libsource lib="MRS_Passives" part="R" description=""/>
+      <libsource lib="Plant_monitoring_device-rescue" part="R-MRS_Passives" description=""/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>5D3725BD</tstamp>
     </comp>
@@ -739,7 +739,7 @@
       <fields>
         <field name="TME">WF06P-1K-5%</field>
       </fields>
-      <libsource lib="MRS_Passives" part="R" description=""/>
+      <libsource lib="Plant_monitoring_device-rescue" part="R-MRS_Passives" description=""/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>5D3B3C00</tstamp>
     </comp>
@@ -749,7 +749,7 @@
       <fields>
         <field name="TME">WF06P-1K-5%</field>
       </fields>
-      <libsource lib="MRS_Passives" part="R" description=""/>
+      <libsource lib="Plant_monitoring_device-rescue" part="R-MRS_Passives" description=""/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>5D3EB49B</tstamp>
     </comp>
@@ -759,80 +759,67 @@
       <fields>
         <field name="TME">WF06P-1K-5%</field>
       </fields>
-      <libsource lib="MRS_Passives" part="R" description=""/>
+      <libsource lib="Plant_monitoring_device-rescue" part="R-MRS_Passives" description=""/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>5D401EB2</tstamp>
     </comp>
     <comp ref="H111">
       <value>Mr_Gardener_Logo_Small</value>
       <footprint>Logos:mrg_gardener_12mm</footprint>
-      <libsource lib="Mr_Gardener_Logos" part="Mr_Gardener_Logo_Small" description=""/>
+      <libsource lib="Plant_monitoring_device-rescue" part="Mr_Gardener_Logo_Small-Mr_Gardener_Logos" description=""/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>5D433CB1</tstamp>
     </comp>
   </components>
   <libparts>
-    <libpart lib="MRS_Connectors" part="Barrel_Jack">
-      <aliases>
-        <alias>Jack-DC</alias>
-      </aliases>
-      <description>DC Barrel Jack</description>
-      <docs>~</docs>
+    <libpart lib="Plant_monitoring_device-rescue" part="AOZ1280-MRS_Power_Management">
+      <footprints>
+        <fp>SOT23-6L</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">AOZ1280-MRS_Power_Management</field>
+        <field name="Footprint">MRS_SOT:SOT-23-6</field>
+        <field name="Datasheet">https://www.tme.eu/en/Document/921be39cd2271a5b3bfe03eff0ec2438/AOZ1280CI-DTE.pdf</field>
+        <field name="TME">AOZ1280CI</field>
+      </fields>
+      <pins>
+        <pin num="1" name="BST" type="passive"/>
+        <pin num="2" name="GND" type="passive"/>
+        <pin num="3" name="FB" type="passive"/>
+        <pin num="4" name="EN" type="passive"/>
+        <pin num="5" name="VIN" type="passive"/>
+        <pin num="6" name="LX" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Plant_monitoring_device-rescue" part="Barrel_Jack-MRS_Connectors">
       <footprints>
         <fp>BarrelJack*</fp>
       </footprints>
       <fields>
         <field name="Reference">J</field>
-        <field name="Value">Barrel_Jack</field>
+        <field name="Value">Barrel_Jack-MRS_Connectors</field>
       </fields>
       <pins>
         <pin num="1" name="~" type="passive"/>
         <pin num="2" name="~" type="passive"/>
       </pins>
     </libpart>
-    <libpart lib="MRS_Connectors" part="Header_1x6">
+    <libpart lib="Plant_monitoring_device-rescue" part="C-MRS_Passives">
+      <footprints>
+        <fp>C_*</fp>
+      </footprints>
       <fields>
-        <field name="Reference">J</field>
-        <field name="Value">Header_1x6</field>
-        <field name="Footprint">MRS_Connectors:Header_1x06_P2.54mm</field>
+        <field name="Reference">C</field>
+        <field name="Value">C-MRS_Passives</field>
+        <field name="Footprint">MRS_Passives:C0603</field>
       </fields>
       <pins>
-        <pin num="1" name="1" type="BiDi"/>
-        <pin num="2" name="2" type="BiDi"/>
-        <pin num="3" name="3" type="BiDi"/>
-        <pin num="4" name="4" type="BiDi"/>
-        <pin num="5" name="5" type="BiDi"/>
-        <pin num="6" name="6" type="BiDi"/>
+        <pin num="1" name="~" type="passive"/>
+        <pin num="2" name="~" type="passive"/>
       </pins>
     </libpart>
-    <libpart lib="MRS_Connectors" part="NXW-02">
-      <fields>
-        <field name="Reference">J</field>
-        <field name="Value">NXW-02</field>
-        <field name="Footprint">MRS_Connectors:NXW-02</field>
-        <field name="Datasheet">https://www.tme.eu/Document/5dc6feb351d751d2aaf71b67b5e56596/nxw-02.pdf</field>
-        <field name="TME">NXW-02, NXG-02, NXG-T</field>
-      </fields>
-      <pins>
-        <pin num="1" name="1" type="BiDi"/>
-        <pin num="2" name="2" type="BiDi"/>
-      </pins>
-    </libpart>
-    <libpart lib="MRS_Connectors" part="NXW-03">
-      <fields>
-        <field name="Reference">J</field>
-        <field name="Value">NXW-03</field>
-        <field name="Footprint">MRS_Connectors:NXW-03</field>
-        <field name="Datasheet">https://www.tme.eu/Document/5dc6feb351d751d2aaf71b67b5e56596/nxw-02.pdf</field>
-        <field name="TME">NXW-03, NXG-03, NXG-T</field>
-      </fields>
-      <pins>
-        <pin num="1" name="1" type="BiDi"/>
-        <pin num="2" name="2" type="BiDi"/>
-        <pin num="3" name="3" type="input"/>
-      </pins>
-    </libpart>
-    <libpart lib="MRS_Diodes" part="Diode_Schottky">
+    <libpart lib="Plant_monitoring_device-rescue" part="Diode_Schottky-MRS_Diodes">
       <footprints>
         <fp>TO-???*</fp>
         <fp>*_Diode_*</fp>
@@ -841,7 +828,7 @@
       </footprints>
       <fields>
         <field name="Reference">D</field>
-        <field name="Value">Diode_Schottky</field>
+        <field name="Value">Diode_Schottky-MRS_Diodes</field>
         <field name="Footprint">MRS_Diodes:D_SMB</field>
       </fields>
       <pins>
@@ -849,27 +836,10 @@
         <pin num="2" name="A" type="passive"/>
       </pins>
     </libpart>
-    <libpart lib="MRS_Diodes" part="RF-W2SA50TS-A39R">
-      <fields>
-        <field name="Reference">LD</field>
-        <field name="Value">RF-W2SA50TS-A39R</field>
-        <field name="Footprint">MRS_Diodes:RF-W2SA50TS-A39R</field>
-        <field name="Datasheet">https://www.tme.eu/Document/a4f5bbd3d29209f65332dc3bddaa72c4/RF-W2SA50TS-A39R.pdf</field>
-        <field name="TME">RF-W2SA50TS-A39R</field>
-      </fields>
-      <pins>
-        <pin num="1" name="K" type="passive"/>
-        <pin num="2" name="A" type="passive"/>
-        <pin num="3" name="K" type="passive"/>
-        <pin num="4" name="A" type="passive"/>
-        <pin num="5" name="K" type="passive"/>
-        <pin num="6" name="A" type="passive"/>
-      </pins>
-    </libpart>
-    <libpart lib="MRS_MCUs" part="ESP32-WROOM">
+    <libpart lib="Plant_monitoring_device-rescue" part="ESP32-WROOM-MRS_MCUs">
       <fields>
         <field name="Reference">U</field>
-        <field name="Value">ESP32-WROOM</field>
+        <field name="Value">ESP32-WROOM-MRS_MCUs</field>
         <field name="Footprint">MRS_Communication:ESP32-WROOM</field>
         <field name="Datasheet">https://www.espressif.com/sites/default/files/documentation/esp32-wroom-32_datasheet_en.pdf</field>
       </fields>
@@ -915,28 +885,36 @@
         <pin num="39" name="GND" type="input"/>
       </pins>
     </libpart>
-    <libpart lib="MRS_Mechanical" part="Mounting_hole_unplated_3,2mm">
+    <libpart lib="Plant_monitoring_device-rescue" part="Header_1x6-MRS_Connectors">
       <fields>
-        <field name="Reference">H</field>
-        <field name="Value">Mounting_hole_unplated_3,2mm</field>
-        <field name="Footprint">MRS_Mechanical:Mounting_hole_unplated_3,2mm</field>
-      </fields>
-    </libpart>
-    <libpart lib="MRS_Passives" part="C">
-      <footprints>
-        <fp>C_*</fp>
-      </footprints>
-      <fields>
-        <field name="Reference">C</field>
-        <field name="Value">C</field>
-        <field name="Footprint">MRS_Passives:C0603</field>
+        <field name="Reference">J</field>
+        <field name="Value">Header_1x6-MRS_Connectors</field>
+        <field name="Footprint">MRS_Connectors:Header_1x06_P2.54mm</field>
       </fields>
       <pins>
-        <pin num="1" name="~" type="passive"/>
-        <pin num="2" name="~" type="passive"/>
+        <pin num="1" name="1" type="BiDi"/>
+        <pin num="2" name="2" type="BiDi"/>
+        <pin num="3" name="3" type="BiDi"/>
+        <pin num="4" name="4" type="BiDi"/>
+        <pin num="5" name="5" type="BiDi"/>
+        <pin num="6" name="6" type="BiDi"/>
       </pins>
     </libpart>
-    <libpart lib="MRS_Passives" part="L">
+    <libpart lib="Plant_monitoring_device-rescue" part="IRLML6346TRPBF-MRS_Transistors">
+      <fields>
+        <field name="Reference">Q</field>
+        <field name="Value">IRLML6346TRPBF-MRS_Transistors</field>
+        <field name="Footprint">MRS_SOT:SOT-23</field>
+        <field name="Datasheet">https://www.tme.eu/en/Document/4178252f9f9aa1820c70dfb7aab5282b/irlml6346pbf.pdf</field>
+        <field name="TME">IRLML6346TRPBF</field>
+      </fields>
+      <pins>
+        <pin num="1" name="G" type="input"/>
+        <pin num="2" name="S" type="passive"/>
+        <pin num="3" name="D" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Plant_monitoring_device-rescue" part="L-MRS_Passives">
       <footprints>
         <fp>Choke_*</fp>
         <fp>*Coil*</fp>
@@ -945,53 +923,17 @@
       </footprints>
       <fields>
         <field name="Reference">L</field>
-        <field name="Value">L</field>
+        <field name="Value">L-MRS_Passives</field>
       </fields>
       <pins>
         <pin num="1" name="1" type="passive"/>
         <pin num="2" name="2" type="passive"/>
       </pins>
     </libpart>
-    <libpart lib="MRS_Passives" part="R">
-      <footprints>
-        <fp>R_*</fp>
-      </footprints>
-      <fields>
-        <field name="Reference">R</field>
-        <field name="Value">R</field>
-        <field name="Footprint">MRS_Passives:R0603</field>
-      </fields>
-      <pins>
-        <pin num="1" name="~" type="passive"/>
-        <pin num="2" name="~" type="passive"/>
-      </pins>
-    </libpart>
-    <libpart lib="MRS_Power_Management" part="AOZ1280">
-      <description>Buck converter</description>
-      <docs>https://www.tme.eu/en/Document/921be39cd2271a5b3bfe03eff0ec2438/AOZ1280CI-DTE.pdf</docs>
-      <footprints>
-        <fp>SOT23-6L</fp>
-      </footprints>
+    <libpart lib="Plant_monitoring_device-rescue" part="MCP3424-E_SL-MRS_Sensors">
       <fields>
         <field name="Reference">U</field>
-        <field name="Value">AOZ1280</field>
-        <field name="Footprint">MRS_SOT:SOT-23-6</field>
-        <field name="Datasheet">https://www.tme.eu/en/Document/921be39cd2271a5b3bfe03eff0ec2438/AOZ1280CI-DTE.pdf</field>
-        <field name="TME">AOZ1280CI</field>
-      </fields>
-      <pins>
-        <pin num="1" name="BST" type="passive"/>
-        <pin num="2" name="GND" type="passive"/>
-        <pin num="3" name="FB" type="passive"/>
-        <pin num="4" name="EN" type="passive"/>
-        <pin num="5" name="VIN" type="passive"/>
-        <pin num="6" name="LX" type="passive"/>
-      </pins>
-    </libpart>
-    <libpart lib="MRS_Sensors" part="MCP3424-E_SL">
-      <fields>
-        <field name="Reference">U</field>
-        <field name="Value">MCP3424-E_SL</field>
+        <field name="Value">MCP3424-E_SL-MRS_Sensors</field>
         <field name="Footprint">MRS_SO:SOIC-14</field>
         <field name="Datasheet">https://www.tme.eu/Document/9cf91ec5ff8af5ed75d1297ae79a4719/mcp3422_3_4.pdf</field>
         <field name="TME">MCP3424-E/SL</field>
@@ -1013,10 +955,81 @@
         <pin num="14" name="CH4-" type="input"/>
       </pins>
     </libpart>
-    <libpart lib="MRS_Sensors" part="SHT31">
+    <libpart lib="Plant_monitoring_device-rescue" part="Mounting_hole_unplated_3,2mm-MRS_Mechanical">
+      <fields>
+        <field name="Reference">H</field>
+        <field name="Value">Mounting_hole_unplated_3,2mm-MRS_Mechanical</field>
+        <field name="Footprint">MRS_Mechanical:Mounting_hole_unplated_3,2mm</field>
+      </fields>
+    </libpart>
+    <libpart lib="Plant_monitoring_device-rescue" part="Mr_Gardener_Logo_Small-Mr_Gardener_Logos">
+      <fields>
+        <field name="Reference">H</field>
+        <field name="Value">Mr_Gardener_Logo_Small-Mr_Gardener_Logos</field>
+      </fields>
+    </libpart>
+    <libpart lib="Plant_monitoring_device-rescue" part="NXW-02-MRS_Connectors">
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">NXW-02-MRS_Connectors</field>
+        <field name="Footprint">MRS_Connectors:NXW-02</field>
+        <field name="Datasheet">https://www.tme.eu/Document/5dc6feb351d751d2aaf71b67b5e56596/nxw-02.pdf</field>
+        <field name="TME">NXW-02, NXG-02, NXG-T</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="BiDi"/>
+        <pin num="2" name="2" type="BiDi"/>
+      </pins>
+    </libpart>
+    <libpart lib="Plant_monitoring_device-rescue" part="NXW-03-MRS_Connectors">
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">NXW-03-MRS_Connectors</field>
+        <field name="Footprint">MRS_Connectors:NXW-03</field>
+        <field name="Datasheet">https://www.tme.eu/Document/5dc6feb351d751d2aaf71b67b5e56596/nxw-02.pdf</field>
+        <field name="TME">NXW-03, NXG-03, NXG-T</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="BiDi"/>
+        <pin num="2" name="2" type="BiDi"/>
+        <pin num="3" name="3" type="input"/>
+      </pins>
+    </libpart>
+    <libpart lib="Plant_monitoring_device-rescue" part="R-MRS_Passives">
+      <footprints>
+        <fp>R_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">R</field>
+        <field name="Value">R-MRS_Passives</field>
+        <field name="Footprint">MRS_Passives:R0603</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="passive"/>
+        <pin num="2" name="~" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Plant_monitoring_device-rescue" part="RF-W2SA50TS-A39R-MRS_Diodes">
+      <fields>
+        <field name="Reference">LD</field>
+        <field name="Value">RF-W2SA50TS-A39R-MRS_Diodes</field>
+        <field name="Footprint">MRS_Diodes:RF-W2SA50TS-A39R</field>
+        <field name="Datasheet">https://www.tme.eu/Document/a4f5bbd3d29209f65332dc3bddaa72c4/RF-W2SA50TS-A39R.pdf</field>
+        <field name="TME">RF-W2SA50TS-A39R</field>
+      </fields>
+      <pins>
+        <pin num="1" name="K" type="passive"/>
+        <pin num="2" name="A" type="passive"/>
+        <pin num="3" name="K" type="passive"/>
+        <pin num="4" name="A" type="passive"/>
+        <pin num="5" name="K" type="passive"/>
+        <pin num="6" name="A" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Plant_monitoring_device-rescue" part="SHT31-MRS_Sensors">
       <fields>
         <field name="Reference">U</field>
-        <field name="Value">SHT31</field>
+        <field name="Value">SHT31-MRS_Sensors</field>
         <field name="Footprint">MRS_Sensors:SHT31</field>
         <field name="Datasheet">https://www.sensirion.com/fileadmin/user_upload/customers/sensirion/Dokumente/0_Datasheets/Humidity/Sensirion_Humidity_Sensors_SHT3x_Datasheet_digital.pdf</field>
         <field name="TME">SHT31-DIS-B</field>
@@ -1033,54 +1046,10 @@
         <pin num="8" name="GND" type="input"/>
       </pins>
     </libpart>
-    <libpart lib="MRS_Transistors" part="IRLML6346TRPBF">
-      <fields>
-        <field name="Reference">Q</field>
-        <field name="Value">IRLML6346TRPBF</field>
-        <field name="Footprint">MRS_SOT:SOT-23</field>
-        <field name="Datasheet">https://www.tme.eu/en/Document/4178252f9f9aa1820c70dfb7aab5282b/irlml6346pbf.pdf</field>
-        <field name="TME">IRLML6346TRPBF</field>
-      </fields>
-      <pins>
-        <pin num="1" name="G" type="input"/>
-        <pin num="2" name="S" type="passive"/>
-        <pin num="3" name="D" type="passive"/>
-      </pins>
-    </libpart>
-    <libpart lib="Mr_Gardener_Logos" part="Mr_Gardener_Logo_Small">
-      <fields>
-        <field name="Reference">H</field>
-        <field name="Value">Mr_Gardener_Logo_Small</field>
-      </fields>
-    </libpart>
   </libparts>
   <libraries>
-    <library logical="MRS_Connectors">
-      <uri>/home/zaitldav/MRS/KiCad/mrs-kicad-libs/MRS_Connectors/MRS_Connectors.lib</uri>
-    </library>
-    <library logical="MRS_Diodes">
-      <uri>/home/zaitldav/MRS/KiCad/mrs-kicad-libs/MRS_Diodes/MRS_Diodes.lib</uri>
-    </library>
-    <library logical="MRS_MCUs">
-      <uri>/home/zaitldav/MRS/KiCad/mrs-kicad-libs/MRS_MCUs/MRS_MCUs.lib</uri>
-    </library>
-    <library logical="MRS_Mechanical">
-      <uri>/home/zaitldav/MRS/KiCad/mrs-kicad-libs/MRS_Mechanical/MRS_Mechanical.lib</uri>
-    </library>
-    <library logical="MRS_Passives">
-      <uri>/home/zaitldav/MRS/KiCad/mrs-kicad-libs/MRS_Passives/MRS_Passives.lib</uri>
-    </library>
-    <library logical="MRS_Power_Management">
-      <uri>/home/zaitldav/MRS/KiCad/mrs-kicad-libs/MRS_Power_Management/MRS_Power_Management.lib</uri>
-    </library>
-    <library logical="MRS_Sensors">
-      <uri>/home/zaitldav/MRS/KiCad/mrs-kicad-libs/MRS_Sensors/MRS_Sensors.lib</uri>
-    </library>
-    <library logical="MRS_Transistors">
-      <uri>/home/zaitldav/MRS/KiCad/mrs-kicad-libs/MRS_Transistors/MRS_Transistors.lib</uri>
-    </library>
-    <library logical="Mr_Gardener_Logos">
-      <uri>/home/zaitldav/Personal/AutoGardener/Logos/Mr_Gardener_Logos.lib</uri>
+    <library logical="Plant_monitoring_device-rescue">
+      <uri>/home/zaitldav/Personal/AutoGardener/Indoor_Version/Hardware/Plant_monitoring_device-rescue.lib</uri>
     </library>
   </libraries>
   <nets>
